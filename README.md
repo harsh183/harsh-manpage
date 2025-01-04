@@ -1,5 +1,7 @@
 # Jekyll Theme Manpage
 
+[![Netlify Status](https://api.netlify.com/api/v1/badges/d2497628-6688-4ba9-909c-4680a22f2a72/deploy-status)](https://app.netlify.com/sites/jekyll-theme-manpage/deploys)
+
 A minimalist Jekyll theme inspired by Linux man pages. Perfect for personal websites, portfolios, and blogs with a technical focus.
 
 ![Preview](assets/readme/preview.png)
