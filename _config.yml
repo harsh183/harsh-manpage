@@ -1,0 +1,12 @@
+title: Jekyll Theme Manpage
+description: Jekyll theme based on the manpage style for personal websites.
+author: Your Name
+show_downloads: false
+google_analytics:
+theme: jekyll-theme-manpage
+quiet: true
+# url: 'http://drshika.github.io'
+plugins:
+  - jekyll-katex
+  - jekyll-seo-tag
+excerpt_separator: "<!--more-->"

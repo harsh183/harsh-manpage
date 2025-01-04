@@ -1,0 +1,77 @@
+// Breakpoints
+$large-breakpoint: 64em !default;
+$medium-breakpoint: 42em !default;
+
+// Headers
+$header-heading-color: rgb(94, 0, 170) !default;
+$header-bg-color: #9366B3 !default;
+// $header-bg-color-secondary: #155799 !default;
+
+// Text
+$section-headings-color: #9366B3 !default;
+$body-text-color: #66635F !default;
+$body-link-color: #6824de77 !default;
+$blockquote-text-color: #838280 !default;
+
+// Code
+$code-bg-color: #f6e8ff8c !default;
+$code-text-color: #567482 !default;
+
+// Borders
+$border-color: #e7dcf0 !default;
+$table-border-color: #e9ebec !default;
+$hr-border-color: #eff0f1 !default;
+
+// Colors
+$purple-primary: #9366B3;
+$text-color: #66635F;
+$link-color: #6824de77;
+
+// Spacing
+$indent-level-1: 2em;
+$indent-level-2: 10%;
+
+// Typography
+$font-family-mono: "Nitti", "Source Code Pro", "Inconsolata", monospace;
+$font-size-base: 14px;
+$line-height-base: 1.4;
+
+// Preset color themes
+$color-themes: (
+  'purple': (
+    primary: #9366B3,
+    secondary: #6824de77
+  ),
+  'terminal-green': (
+    primary: #00ff00,
+    secondary: #008800
+  ),
+  'ocean-blue': (
+    primary: #0077cc,
+    secondary: #005599
+  ),
+  'sunset-orange': (
+    primary: #ff6b6b,
+    secondary: #cc5555
+  ),
+  'github-dark': (
+    primary: #58a6ff,
+    secondary: #388bfd
+  ),
+  'nord': (
+    primary: #88c0d0,
+    secondary: #81a1c1
+  )
+);
+
+// Default theme (will be overridden by _config.yml)
+$theme-color: map-get(map-get($color-themes, 'purple'), 'primary') !default;
+$theme-color-secondary: map-get(map-get($color-themes, 'purple'), 'secondary') !default;
+
+// Other variables
+$text-color: #66635F;
+$indent-level-1: 2em;
+$indent-level-2: 10%;
+$font-family-mono: "Nitti", "Source Code Pro", "Inconsolata", monospace;
+$font-size-base: 14px;
+$line-height-base: 1.4;

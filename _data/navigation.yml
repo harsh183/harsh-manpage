@@ -1,0 +1,13 @@
+pages:
+- name: Research
+  link: /#research
+- name: Industry
+  link: /#industry
+- name: Projects
+  link: /#projects
+- name: Service & Leadership
+  link: /#service-leadership--teaching
+- name: News
+  link: /#news
+- name: Writing
+  link: ../../writing.html
