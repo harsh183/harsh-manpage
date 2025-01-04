@@ -2,7 +2,7 @@
 
 A minimalist Jekyll theme inspired by Linux man pages. Perfect for personal websites, portfolios, and blogs with a technical focus.
 
-![Theme Preview](assets/preview.png)
+![Preview](assets/readme/preview.png)
 
 ## Features
 
@@ -68,11 +68,21 @@ Make sure to name the file with the `YYYY-MM-DD-Title.md`.
 
 #### Color Themes
 
-The theme comes with several preset color schemes. Set your preferred theme in `_config.yml`:
+The theme comes with several preset color schemes. Set your preferred theme in `_sass/variables.scss`:
 
-```yaml
-theme_color: purple # Options: purple, terminal-green, ocean-blue, sunset-orange, github-dark, nord
+```scss
+// Theme selection
+$default-theme: 'nord';
 ```
+
+| Theme Name      | Preview                                                      |
+|----------------|--------------------------------------------------------------|
+| purple         | ![Purple Theme](assets/themes/purple.png)                     |
+| terminal-green | ![Terminal Green Theme](assets/themes/terminal-green.png)     |
+| ocean-blue     | ![Ocean Blue Theme](assets/themes/ocean_blue.png)            |
+| sunset-orange  | ![Sunset Orange Theme](assets/themes/sunset_orange.png)      |
+| github-dark    | ![GitHub Dark Theme](assets/themes/github_dark.png)          |
+| nord           | ![Nord Theme](assets/themes/nord.png)                        |
 
 #### Typography
 

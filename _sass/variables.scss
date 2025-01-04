@@ -43,8 +43,8 @@ $color-themes: (
   )
 );
 
-// Theme selection logic
-$default-theme: 'nord';
+// Theme selection
+$default-theme: 'github_dark';
 $selected-theme: map.get($color-themes, $default-theme) !default;
 
 // Define theme colors with fallbacks
