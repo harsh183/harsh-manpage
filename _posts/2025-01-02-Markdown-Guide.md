@@ -3,6 +3,7 @@ layout: post
 title: Markdown Syntax Guide
 description: A comprehensive guide to using markdown in your posts
 tags: [markdown, tutorial, formatting]
+toc: true
 ---
 
 # Markdown Syntax Guide

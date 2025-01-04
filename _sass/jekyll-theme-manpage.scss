@@ -812,3 +812,55 @@ a {
     text-decoration: underline;
   }
 }
+
+.toc {
+  background: rgba($theme-color, 0.05);
+  padding: 1.5rem;
+  margin-bottom: 2rem;
+  border-radius: 4px;
+
+  h2 {
+    margin-top: 0;
+    margin-bottom: 1rem;
+    font-size: 1.2rem;
+    color: $theme-color;
+  }
+
+  ul {
+    list-style: none;
+    padding-left: 0;
+    margin: 0;
+
+    li {
+      margin: 0.5rem 0; // Consistent spacing for all levels
+      
+      a {
+        color: $body-text-color;
+        text-decoration: none;
+        transition: color 0.2s ease;
+
+        &:hover {
+          color: $theme-color;
+        }
+      }
+    }
+
+    // Indent nested levels while maintaining vertical spacing
+    ul {
+      padding-left: 1.5rem;
+      margin: 0; // Remove default margins
+      
+      li {
+        margin: 0.5rem 0; // Same spacing as parent level
+        
+        &:first-child {
+          margin-top: 0.5rem; // Consistent spacing after parent
+        }
+        
+        &:last-child {
+          margin-bottom: 0.5rem; // Consistent spacing before next parent
+        }
+      }
+    }
+  }
+}
