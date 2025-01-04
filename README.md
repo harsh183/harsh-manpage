@@ -1,10 +1,22 @@
-# jekyll-theme-manpage
+# Jekyll Theme Manpage
 
-Welcome to your new Jekyll theme! In this directory, you'll find the files you need to be able to package up your theme into a gem. Put your layouts in `_layouts`, your includes in `_includes`, your sass files in `_sass` and any other assets in `assets`.
+A minimalist Jekyll theme inspired by Linux man pages. Perfect for personal websites, portfolios, and blogs with a technical focus.
 
-To experiment with this code, add some sample content and run `bundle exec jekyll serve` – this directory is setup just like a Jekyll site!
+![Theme Preview](assets/preview.png)
 
-TODO: Delete this and the text above, and describe your gem
+## Features
+
+- 🖥️ Linux man page inspired design
+- 📱 Fully responsive layout
+- 🌙 Automatic dark mode support
+- ✍️ Blog/writing section with:
+  - Full-text search
+  - Tag filtering
+  - Table of contents
+- 📐 LaTeX support for mathematical expressions
+- 🎨 Multiple color themes
+- 🚀 Fast and lightweight
+- 📱 Mobile-first approach
 
 ## Installation
 
@@ -20,31 +32,69 @@ And add this line to your Jekyll site's `_config.yml`:
 theme: jekyll-theme-manpage
 ```
 
-And then execute:
+Then run
 
-    $ bundle
-
-Or install it yourself as:
-
-    $ gem install jekyll-theme-manpage
+```bash
+bundle install
+```
 
 ## Usage
 
-This project uses Nitti as the default font. Nitti can be bought here: https://fonts.adobe.com/fonts/nitti. 
+### Basic Setup
 
-## Contributing
+1. Create your site structure following Jekyll conventions
+2. Configure `_config.yml` with your settings
+3. Add content to `index.md` using the provided template
 
-Bug reports and pull requests are welcome on GitHub at https://github.com/[USERNAME]/jekyll-theme-manpage. This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the [Contributor Covenant](https://www.contributor-covenant.org/) code of conduct.
+### Writing Posts
+
+Create posts in `_posts` directory following this format:
+
+```markdown
+---
+layout: post
+title: Your Post Title
+description: Brief description
+tags: [tag1, tag2]
+toc: true # Optional table of contents
+---
+Your content here...
+```
+
+Make sure to name the file with the `YYYY-MM-DD-Title.md`. 
+
+
+### Customization
+
+#### Color Themes
+
+The theme comes with several preset color schemes. Set your preferred theme in `_config.yml`:
+
+```yaml
+theme_color: purple # Options: purple, terminal-green, ocean-blue, sunset-orange, github-dark, nord
+```
+
+#### Typography
+
+This theme uses Nitti as its default font. You can purchase Nitti from [Adobe Fonts](https://fonts.adobe.com/fonts/nitti). If you don't have Nitti, the theme will fallback to Fira Code.
 
 ## Development
 
-To set up your environment to develop this theme, run `bundle install`.
+To set up your environment to develop this theme:
 
-Your theme is setup just like a normal Jekyll site! To test your theme, run `bundle exec jekyll serve` and open your browser at `http://localhost:4000`. This starts a Jekyll server using your theme. Add pages, documents, data, etc. like normal to test your theme's contents. As you make modifications to your theme and to your content, your site will regenerate and you should see the changes in the browser after a refresh, just like normal.
+1. Clone this repo
+2. Run `bundle install`
+3. Run `bundle exec jekyll serve`
+4. Visit `http://localhost:4000`
 
-When your theme is released, only the files in `_layouts`, `_includes`, `_sass` and `assets` tracked with Git will be bundled.
-To add a custom directory to your theme-gem, please edit the regexp in `jekyll-theme-manpage.gemspec` accordingly.
+## Contributing
+
+Bug reports and pull requests are welcome on GitHub. This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the [Contributor Covenant](https://www.contributor-covenant.org/) code of conduct.
 
 ## License
 
 The theme is available as open source under the terms of the [MIT License](https://opensource.org/licenses/MIT).
+
+## Credits
+
+Created with ❤️ by Drshika Asher

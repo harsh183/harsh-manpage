@@ -6,6 +6,7 @@
   {% seo %}
   <link rel="preconnect" href="https://fonts.gstatic.com">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="{{ site.theme-color }}">
   <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
   {% include head-custom.html %}
 
@@ -48,8 +49,11 @@
 
   <main id="content" class="main-content" role="main">
     {{ content }}
-
+    <div>
+      Theme Debug: {{ site.color_theme }} (Config Value) / {{ theme-name }} (SCSS Value)
+    </div>
     <footer class="site-footer">
+      
       {% if page.layout == 'post' %}
       <a href="/writing" class="back-link"><- back to Writing</a>
           {% else %}

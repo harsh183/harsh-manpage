@@ -1,7 +1,11 @@
 ---
 ---
 
-@import "variables";
-@import "normalize";
-@import "rouge-github";
-@import "jekyll-theme-manpage";
+@use "sass:map";
+@use "sass:color";
+@use "sass:meta";
+@use "variables" as *;
+
+@use "normalize";
+@use "rouge-github";
+@use "jekyll-theme-manpage";

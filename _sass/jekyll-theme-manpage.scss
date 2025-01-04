@@ -1,6 +1,10 @@
-@import "normalize";
-@import "rouge-github";
-@import "variables";
+@use "sass:map";
+@use "sass:color";
+@use "sass:meta";
+@use "normalize";
+@use "rouge-github";
+@use "variables" as v;
+
 @import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;400;500&display=swap');
 
 // UNCOMMENT THESE IF YOU HAVE NITTI 
@@ -30,19 +34,19 @@
 // }
 
 @mixin large {
-  @media screen and (min-width: #{$large-breakpoint}) {
+  @media screen and (min-width: #{v.$large-breakpoint}) {
     @content;
   }
 }
 
 @mixin medium {
-  @media screen and (min-width: #{$medium-breakpoint}) and (max-width: #{$large-breakpoint}) {
+  @media screen and (min-width: #{v.$medium-breakpoint}) and (max-width: #{v.$large-breakpoint}) {
     @content;
   }
 }
 
 @mixin small {
-  @media screen and (max-width: #{$medium-breakpoint}) {
+  @media screen and (max-width: #{v.$medium-breakpoint}) {
     @content;
   }
 }
@@ -57,14 +61,15 @@ body {
   font-family: "Nitti", "Fira Code", monospace;
   font-size: 14px;
   line-height: 1.4;
-  color: $body-text-color;
+  color: var(--color-body-text);
+  background-color: var(--color-bg);
 }
 
 .main-content {
 
   // Headers
   h2 {
-    color: $theme-color;
+    color: v.$theme-color;
     margin-top: 2em;
 
     &:first-child {
@@ -74,17 +79,17 @@ body {
 
   // Links
   a {
-    color: $theme-color-secondary;
+    color: v.$theme-color-secondary;
 
     &:hover {
-      color: darken($theme-color-secondary, 10%);
+      color: color.adjust(v.$theme-color, $lightness: -10%);
     }
   }
 
   // News and entries
   .entry {
-    margin-left: $indent-level-1;
-    color: $theme-color;
+    margin-left: v.$indent-level-1;
+    color: v.$theme-color;
 
     &::before {
       content: "";
@@ -96,7 +101,7 @@ body {
   // Role entries
   .role {
     .title {
-      color: $theme-color;
+      color: v.$theme-color;
     }
   }
 }
@@ -104,31 +109,31 @@ body {
 .search-container {
   margin: 1em 0;
   position: relative;
-  padding: 0 0.5em; // Match tag button padding
+  padding: 0 0.5em;
 
   input {
     width: 100%;
     max-width: 500px;
-    padding: 0.3em 0; // Match tag button vertical padding
-    font-family: $font-family-mono;
+    padding: 0.3em 0;
+    font-family: v.$font-family-mono;
     border: none;
     border-radius: 0;
     background: transparent;
-    color: $text-color;
-    border-bottom: 1px solid rgba($theme-color, 0.3);
+    color: v.$text-color;
+    border-bottom: 1px solid rgba(v.$theme-color, 0.3);
     transition: all 0.2s ease;
 
     &::placeholder {
-      color: rgba($text-color, 0.6);
+      color: rgba(v.$text-color, 0.6);
     }
 
     &:focus {
       outline: none;
-      border-bottom: 2px solid $theme-color;
+      border-bottom: 2px solid v.$theme-color;
     }
 
     &:hover {
-      border-bottom-color: $theme-color;
+      border-bottom-color: v.$theme-color;
     }
   }
 }
@@ -138,14 +143,14 @@ body {
   display: flex;
   flex-wrap: wrap;
   align-items: center;
-  gap: 0.2em; // Consistent spacing between tags
+  gap: 0.2em;
 
   .tag-button {
     background: transparent;
     border: none;
-    color: $theme-color;
-    padding: 0.3em ;
-    font-family: $font-family-mono;
+    color: v.$theme-color;
+    padding: 0.3em;
+    font-family: v.$font-family-mono;
     cursor: pointer;
     transition: all 0.2s ease;
     position: relative;
@@ -157,7 +162,7 @@ body {
       left: 0;
       width: 100%;
       height: 1px;
-      background-color: $theme-color;
+      background-color: v.$theme-color;
       opacity: 0.3;
       transition: opacity 0.2s ease;
     }
@@ -167,7 +172,7 @@ body {
     }
 
     &.active {
-      color: darken($theme-color, 10%);
+      color: color.adjust(v.$theme-color, $lightness: -10%);
       font-weight: 600;
 
       &::after {
@@ -191,13 +196,13 @@ body {
     left: 10px;
     height: auto;
     width: auto;
-    background: invert($body-link-color);
-    outline: thick solid invert($body-link-color);
+    background: color.invert(v.$body-link-color);
+    outline: thick solid color.invert(v.$body-link-color);
   }
 }
 
 a {
-  color: $body-link-color;
+  color: v.$body-link-color;
   text-decoration: none;
 
   &:hover {
@@ -208,19 +213,19 @@ a {
 .btn {
   display: inline-block;
   margin-bottom: 1rem;
-  color: rgba(255, 255, 255, 0.7);
-  background-color: rgba(255, 255, 255, 0.08);
-  border-color: rgba(255, 255, 255, 0.2);
+  color: v.$theme-color;
+  background-color: rgba(v.$theme-color, 0.1);
+  border-color: rgba(v.$theme-color, 0.2);
   border-style: solid;
   border-width: 1px;
   border-radius: 0.3rem;
   transition: color 0.2s, background-color 0.2s, border-color 0.2s;
 
   &:hover {
-    color: rgba(255, 255, 255, 0.8);
+    color: v.$theme-color;
     text-decoration: none;
-    background-color: rgba(255, 255, 255, 0.2);
-    border-color: rgba(255, 255, 255, 0.3);
+    background-color: rgba(v.$theme-color, 0.2);
+    border-color: rgba(v.$theme-color, 0.3);
   }
 
   + .btn {
@@ -250,10 +255,8 @@ a {
 }
 
 .page-header {
-  color: $header-heading-color;
+  color: v.$header-heading-color;
   text-align: left;
-  // background-color: $header-bg-color;
-  // background-image: linear-gradient(120deg, $header-bg-color-secondary, $header-bg-color);
 
   @include large {
     max-width: 64rem;
@@ -278,6 +281,7 @@ a {
 .project-name {
   margin-top: 0;
   margin-bottom: 0.1rem;
+  color: v.$theme-color;
 
   @include large {
     font-size: 3.25rem;
@@ -335,12 +339,12 @@ a {
   }
   
   kbd {
-    background-color: #fafbfc;
-    border: 1px solid #c6cbd1;
-    border-bottom-color: #959da5;
+    background-color: v.$code-bg-color;
+    border: 1px solid v.$border-color;
+    border-bottom-color: color.adjust(v.$border-color, $lightness: -10%);
     border-radius: 3px;
-    box-shadow: inset 0 -1px 0 #959da5;
-    color: #444d56;
+    box-shadow: inset 0 -1px 0 color.adjust(v.$border-color, $lightness: -10%);
+    color: v.$code-text-color;
     display: inline-block;
     font-size: 11px;
     line-height: 10px;
@@ -361,7 +365,7 @@ a {
     margin-top: 2rem;
     margin-bottom: 1rem;
     font-weight: normal;
-    color: $section-headings-color;
+    color: v.$theme-color;
   }
 
   p {
@@ -376,8 +380,8 @@ a {
     padding: 2px 4px;
     font-family: "Nitti", "Fira Code", monospace;
     font-size: 0.9rem;
-    color: $code-text-color;
-    background-color: $code-bg-color;
+    color: v.$code-text-color;
+    background-color: v.$code-bg-color;
     border-radius: 0.3rem;
   }
 
@@ -386,17 +390,17 @@ a {
     margin-top: 0;
     margin-bottom: 1rem;
     font: 1rem "Nitti", "Fira Code", monospace;
-    color: $code-text-color;
+    color: v.$code-text-color;
     word-wrap: normal;
-    background-color: $code-bg-color;
-    border: solid 1px $border-color;
+    background-color: v.$code-bg-color;
+    border: solid 1px v.$border-color;
     border-radius: 0.3rem;
 
     > code {
       padding: 0;
       margin: 0;
       font-size: 0.9rem;
-      color: $code-text-color;
+      color: v.$code-text-color;
       word-break: normal;
       white-space: pre;
       background: transparent;
@@ -449,8 +453,8 @@ a {
   blockquote {
     padding: 0 1rem;
     margin-left: 0;
-    color: $blockquote-text-color;
-    border-left: 0.3rem solid $border-color;
+    color: v.$blockquote-text-color;
+    border-left: 0.3rem solid v.$border-color;
 
     > :first-child {
       margin-top: 0;
@@ -466,7 +470,7 @@ a {
     width: 100%;
     overflow: auto;
     word-break: normal;
-    word-break: keep-all; // For Firefox to horizontally scroll wider tables.
+    word-break: keep-all;
     -webkit-overflow-scrolling: touch;
 
     th {
@@ -476,7 +480,7 @@ a {
     th,
     td {
       padding: 0.5rem 1rem;
-      border: 1px solid $table-border-color;
+      border: 1px solid v.$table-border-color;
     }
   }
 
@@ -500,7 +504,7 @@ a {
     height: 2px;
     padding: 0;
     margin: 1rem 0;
-    background-color: $hr-border-color;
+    background-color: v.$hr-border-color;
     border: 0;
   }
 }
@@ -508,7 +512,7 @@ a {
 .site-footer {
   padding-top: 2rem;
   margin-top: 2rem;
-  border-top: solid 1px $hr-border-color;
+  border-top: solid 1px v.$hr-border-color;
 
   @include large {
     font-size: 1rem;
@@ -529,7 +533,7 @@ a {
 }
 
 .site-footer-credits {
-  color: $blockquote-text-color;
+  color: v.$blockquote-text-color;
 }
 
 .main-content-home {
@@ -557,12 +561,12 @@ a {
   }
   
   kbd {
-    background-color: #fafbfc;
-    border: 1px solid #c6cbd1;
-    border-bottom-color: #959da5;
+    background-color: v.$code-bg-color;
+    border: 1px solid v.$border-color;
+    border-bottom-color: color.adjust(v.$border-color, $lightness: -10%);
     border-radius: 3px;
-    box-shadow: inset 0 -1px 0 #959da5;
-    color: #444d56;
+    box-shadow: inset 0 -1px 0 color.adjust(v.$border-color, $lightness: -10%);
+    color: v.$code-text-color;
     display: inline-block;
     font-size: 11px;
     line-height: 10px;
@@ -583,7 +587,7 @@ a {
     margin-top: 2rem;
     margin-bottom: 1rem;
     font-weight: normal;
-    color: $section-headings-color;
+    color: v.$section-headings-color;
   }
 
   p {
@@ -599,8 +603,8 @@ a {
     padding: 2px 4px;
     font-family: "Nitti", "Fira Code", monospace;
     font-size: 0.9rem;
-    color: $code-text-color;
-    background-color: $code-bg-color;
+    color: v.$code-text-color;
+    background-color: v.$code-bg-color;
     border-radius: 0.3rem;
   }
 
@@ -609,17 +613,17 @@ a {
     margin-top: 0;
     margin-bottom: 1rem;
     font: 1rem "Nitti", "Fira Code", monospace;
-    color: $code-text-color;
+    color: v.$code-text-color;
     word-wrap: normal;
-    background-color: $code-bg-color;
-    border: solid 1px $border-color;
+    background-color: v.$code-bg-color;
+    border: solid 1px v.$border-color;
     border-radius: 0.3rem;
 
     > code {
       padding: 0;
       margin: 0;
       font-size: 0.9rem;
-      color: $code-text-color;
+      color: v.$code-text-color;
       word-break: normal;
       white-space: pre;
       background: transparent;
@@ -672,8 +676,8 @@ a {
   blockquote {
     padding: 0 1rem;
     margin-left: 0;
-    color: $blockquote-text-color;
-    border-left: 0.3rem solid $border-color;
+    color: v.$blockquote-text-color;
+    border-left: 0.3rem solid v.$border-color;
 
     > :first-child {
       margin-top: 0;
@@ -699,7 +703,7 @@ a {
     th,
     td {
       padding: 0.5rem 1rem;
-      border: 1px solid $table-border-color;
+      border: 1px solid v.$table-border-color;
     }
   }
 
@@ -723,7 +727,7 @@ a {
     height: 2px;
     padding: 0;
     margin: 1rem 0;
-    background-color: $hr-border-color;
+    background-color: v.$hr-border-color;
     border: 0;
   }
 }
@@ -731,7 +735,7 @@ a {
 .site-footer {
   padding-top: 2rem;
   margin-top: 2rem;
-  border-top: solid 1px $hr-border-color;
+  border-top: solid 1px v.$hr-border-color;
 
   @include large {
     font-size: 1rem;
@@ -752,7 +756,7 @@ a {
 }
 
 .site-footer-credits {
-  color: $blockquote-text-color;
+  color: v.$blockquote-text-color;
 }
 
 .posts-container {
@@ -768,7 +772,7 @@ a {
       margin: 0;
 
       .post-date {
-        color: $text-color;
+        color: v.$text-color;
         font-size: 0.8em;
         margin-right: 1em;
       }
@@ -780,7 +784,7 @@ a {
   margin: 0.5em 0;
 
   .tag {
-    color: $theme-color;
+    color: v.$theme-color;
     padding: 0.2em 0.3em;
     margin-right: 0.8em;
     font-size: 0.8em;
@@ -793,7 +797,7 @@ a {
       left: 0;
       width: 100%;
       height: 1px;
-      background-color: $theme-color;
+      background-color: v.$theme-color;
       opacity: 0.3;
     }
   }
@@ -804,9 +808,9 @@ a {
 }
 
 .back-link {
-  color: $theme-color;
+  color: v.$theme-color;
   text-decoration: none;
-  font-family: $font-family-mono;
+  font-family: v.$font-family-mono;
 
   &:hover {
     text-decoration: underline;
@@ -814,7 +818,7 @@ a {
 }
 
 .toc {
-  background: rgba($theme-color, 0.05);
+  background: rgba(v.$theme-color, 0.05);
   padding: 1.5rem;
   margin-bottom: 2rem;
   border-radius: 4px;
@@ -823,7 +827,7 @@ a {
     margin-top: 0;
     margin-bottom: 1rem;
     font-size: 1.2rem;
-    color: $theme-color;
+    color: v.$theme-color;
   }
 
   ul {
@@ -835,12 +839,12 @@ a {
       margin: 0.5rem 0; // Consistent spacing for all levels
       
       a {
-        color: $body-text-color;
+        color: v.$body-text-color;
         text-decoration: none;
         transition: color 0.2s ease;
 
         &:hover {
-          color: $theme-color;
+          color: v.$theme-color;
         }
       }
     }

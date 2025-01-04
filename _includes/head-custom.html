@@ -8,7 +8,20 @@
 <!-- Setup Google Analytics -->
 {% include head-custom-google-analytics.html %}
 
-<!-- You can set your favicon here -->
-<!-- link rel="shortcut icon" type="image/x-icon" href="{{ 'favicon.svg' | relative_url }}" -->
+<!-- Favicons -->
+{% if site.favicon %}
+  {% if site.favicon.svg %}
+  <link rel="icon" type="image/svg+xml" href="{{ site.favicon.svg | relative_url }}">
+  {% endif %}
+  {% if site.favicon.ico %}
+  <link rel="alternate icon" type="image/x-icon" href="{{ site.favicon.ico | relative_url }}">
+  {% endif %}
+  {% if site.favicon.png32 %}
+  <link rel="alternate icon" type="image/png" sizes="32x32" href="{{ site.favicon.png32 | relative_url }}">
+  {% endif %}
+  {% if site.favicon.png16 %}
+  <link rel="alternate icon" type="image/png" sizes="16x16" href="{{ site.favicon.png16 | relative_url }}">
+  {% endif %}
+{% endif %}
 
 <!-- end custom head snippets -->

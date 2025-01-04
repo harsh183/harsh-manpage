@@ -71,5 +71,5 @@ Course description...
 - Fun fact 2
 - Fun fact 3
 
-![Profile Image](assets/css/images/profile.jpg)
+![Profile Image](assets/images/profile.jpg)
 *Image caption*

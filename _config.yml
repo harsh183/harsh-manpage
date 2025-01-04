@@ -5,9 +5,11 @@ show_downloads: false
 google_analytics:
 theme: jekyll-theme-manpage
 quiet: true
-# url: 'http://drshika.github.io'
+favicon:
+  svg: assets/images/favicon.svg
+# url: 
 plugins:
-  - jekyll-katex
+  - jekyll-katex  
   - jekyll-seo-tag
   - jekyll-toc
 excerpt_separator: "<!--more-->"
