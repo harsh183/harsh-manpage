@@ -19,6 +19,7 @@ Gem::Specification.new do |spec|
   spec.add_runtime_dependency "jekyll-feed", "~> 0.17"
   spec.add_runtime_dependency "jekyll-toc", "~> 0.18"
   spec.add_runtime_dependency "jekyll-katex", "~> 1.0"
+  spec.add_runtime_dependency "jekyll-sitemap", "~> 1.4"  # Fixed the mismatched quote here
   spec.add_development_dependency "html-proofer", "~> 3.0"
   spec.add_development_dependency "rubocop-github", "~> 0.16"
   spec.add_development_dependency "w3c_validators", "~> 1.3"

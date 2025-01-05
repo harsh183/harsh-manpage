@@ -1,4 +1,4 @@
-# Jekyll Theme Manpage
+# 📇 Jekyll Theme Manpage
 
 > This theme is in development and not ready to use yet! 
 

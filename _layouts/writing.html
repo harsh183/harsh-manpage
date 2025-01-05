@@ -1,120 +1,123 @@
 <!DOCTYPE html>
-<html lang="{{ site.lang | default: "en-US" }}">
-  <head>
-    <meta charset="UTF-8">
-    {% seo %}
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
-    <title>{{ page.title }}</title>
-    {% include head-custom.html %}
-  </head>
-  <body>
-    <header class="page-header">
-      <h1 class="project-name">-> ~ ls -lt /writing</h1>
-      
-      <!-- Search bar -->
-      <div class="search-container">
-        <input type="text" id="search-input" placeholder="Search posts...">
-      </div>
+<html lang="{{ site.lang | default: " en-US" }}">
 
-      <!-- Tag filter -->
-      <div class="tag-container">
-        {% assign tags = site.tags | sort %}
-        {% for tag in tags %}   
-          <button class="tag-button" data-tag="{{ tag[0] }}">
-            {{ tag[0] }} ({{ tag[1].size }})
-          </button>
-        {% endfor %}
-      </div>
-    </header>
-    
-    <main id="content" class="main-content" role="main">
-      <!-- Post listing -->
-      <div class="posts-container">
-        {% for post in site.posts %}
-          <article class="post-preview" data-tags="{{ post.tags | join: ' ' }}">
-            <h2>
-              <span class="post-date">{{ post.date | date: "%Y-%m-%d" }}</span>
-              <a href="{{ post.url }}">{{ post.title }}</a>
-            </h2>
-            {% if post.tags %}
-              <div class="post-tags">
-                {% for tag in post.tags %}
-                  <span class="tag">{{ tag }}</span>
-                {% endfor %}
-              </div>
-            {% endif %}
-            <div class="post-excerpt">
-              {{ post.excerpt | strip_html | truncatewords:25 }}
-            </div>
-          </article>
-        {% endfor %}
-      </div>
+<head>
+  <meta charset="UTF-8">
+  {% seo %}
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
+  <title>{{ page.title }}</title>
+  {% include head-custom.html %}
+</head>
 
-      <!-- No results message -->
-      <div id="no-results" class="hidden">
-        No posts found matching your criteria.
-      </div>
+<body>
+  <header class="page-header">
+    <h1 class="project-name">-> ~ ls -lt /writing</h1>
 
-      <footer class="site-footer">
-        <a href="/" class="back-link"><- back to Home</a>
-      </footer>
-    </main>
+    <!-- Search bar -->
+    <div class="search-container" {% unless site.features.search %}style="display: none;" {% endunless %}>
+      <input type="text" id="search-input" placeholder="Search posts...">
+    </div>
 
-    <!-- Search and filter script -->
-    <script>
-        document.addEventListener('DOMContentLoaded', function() {
-          const searchInput = document.getElementById('search-input')
-          const posts = document.querySelectorAll('.post-preview')
-          const noResults = document.getElementById('no-results')
-          const tagButtons = document.querySelectorAll('.tag-button')
-          const activeTags = new Set()
-      
-          function filterPosts() {
-            const searchTerm = searchInput.value.toLowerCase()
-            let visiblePosts = 0
-      
-            posts.forEach(post => {
-              const postText = post.textContent.toLowerCase()
-              const postTags = new Set(post.dataset.tags.split(' '))
-              const matchesSearch = postText.includes(searchTerm)
-              
-              // If no tags are selected, show all posts that match search
-              // If tags are selected, post must have ALL selected tags
-              const matchesTags = activeTags.size === 0 || 
-                Array.from(activeTags).every(tag => postTags.has(tag))
-      
-              if (matchesSearch && matchesTags) {
-                post.style.display = ''
-                visiblePosts++
-              } else {
-                post.style.display = 'none'
-              }
-            })
-      
-            noResults.classList.toggle('hidden', visiblePosts > 0)
+    <!-- Tag filter -->
+    <div class="tag-container" {% unless site.features.tags %}style="display: none;" {% endunless %}>
+      {% assign tags = site.tags | sort %}
+      {% for tag in tags %}
+      <button class="tag-button" data-tag="{{ tag[0] }}">
+        {{ tag[0] }} ({{ tag[1].size }})
+      </button>
+      {% endfor %}
+    </div>
+  </header>
+
+  <main id="content" class="main-content" role="main">
+    <!-- Post listing -->
+    <div class="posts-container">
+      {% for post in site.posts %}
+      <article class="post-preview" data-tags="{{ post.tags | join: ' ' }}">
+        <h2>
+          <span class="post-date">{{ post.date | date: "%Y-%m-%d" }}</span>
+          <a href="{{ post.url }}">{{ post.title }}</a>
+        </h2>
+        {% if post.tags %}
+        <div class="post-tags">
+          {% for tag in post.tags %}
+          <span class="tag">{{ tag }}</span>
+          {% endfor %}
+        </div>
+        {% endif %}
+        <div class="post-excerpt">
+          {{ post.excerpt | strip_html | truncatewords:25 }}
+        </div>
+      </article>
+      {% endfor %}
+    </div>
+
+    <!-- No results message -->
+    <div id="no-results" class="hidden">
+      No posts found matching your criteria.
+    </div>
+
+    <footer class="site-footer">
+      <a href="/" class="back-link"><- back to Home</a>
+    </footer>
+  </main>
+
+  <!-- Search and filter script -->
+  <script>
+    document.addEventListener('DOMContentLoaded', function () {
+      const searchInput = document.getElementById('search-input')
+      const posts = document.querySelectorAll('.post-preview')
+      const noResults = document.getElementById('no-results')
+      const tagButtons = document.querySelectorAll('.tag-button')
+      const activeTags = new Set()
+
+      function filterPosts() {
+        const searchTerm = searchInput.value.toLowerCase()
+        let visiblePosts = 0
+
+        posts.forEach(post => {
+          const postText = post.textContent.toLowerCase()
+          const postTags = new Set(post.dataset.tags.split(' '))
+          const matchesSearch = postText.includes(searchTerm)
+
+          // If no tags are selected, show all posts that match search
+          // If tags are selected, post must have ALL selected tags
+          const matchesTags = activeTags.size === 0 ||
+            Array.from(activeTags).every(tag => postTags.has(tag))
+
+          if (matchesSearch && matchesTags) {
+            post.style.display = ''
+            visiblePosts++
+          } else {
+            post.style.display = 'none'
           }
-      
-          searchInput.addEventListener('input', filterPosts)
-      
-          tagButtons.forEach(button => {
-            button.addEventListener('click', () => {
-              const tag = button.dataset.tag
-              
-              // Toggle tag selection
-              if (activeTags.has(tag)) {
-                activeTags.delete(tag)
-                button.classList.remove('active')
-              } else {
-                activeTags.add(tag)
-                button.classList.add('active')
-              }
-      
-              filterPosts()
-            })
-          })
         })
-      </script>
-  </body>
+
+        noResults.classList.toggle('hidden', visiblePosts > 0)
+      }
+
+      searchInput.addEventListener('input', filterPosts)
+
+      tagButtons.forEach(button => {
+        button.addEventListener('click', () => {
+          const tag = button.dataset.tag
+
+          // Toggle tag selection
+          if (activeTags.has(tag)) {
+            activeTags.delete(tag)
+            button.classList.remove('active')
+          } else {
+            activeTags.add(tag)
+            button.classList.add('active')
+          }
+
+          filterPosts()
+        })
+      })
+    })
+  </script>
+</body>
+
 </html>

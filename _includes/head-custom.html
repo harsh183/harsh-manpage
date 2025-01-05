@@ -1,30 +1,50 @@
-<!-- start custom head snippets, customize with your own _includes/head-custom.html file -->
+<!-- start custom head snippets -->
 
-<!-- KaTeX-->
+<!-- Common meta tags -->
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="preconnect" href="https://fonts.gstatic.com">
+
+<!-- KaTeX - only load if page.katex is true -->
 {% if page.katex %}
-<link rel="stylesheet" href="/assets/plugins/katex.0.11.1/katex.min.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.12.0/dist/katex.min.css"
+    integrity="sha384-AfEj0r4/OFrOo5t7NnNe46zW/tFgW6x/bCJG8FqQCEo3+Aro6EYUG4+cU+KJWu/X" crossorigin="anonymous">
+<script defer src="https://cdn.jsdelivr.net/npm/katex@0.12.0/dist/katex.min.js"
+    integrity="sha384-g7c+Jr9ZivxKLnZTDUhnkOnsh30B4H0rpLUpJ4jAIKs4fnJI+sEnkvrMWph2EDg4"
+    crossorigin="anonymous"></script>
+<script defer src="https://cdn.jsdelivr.net/npm/katex@0.12.0/dist/contrib/auto-render.min.js"
+    integrity="sha384-mll67QQFJfxn0IYznZYonOWZ644AWYC+Pt2cHqMaRhXVrursRwvLnLaebdGIlYNa"
+    crossorigin="anonymous"></script>
+<script>
+    document.addEventListener("DOMContentLoaded", function() {
+        renderMathInElement(document.body, {
+            // ...options...
+        });
+    });
+</script>
 {% endif %}
-
-<!-- Setup Google Analytics -->
-{% include head-custom-google-analytics.html %}
 
 <!-- Favicons -->
 {% if site.favicon %}
-  {% if site.favicon.svg %}
-  <link rel="icon" type="image/svg+xml" href="{{ site.favicon.svg | relative_url }}">
-  {% endif %}
-  {% if site.favicon.ico %}
-  <link rel="alternate icon" type="image/x-icon" href="{{ site.favicon.ico | relative_url }}">
-  {% endif %}
-  {% if site.favicon.png32 %}
-  <link rel="alternate icon" type="image/png" sizes="32x32" href="{{ site.favicon.png32 | relative_url }}">
-  {% endif %}
-  {% if site.favicon.png16 %}
-  <link rel="alternate icon" type="image/png" sizes="16x16" href="{{ site.favicon.png16 | relative_url }}">
-  {% endif %}
+    {% if site.favicon.svg %}
+    <link rel="icon" type="image/svg+xml" href="{{ site.favicon.svg | relative_url }}">
+    {% endif %}
+    {% if site.favicon.ico %}
+    <link rel="alternate icon" type="image/x-icon" href="{{ site.favicon.ico | relative_url }}">
+    {% endif %}
+    {% if site.favicon.png32 %}
+    <link rel="alternate icon" type="image/png" sizes="32x32" href="{{ site.favicon.png32 | relative_url }}">
+    {% endif %}
+    {% if site.favicon.png16 %}
+    <link rel="alternate icon" type="image/png" sizes="16x16" href="{{ site.favicon.png16 | relative_url }}">
+    {% endif %}
 {% endif %}
 
+<!-- RSS Feed -->
 {% if site.features.rss_feed %}
-  {% feed_meta %}
+    {% feed_meta %}
 {% endif %}
+
+<!-- Google Analytics -->
+{% include head-custom-google-analytics.html %}
+
 <!-- end custom head snippets -->
