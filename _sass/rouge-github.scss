@@ -7,43 +7,43 @@
 // Rouge syntax highlighting theme using variables from _sass/variables.scss
 .highlight {
   .hll { background-color: v.$code-bg-color }
-  .c, .cm, .c1 { color: color.scale(v.$theme-color, $lightness: -30%); font-style: italic } /* Comment */
-  .err { border: 1px solid color.scale(v.$theme-color, $saturation: 100%, $lightness: -20%) } /* Error */
-  .k, .kc, .kd, .kn, .kr, .ow { color: v.$theme-color-secondary; font-weight: bold } /* Keyword */
-  .o { color: color.scale(v.$theme-color, $lightness: -40%) } /* Operator */
-  .cp { color: color.scale(v.$theme-color, $lightness: -30%) } /* Comment.Preproc */
-  .cs { color: color.scale(v.$theme-color, $lightness: -30%); font-weight: bold } /* Comment.Special */
-  .gd { color: color.scale(v.$theme-color, $saturation: 100%, $lightness: -30%) } /* Generic.Deleted */
+  .c, .cm, .c1 { color: color.scale(v.$text-color, $alpha: -30%); font-style: italic } /* Comment */
+  .err { color: color.scale(v.$theme-color, $saturation: 100%, $lightness: -20%); background-color: color.scale(v.$code-bg-color, $lightness: -10%) } /* Error */
+  .k, .kc, .kd, .kn, .kr, .ow { color: v.$theme-color; font-weight: bold } /* Keyword */
+  .o { color: v.$text-color } /* Operator */
+  .cp { color: color.scale(v.$text-color, $alpha: -20%) } /* Comment.Preproc */
+  .cs { color: color.scale(v.$text-color, $alpha: -20%); font-style: italic } /* Comment.Special */
+  .gd { color: color.scale(v.$theme-color, $saturation: 100%, $lightness: -20%); background-color: color.scale(v.$code-bg-color, $lightness: -5%) } /* Generic.Deleted */
   .ge { font-style: italic } /* Generic.Emph */
   .gr { color: color.scale(v.$theme-color, $saturation: 100%, $lightness: -20%) } /* Generic.Error */
   .gh { color: v.$theme-color; font-weight: bold } /* Generic.Heading */
-  .gi { color: color.scale(v.$theme-color, $saturation: 100%, $lightness: 20%) } /* Generic.Inserted */
-  .go { color: color.scale(v.$theme-color, $lightness: -20%) } /* Generic.Output */
-  .gp { color: v.$theme-color; font-weight: bold } /* Generic.Prompt */
+  .gi { color: color.scale(v.$theme-color-secondary, $lightness: 20%); background-color: color.scale(v.$code-bg-color, $lightness: 5%) } /* Generic.Inserted */
+  .go { color: color.scale(v.$text-color, $alpha: -30%) } /* Generic.Output */
+  .gp { color: v.$text-color; font-weight: bold } /* Generic.Prompt */
   .gs { font-weight: bold } /* Generic.Strong */
   .gu { color: color.scale(v.$theme-color-secondary, $lightness: 20%); font-weight: bold } /* Generic.Subheading */
-  .gt { color: color.scale(v.$theme-color, $saturation: 100%, $lightness: 20%) } /* Generic.Traceback */
-  .kp { color: v.$theme-color-secondary } /* Keyword.Pseudo */
-  .kt { color: color.scale(v.$theme-color, $saturation: 100%, $lightness: 20%); font-weight: bold } /* Keyword.Type */
-  .m, .mf, .mh, .mi, .mo, .il { color: color.scale(v.$theme-color, $lightness: -40%) } /* Literal.Number */
-  .s, .sb, .sc, .s2, .sh, .s1 { color: color.scale(v.$theme-color-secondary, $lightness: -20%) } /* Literal.String */
-  .na { color: color.scale(v.$theme-color-secondary, $lightness: -20%) } /* Name.Attribute */
-  .nb, .bp { color: v.$theme-color-secondary } /* Name.Builtin */
-  .nc { color: v.$theme-color } /* Name.Class */
-  .no { color: color.scale(v.$theme-color, $saturation: 100%, $lightness: -30%) } /* Name.Constant */
+  .gt { color: color.scale(v.$theme-color, $saturation: 100%, $lightness: -20%) } /* Generic.Traceback */
+  .kp { color: v.$theme-color } /* Keyword.Pseudo */
+  .kt { color: v.$theme-color-secondary; font-weight: bold } /* Keyword.Type */
+  .m, .mf, .mh, .mi, .mo, .il { color: color.scale(v.$theme-color-secondary, $lightness: -20%) } /* Literal.Number */
+  .s, .sb, .sc, .s2, .sh, .s1 { color: color.scale(v.$theme-color, $lightness: 20%) } /* Literal.String */
+  .na { color: v.$theme-color-secondary } /* Name.Attribute */
+  .nb, .bp { color: v.$theme-color } /* Name.Builtin */
+  .nc { color: v.$theme-color-secondary; font-weight: bold } /* Name.Class */
+  .no { color: color.scale(v.$theme-color, $lightness: -20%) } /* Name.Constant */
   .nd { color: v.$theme-color-secondary } /* Name.Decorator */
-  .ni { color: color.scale(v.$theme-color, $lightness: -20%); font-weight: bold } /* Name.Entity */
-  .ne { color: color.scale(v.$theme-color-secondary, $saturation: 100%, $lightness: -20%); font-weight: bold } /* Name.Exception */
-  .nf { color: color.scale(v.$theme-color, $saturation: 100%, $lightness: 20%) } /* Name.Function */
-  .nl { color: color.scale(v.$theme-color, $saturation: 80%, $lightness: 20%) } /* Name.Label */
+  .ni { color: v.$text-color; font-weight: bold } /* Name.Entity */
+  .ne { color: color.scale(v.$theme-color, $saturation: 100%, $lightness: -20%); font-weight: bold } /* Name.Exception */
+  .nf { color: v.$theme-color } /* Name.Function */
+  .nl { color: v.$theme-color-secondary } /* Name.Label */
   .nn { color: v.$theme-color; font-weight: bold } /* Name.Namespace */
-  .nt { color: color.scale(v.$theme-color, $saturation: 100%, $lightness: -20%); font-weight: bold } /* Name.Tag */
-  .nv, .vc, .vg, .vi { color: color.scale(v.$theme-color-secondary, $lightness: 20%) } /* Name.Variable */
-  .w { color: color.scale(v.$theme-color, $lightness: 40%) } /* Text.Whitespace */
-  .sd { color: color.scale(v.$theme-color-secondary, $lightness: -20%); font-style: italic } /* Literal.String.Doc */
-  .se { color: color.scale(v.$theme-color-secondary, $lightness: -10%); font-weight: bold } /* Literal.String.Escape */
-  .si { color: color.scale(v.$theme-color-secondary, $lightness: -20%); font-weight: bold } /* Literal.String.Interpol */
+  .nt { color: v.$theme-color; font-weight: bold } /* Name.Tag */
+  .nv, .vc, .vg, .vi { color: v.$theme-color-secondary } /* Name.Variable */
+  .w { color: color.scale(v.$text-color, $alpha: -50%) } /* Text.Whitespace */
+  .sd { color: color.scale(v.$text-color, $alpha: -30%); font-style: italic } /* Literal.String.Doc */
+  .se { color: color.scale(v.$theme-color, $lightness: 20%); font-weight: bold } /* Literal.String.Escape */
+  .si { color: v.$theme-color; font-weight: bold } /* Literal.String.Interpol */
   .sx { color: color.scale(v.$theme-color, $saturation: 100%, $lightness: -20%) } /* Literal.String.Other */
   .sr { color: color.scale(v.$theme-color-secondary, $lightness: -20%) } /* Literal.String.Regex */
-  .ss { color: color.scale(v.$theme-color-secondary, $lightness: 20%) } /* Literal.String.Symbol */
+  .ss { color: v.$theme-color-secondary } /* Literal.String.Symbol */
 }

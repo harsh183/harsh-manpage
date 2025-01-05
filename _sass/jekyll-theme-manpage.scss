@@ -61,12 +61,11 @@ body {
   font-family: "Nitti", "Fira Code", monospace;
   font-size: 14px;
   line-height: 1.4;
-  color: var(--color-body-text);
-  background-color: var(--color-bg);
+  color: v.$text-color;
+  background-color: v.$bg-color;
 }
 
 .main-content {
-
   // Headers
   h2 {
     color: v.$theme-color;
@@ -79,29 +78,10 @@ body {
 
   // Links
   a {
-    color: v.$theme-color-secondary;
+    color: v.$link-color;
 
     &:hover {
-      color: color.adjust(v.$theme-color, $lightness: -10%);
-    }
-  }
-
-  // News and entries
-  .entry {
-    margin-left: v.$indent-level-1;
-    color: v.$theme-color;
-
-    &::before {
-      content: "";
-      display: block;
-      margin-top: 1em;
-    }
-  }
-
-  // Role entries
-  .role {
-    .title {
-      color: v.$theme-color;
+      color: v.$link-hover-color;
     }
   }
 }
@@ -120,11 +100,11 @@ body {
     border-radius: 0;
     background: transparent;
     color: v.$text-color;
-    border-bottom: 1px solid rgba(v.$theme-color, 0.3);
+    border-bottom: 1px solid color.scale(v.$theme-color, $alpha: -70%);
     transition: all 0.2s ease;
 
     &::placeholder {
-      color: rgba(v.$text-color, 0.6);
+      color: color.scale(v.$text-color, $alpha: -40%);
     }
 
     &:focus {
@@ -172,7 +152,7 @@ body {
     }
 
     &.active {
-      color: color.adjust(v.$theme-color, $lightness: -10%);
+      color: v.$theme-color;
       font-weight: 600;
 
       &::after {
@@ -183,30 +163,11 @@ body {
   }
 }
 
-#skip-to-content {
-  height: 1px;
-  width: 1px;
-  position: absolute;
-  overflow: hidden;
-  top: -10px;
-
-  &:focus {
-    position: fixed;
-    top: 10px;
-    left: 10px;
-    height: auto;
-    width: auto;
-    background: color.invert(v.$body-link-color);
-    outline: thick solid color.invert(v.$body-link-color);
-  }
-}
-
 a {
-  color: v.$body-link-color;
-  text-decoration: none;
-
+  color: v.$link-color;
+  
   &:hover {
-    text-decoration: underline;
+    color: v.$link-hover-color;
   }
 }
 
@@ -214,8 +175,8 @@ a {
   display: inline-block;
   margin-bottom: 1rem;
   color: v.$theme-color;
-  background-color: rgba(v.$theme-color, 0.1);
-  border-color: rgba(v.$theme-color, 0.2);
+  background-color: color.scale(v.$theme-color, $alpha: -90%);
+  border-color: color.scale(v.$theme-color, $alpha: -80%);
   border-style: solid;
   border-width: 1px;
   border-radius: 0.3rem;
@@ -224,8 +185,8 @@ a {
   &:hover {
     color: v.$theme-color;
     text-decoration: none;
-    background-color: rgba(v.$theme-color, 0.2);
-    border-color: rgba(v.$theme-color, 0.3);
+    background-color: color.scale(v.$theme-color, $alpha: -80%);
+    border-color: color.scale(v.$theme-color, $alpha: -70%);
   }
 
   + .btn {
@@ -255,7 +216,7 @@ a {
 }
 
 .page-header {
-  color: v.$header-heading-color;
+  color: v.$theme-color;
   text-align: left;
 
   @include large {
@@ -299,7 +260,7 @@ a {
 .project-tagline {
   margin-bottom: 2rem;
   font-weight: normal;
-  opacity: 0.7;
+  color: color.scale(v.$text-color, $alpha: -30%);
 
   @include large {
     font-size: 1.25rem;
@@ -365,7 +326,7 @@ a {
     margin-top: 2rem;
     margin-bottom: 1rem;
     font-weight: normal;
-    color: v.$theme-color;
+    color: v.$section-headings-color;
   }
 
   p {
@@ -390,8 +351,8 @@ a {
     margin-top: 0;
     margin-bottom: 1rem;
     font: 1rem "Nitti", "Fira Code", monospace;
-    color: v.$code-text-color;
     word-wrap: normal;
+    color: v.$code-text-color;
     background-color: v.$code-bg-color;
     border: solid 1px v.$border-color;
     border-radius: 0.3rem;
@@ -400,7 +361,6 @@ a {
       padding: 0;
       margin: 0;
       font-size: 0.9rem;
-      color: v.$code-text-color;
       word-break: normal;
       white-space: pre;
       background: transparent;

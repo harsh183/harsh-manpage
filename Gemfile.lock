@@ -3,7 +3,10 @@ PATH
   specs:
     jekyll-theme-manpage (0.1.0)
       jekyll (~> 4.3)
+      jekyll-feed (~> 0.17)
+      jekyll-katex (~> 1.0)
       jekyll-seo-tag (~> 2.0)
+      jekyll-toc (~> 0.18)
 
 GEM
   remote: https://rubygems.org/

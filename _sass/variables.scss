@@ -15,68 +15,148 @@ $font-family-mono: "Nitti", "Source Code Pro", "Inconsolata", monospace;
 $font-size-base: 14px;
 $line-height-base: 1.4;
 
-// Preset color themes
+// Color themes with light/dark variants
 $color-themes: (
   'purple': (
-    primary: #9366B3,
-    secondary: #6824de77
+    light: (
+      primary: #9366B3,    
+      secondary: #6824de77,
+      bg: #ffffff,
+      text: #2c2c2c
+    ),
+    dark: (
+      primary: #b185d1,    
+      secondary: #9d71e8,  
+      bg: #1a1a1a,
+      text: #f0f0f0
+    )
   ),
-  'terminal_green': (
-    primary: #00ff00,
-    secondary: #008800
+  'tomorrow': (
+    light: (
+      primary: #4271ae,    
+      secondary: #3e999f,
+      bg: #ffffff,
+      text: #4d4d4c
+    ),
+    dark: (
+      primary: #81a2be,    
+      secondary: #8abeb7,
+      bg: #1d1f21,
+      text: #c5c8c6
+    )
   ),
-  'ocean_blue': (
-    primary: #0077cc,
-    secondary: #005599
+  'github': (
+    light: (
+      primary: #0366d6,    
+      secondary: #1b7c83,
+      bg: #ffffff,
+      text: #24292e
+    ),
+    dark: (
+      primary: #58a6ff,    
+      secondary: #388bfd,
+      bg: #0d1117,
+      text: #c9d1d9
+    )
   ),
-  'sunset_orange': (
-    primary: #ff6b6b,
-    secondary: #cc5555
-  ),
-  'github_dark': (
-    primary: #58a6ff,
-    secondary: #388bfd
+  'dracula': (
+    light: (
+      primary: #6272a4,    
+      secondary: #bd93f9,
+      bg: #f8f8f2,
+      text: #282a36
+    ),
+    dark: (
+      primary: #bd93f9,    
+      secondary: #6272a4,
+      bg: #282a36,
+      text: #f8f8f2
+    )
   ),
   'nord': (
-    primary: #88c0d0,
-    secondary: #81a1c1
+    light: (
+      primary: #5e81ac,    
+      secondary: #81a1c1,
+      bg: #eceff4,
+      text: #2e3440
+    ),
+    dark: (
+      primary: #88c0d0,    
+      secondary: #81a1c1,
+      bg: #2e3440,
+      text: #eceff4
+    )
+  ),
+  'monokai': (
+    light: (
+      primary: #a6e22e,    
+      secondary: #66d9ef,
+      bg: #fafafa,
+      text: #272822
+    ),
+    dark: (
+      primary: #a6e22e,    
+      secondary: #66d9ef,
+      bg: #272822,
+      text: #f8f8f2
+    )
   )
 );
 
 // Theme selection
-$default-theme: 'github_dark';
+$default-theme: 'monokai' !default;
 $selected-theme: map.get($color-themes, $default-theme) !default;
+$default-mode: 'dark';
 
-// Define theme colors with fallbacks
-$theme-color: map.get($selected-theme, 'primary') !default;
-$theme-color-secondary: map.get($selected-theme, 'secondary') !default;
+// Function to get theme colors based on mode
+@function get-theme-color($theme, $mode, $color) {
+  @return map.get(map.get($theme, $mode), $color);
+}
+
+[data-theme="light"] {
+  --theme-color: #{get-theme-color($selected-theme, 'light', 'primary')};
+  --theme-color-secondary: #{get-theme-color($selected-theme, 'light', 'secondary')};
+  --bg-color: #{get-theme-color($selected-theme, 'light', 'bg')};
+  --text-color: #{get-theme-color($selected-theme, 'light', 'text')};
+  --blockquote-text-color: #{color.scale(get-theme-color($selected-theme, 'light', 'text'), $lightness: 20%)};
+  --code-bg-color: #{color.scale(get-theme-color($selected-theme, 'light', 'bg'), $lightness: -5%)};
+  --border-color: #{color.scale(get-theme-color($selected-theme, 'light', 'text'), $alpha: -70%)};
+}
+
+[data-theme="dark"] {
+  --theme-color: #{get-theme-color($selected-theme, 'dark', 'primary')};
+  --theme-color-secondary: #{get-theme-color($selected-theme, 'dark', 'secondary')};
+  --bg-color: #{get-theme-color($selected-theme, 'dark', 'bg')};
+  --text-color: #{get-theme-color($selected-theme, 'dark', 'text')};
+  --blockquote-text-color: #{color.scale(get-theme-color($selected-theme, 'dark', 'text'), $lightness: 20%)};
+  --code-bg-color: #{color.scale(get-theme-color($selected-theme, 'dark', 'bg'), $lightness: 5%)};
+  --border-color: #{color.scale(get-theme-color($selected-theme, 'dark', 'text'), $alpha: -70%)};
+}
+
+$theme-color: get-theme-color($selected-theme, $default-mode, 'primary') !default;
+$theme-color-secondary: get-theme-color($selected-theme, $default-mode, 'secondary') !default;
+$bg-color: get-theme-color($selected-theme, $default-mode, 'bg') !default;
+$text-color: get-theme-color($selected-theme, $default-mode, 'text') !default;
 
 // Headers
-$header-heading-color: $theme-color !default;
-$header-bg-color: $theme-color !default;
-// $header-bg-color-secondary: $theme-color-secondary !default;
+$header-heading-color: $theme-color;
+$header-bg-color: $bg-color;
 
 // Text
-$section-headings-color: $theme-color !default;
-$body-text-color: color.scale($theme-color, $lightness: -20%) !default;
-$body-link-color: $theme-color-secondary !default;
-$blockquote-text-color: color.scale($theme-color, $lightness: -10%) !default;
+$section-headings-color: $theme-color;
+$body-text-color: $text-color;
+$body-link-color: $theme-color-secondary;
+$blockquote-text-color: color.scale($text-color, $lightness: 20%);
+
+// Link colors
+$link-color: $theme-color-secondary !default;
+$link-hover-color: color.scale($link-color, $lightness: 20%) !default;
 
 // Code
-$code-bg-color: color.scale($theme-color, $alpha: -95%, $lightness: 95%) !default;  // Lighter shade for better readability
-$code-text-color: color.scale($theme-color, $lightness: -30%) !default;
+$code-bg-color: color.scale($bg-color, $lightness: if($bg-color == #ffffff, -5%, 5%));
+$code-text-color: $text-color;
 
 // Borders
-$border-color: color.scale($theme-color, $lightness: 80%) !default;
-$table-border-color: color.scale($theme-color, $lightness: 85%) !default;
-$hr-border-color: color.scale($theme-color, $lightness: 90%) !default;
-
-// Theme-based colors
-$primary-color: $theme-color;
-$text-color: $body-text-color;
-$link-color: $body-link-color;
-$indent-level-1: 2em;
-$indent-level-2: 10%;
-$font-family-mono: "Nitti", "Source Code Pro", "Inconsolata", monospace;
-$font-size-base: 14px;
-$line-height-base: 1.4;
+$border-color: color.scale($text-color, $alpha: -70%);
+$table-border-color: color.scale($text-color, $alpha: -70%);
+$hr-border-color: color.scale($text-color, $alpha: -70%);

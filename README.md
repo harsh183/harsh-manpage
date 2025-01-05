@@ -1,5 +1,7 @@
 # Jekyll Theme Manpage
 
+> This theme is in development and not ready to use yet! 
+
 A minimalist Jekyll theme inspired by Linux man pages. Perfect for personal websites, portfolios, and blogs with a technical focus.
 
 ![Preview](assets/readme/preview.png)

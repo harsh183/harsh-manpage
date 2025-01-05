@@ -17,11 +17,11 @@ email(at)example(dot)com
 **Education:** Your Degree [Expected-Year]
 
 **Industry:**
-Company Name [Role][Year]
-Another Company [Role][Year]
+Company Name [Role][Year]   
+Another Company [Role][Year]   
 
 **Research:**
-Lab Name [Position][Year]
+Lab Name [Position][Year]   
 Another Lab [Position][Year]
 
 ## DESCRIPTION
