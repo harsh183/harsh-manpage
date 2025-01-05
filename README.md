@@ -90,21 +90,36 @@ Make sure to name the file with the `YYYY-MM-DD-Title.md`.
 
 #### Color Themes
 
-The theme comes with several preset color schemes. Set your preferred theme in `_sass/variables.scss`:
+The theme comes with several preset color schemes. Currently changing the theme is only supported for local development. 
+
+### Light Themes
+| Theme | Preview |
+|-------|---------|
+| Purple | ![Purple Theme](assets/themes/purple.png) |
+| Tomorrow | ![Tomorrow Theme](assets/themes/tomorrow.png) |
+| GitHub | ![GitHub Theme](assets/themes/github.png) |
+| Dracula | ![Dracula Theme](assets/themes/dracula.png) |
+| Nord | ![Nord Theme](assets/themes/nord.png) |
+| Monokai | ![Monokai Theme](assets/themes/monokai.png) |
+
+### Dark Themes
+| Theme | Preview |
+|-------|---------|
+| Purple | ![Purple Dark Theme](assets/themes/purple_dark.png) |
+| Tomorrow | ![Tomorrow Dark Theme](assets/themes/tomorrow_dark.png) |
+| GitHub | ![GitHub Dark Theme](assets/themes/github_dark.png) |
+| Dracula | ![Dracula Dark Theme](assets/themes/dracula_dark.png) |
+| Nord | ![Nord Dark Theme](assets/themes/nord_dark.png) |
+| Monokai | ![Monokai Dark Theme](assets/themes/monokai_dark.png) |
+
+
+To use any of these themes, update your `_sass/variables.scss`:
 
 ```scss
 // Theme selection
 $default-theme: 'nord';
+$default-mode: 'light';
 ```
-
-| Theme Name      | Preview                                                      |
-|----------------|--------------------------------------------------------------|
-| purple         | ![Purple Theme](assets/themes/purple.png)                     |
-| terminal-green | ![Terminal Green Theme](assets/themes/terminal-green.png)     |
-| ocean-blue     | ![Ocean Blue Theme](assets/themes/ocean_blue.png)            |
-| sunset-orange  | ![Sunset Orange Theme](assets/themes/sunset_orange.png)      |
-| github-dark    | ![GitHub Dark Theme](assets/themes/github_dark.png)          |
-| nord           | ![Nord Theme](assets/themes/nord.png)                        |
 
 #### Typography
 

@@ -104,9 +104,10 @@ $color-themes: (
 );
 
 // Theme selection
-$default-theme: 'monokai' !default;
+$default-theme: 'purple' !default;
+$default-mode: 'light';
 $selected-theme: map.get($color-themes, $default-theme) !default;
-$default-mode: 'dark';
+
 
 // Function to get theme colors based on mode
 @function get-theme-color($theme, $mode, $color) {
