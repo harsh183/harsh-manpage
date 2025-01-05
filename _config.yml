@@ -12,6 +12,10 @@ plugins:
   - jekyll-katex  
   - jekyll-seo-tag
   - jekyll-toc
+  - jekyll-feed
+features:
+  comments: true  # Set to true to enable Giscus comments
+  rss_feed: false  # Set to true to enable RSS feed
 excerpt_separator: "<!--more-->"
 toc:
   min_level: 1 # default: 1

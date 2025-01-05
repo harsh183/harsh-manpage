@@ -20,6 +20,8 @@ A minimalist Jekyll theme inspired by Linux man pages. Perfect for personal webs
 
 ## Installation
 
+### Local Installation
+
 Add this line to your Jekyll site's `Gemfile`:
 
 ```ruby
@@ -36,6 +38,22 @@ Then run
 
 ```bash
 bundle install
+```
+
+### GitHub Pages Installation
+
+For GitHub Pages, add this to your site's `_config.yml`:
+
+```yaml
+remote_theme: drshika/jekyll-theme-manpage
+plugins:
+  - jekyll-remote-theme
+```
+
+Add `jekyll-remote-theme` to the Gemfile:
+
+```ruby:Gemfile
+gem 'jekyll-remote-theme'
 ```
 
 ## Usage
@@ -90,12 +108,40 @@ This theme uses Nitti as its default font. You can purchase Nitti from [Adobe Fo
 
 ## Development
 
-To set up your environment to develop this theme:
+(For local use only!) To set up your environment to develop this theme:
 
 1. Clone this repo
 2. Run `bundle install`
 3. Run `bundle exec jekyll serve`
 4. Visit `http://localhost:4000`
+
+## Optional Features
+
+Enable optional features in your `_config.yml`:
+
+```yaml
+features:
+  comments: false  # Enable Giscus comments
+  rss_feed: false  # Enable RSS feed
+```
+
+### Comments
+
+To enable comments:
+
+1. Set `features.comments: true` in your `_config.yml`
+2. Get your Giscus script from [giscus.app](https://giscus.app)
+3. Paste the generated script into `_includes/comments.html`
+
+Disable comments for specific posts by adding `comments: false` to the post's front matter.
+
+### RSS Feed
+
+To enable RSS feed:
+
+1. Set `features.rss_feed: true` in your `_config.yml`
+
+Your feed will be available at `/feed.xml`. See [Jekyll Feed documentation](https://github.com/jekyll/jekyll-feed) for additional configuration options.
 
 ## Contributing
 
