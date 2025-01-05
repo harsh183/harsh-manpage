@@ -3,6 +3,7 @@ layout: post
 title: LaTeX Mathematical Expressions
 description: Examples of LaTeX math formatting in posts
 tags: [latex, math, equations]
+katex: true
 toc: true
 ---
 
