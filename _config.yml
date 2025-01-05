@@ -7,7 +7,7 @@ theme: jekyll-theme-manpage
 quiet: true
 favicon:
   svg: /assets/images/favicon.svg
-url: "http://127.0.0.1:4000/"
+url: "https://jekyll-theme-manpage.netlify.app"
 plugins:
   - jekyll-katex  
   - jekyll-seo-tag
