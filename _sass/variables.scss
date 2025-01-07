@@ -1,6 +1,4 @@
-@use "sass:map";
 @use "sass:color";
-@use "sass:meta";
 
 // Breakpoints
 $large-breakpoint: 64em !default;
@@ -15,149 +13,49 @@ $font-family-mono: "Nitti", "Source Code Pro", "Inconsolata", monospace;
 $font-size-base: 14px;
 $line-height-base: 1.4;
 
-// Color themes with light/dark variants
-$color-themes: (
-  'purple': (
-    light: (
-      primary: #9366B3,    
-      secondary: #6824de77,
-      bg: #ffffff,
-      text: #2c2c2c
-    ),
-    dark: (
-      primary: #b185d1,    
-      secondary: #9d71e8,  
-      bg: #1a1a1a,
-      text: #f0f0f0
-    )
-  ),
-  'tomorrow': (
-    light: (
-      primary: #4271ae,    
-      secondary: #3e999f,
-      bg: #ffffff,
-      text: #4d4d4c
-    ),
-    dark: (
-      primary: #81a2be,    
-      secondary: #8abeb7,
-      bg: #1d1f21,
-      text: #c5c8c6
-    )
-  ),
-  'github': (
-    light: (
-      primary: #0366d6,    
-      secondary: #1b7c83,
-      bg: #ffffff,
-      text: #24292e
-    ),
-    dark: (
-      primary: #58a6ff,    
-      secondary: #388bfd,
-      bg: #0d1117,
-      text: #c9d1d9
-    )
-  ),
-  'dracula': (
-    light: (
-      primary: #6272a4,    
-      secondary: #bd93f9,
-      bg: #f8f8f2,
-      text: #282a36
-    ),
-    dark: (
-      primary: #bd93f9,    
-      secondary: #6272a4,
-      bg: #282a36,
-      text: #f8f8f2
-    )
-  ),
-  'nord': (
-    light: (
-      primary: #5e81ac,    
-      secondary: #81a1c1,
-      bg: #eceff4,
-      text: #2e3440
-    ),
-    dark: (
-      primary: #88c0d0,    
-      secondary: #81a1c1,
-      bg: #2e3440,
-      text: #eceff4
-    )
-  ),
-  'monokai': (
-    light: (
-      primary: #a6e22e,    
-      secondary: #66d9ef,
-      bg: #fafafa,
-      text: #272822
-    ),
-    dark: (
-      primary: #a6e22e,    
-      secondary: #66d9ef,
-      bg: #272822,
-      text: #f8f8f2
-    )
-  )
-);
-
-// Theme selection
-$default-theme: 'purple' !default;
-$default-mode: 'light';
-$selected-theme: map.get($color-themes, $default-theme) !default;
-
-
-// Function to get theme colors based on mode
-@function get-theme-color($theme, $mode, $color) {
-  @return map.get(map.get($theme, $mode), $color);
-}
-
-[data-theme="light"] {
-  --theme-color: #{get-theme-color($selected-theme, 'light', 'primary')};
-  --theme-color-secondary: #{get-theme-color($selected-theme, 'light', 'secondary')};
-  --bg-color: #{get-theme-color($selected-theme, 'light', 'bg')};
-  --text-color: #{get-theme-color($selected-theme, 'light', 'text')};
-  --blockquote-text-color: #{color.scale(get-theme-color($selected-theme, 'light', 'text'), $lightness: 20%)};
-  --code-bg-color: #{color.scale(get-theme-color($selected-theme, 'light', 'bg'), $lightness: -5%)};
-  --border-color: #{color.scale(get-theme-color($selected-theme, 'light', 'text'), $alpha: -70%)};
-}
-
-[data-theme="dark"] {
-  --theme-color: #{get-theme-color($selected-theme, 'dark', 'primary')};
-  --theme-color-secondary: #{get-theme-color($selected-theme, 'dark', 'secondary')};
-  --bg-color: #{get-theme-color($selected-theme, 'dark', 'bg')};
-  --text-color: #{get-theme-color($selected-theme, 'dark', 'text')};
-  --blockquote-text-color: #{color.scale(get-theme-color($selected-theme, 'dark', 'text'), $lightness: 20%)};
-  --code-bg-color: #{color.scale(get-theme-color($selected-theme, 'dark', 'bg'), $lightness: 5%)};
-  --border-color: #{color.scale(get-theme-color($selected-theme, 'dark', 'text'), $alpha: -70%)};
-}
-
-$theme-color: get-theme-color($selected-theme, $default-mode, 'primary') !default;
-$theme-color-secondary: get-theme-color($selected-theme, $default-mode, 'secondary') !default;
-$bg-color: get-theme-color($selected-theme, $default-mode, 'bg') !default;
-$text-color: get-theme-color($selected-theme, $default-mode, 'text') !default;
+// Theme colors (from skin)
+$theme-color: var(--theme-color) !default;
+$theme-color-secondary: var(--theme-color-secondary) !default;
+$bg-color: var(--bg-color) !default;
+$text-color: var(--text-color) !default;
+$blockquote-text-color: var(--blockquote-text-color) !default;
+$code-bg-color: var(--code-bg-color) !default;
+$border-color: var(--border-color) !default;
+$link-hover-color: var(--link-hover-color) !default;
 
 // Headers
-$header-heading-color: $theme-color;
-$header-bg-color: $bg-color;
+$header-heading-color: var(--theme-color);
+$header-bg-color: var(--bg-color);
 
 // Text
-$section-headings-color: $theme-color;
-$body-text-color: $text-color;
-$body-link-color: $theme-color-secondary;
-$blockquote-text-color: color.scale($text-color, $lightness: 20%);
+$section-headings-color: var(--theme-color);
+$body-text-color: var(--text-color);
+$body-link-color: var(--theme-color);
+$placeholder-color: var(--placeholder-color) !default;
 
 // Link colors
-$link-color: $theme-color-secondary !default;
-$link-hover-color: color.scale($link-color, $lightness: 20%) !default;
+$link-color: var(--link-hover-color);
 
 // Code
-$code-bg-color: color.scale($bg-color, $lightness: if($bg-color == #ffffff, -5%, 5%));
-$code-text-color: $text-color;
+$code-text-color: var(--text-color);
 
 // Borders
-$border-color: color.scale($text-color, $alpha: -70%);
-$table-border-color: color.scale($text-color, $alpha: -70%);
-$hr-border-color: color.scale($text-color, $alpha: -70%);
+$table-border-color: var(--border-color);
+$hr-border-color: var(--border-color);
+
+// Syntax highlighting
+$syntax-comment: var(--syntax-comment) !default;
+$syntax-error: var(--syntax-error) !default;
+$syntax-keyword: var(--syntax-keyword) !default;
+$syntax-operator: var(--syntax-operator) !default;
+$syntax-function: var(--syntax-function) !default;
+$syntax-variable: var(--syntax-variable) !default;
+$syntax-string: var(--syntax-string) !default;
+$syntax-number: var(--syntax-number) !default;
+$syntax-attribute: var(--syntax-attribute) !default;
+$syntax-class: var(--syntax-class) !default;
+$syntax-builtin: var(--syntax-builtin) !default;
+$syntax-namespace: var(--syntax-namespace) !default;
+$syntax-constant: var(--syntax-constant) !default;
+$syntax-deleted: var(--syntax-deleted) !default;
+$syntax-inserted: var(--syntax-inserted) !default;

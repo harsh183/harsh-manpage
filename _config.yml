@@ -4,6 +4,7 @@ author: Your Name
 show_downloads: false
 google_analytics:
 theme: jekyll-theme-manpage
+skin: tomorrow
 quiet: true
 favicon:
   svg: /assets/images/favicon.svg

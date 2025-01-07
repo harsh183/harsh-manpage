@@ -1,11 +1,7 @@
 ---
 ---
 
-@use "sass:map";
-@use "sass:color";
-@use "sass:meta";
-@use "variables" as *;
-
+@forward "skins/{{ site.skin | default: 'nord'}}";
+@use "variables";
 @use "normalize";
-@use "rouge-github";
 @use "jekyll-theme-manpage";

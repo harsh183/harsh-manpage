@@ -1,12 +1,9 @@
-@use "sass:map";
-@use "sass:color";
+// Imports and dependencies
 @use "sass:meta";
 @use "normalize";
-@use "rouge-github";
 @use "variables" as v;
 
 @import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;400;500;600;700&display=swap');
-
 
 // UNCOMMENT THESE IF YOU HAVE NITTI 
 // @font-face {
@@ -34,6 +31,9 @@
 // 	font-style: italic;
 // }
 
+// =============================
+// Mixins
+// =============================
 @mixin large {
   @media screen and (min-width: #{v.$large-breakpoint}) {
     @content;
@@ -52,6 +52,41 @@
   }
 }
 
+@mixin content-wrapper {
+  word-wrap: break-word;
+  
+  :first-child {
+    margin-top: 0;
+  }
+
+  @include large {
+    max-width: 64rem;
+    font-size: 1.1rem;
+  }
+
+  @include medium {
+    font-size: 1.1rem;
+  }
+
+  @include small {
+    font-size: 1rem;
+  }
+}
+
+@mixin code-block {
+  padding: 0.8rem;
+  margin-top: 0;
+  margin-bottom: 1rem;
+  font: 1rem v.$font-family-mono;
+  color: v.$code-text-color;
+  background-color: v.$code-bg-color;
+  border: solid 1px v.$border-color;
+  border-radius: 0.3rem;
+}
+
+// =============================
+// Base Styles
+// =============================
 * {
   box-sizing: border-box;
 }
@@ -59,30 +94,252 @@
 body {
   padding: 0;
   margin: 0;
-  font-family: "Nitti", "Fira Code", monospace;
-  font-size: 14px;
-  line-height: 1.4;
+  font-family: v.$font-family-mono;
+  font-size: v.$font-size-base;
+  line-height: v.$line-height-base;
   color: v.$text-color;
   background-color: v.$bg-color;
 }
 
-.main-content {
-  // Headers
-  h2 {
-    color: v.$theme-color;
-    margin-top: 2em;
+a {
+  color: v.$link-color;
+  text-decoration: none;
+  transition: text-decoration 0.2s ease-in-out;
+  
+  &:hover {
+    text-decoration: underline;
+  }
+}
 
-    &:first-child {
-      margin-top: 0;
+// =============================
+// Layout Components
+// =============================
+.page-header {
+  color: v.$theme-color;
+  text-align: left;
+
+  @include large {
+    max-width: 64rem;
+    padding: 5rem 6rem 0;
+    margin: 0 auto;
+  }
+
+  @include medium {
+    padding: 3rem 4rem 0;
+    margin: 0 auto;
+  }
+
+  @include small {
+    padding: 2rem 1rem 0;
+    margin: 0 auto;
+  }
+}
+
+.project-name {
+  margin-top: 0;
+  margin-bottom: 0.1rem;
+  color: v.$theme-color;
+
+  @include large { font-size: 3.25rem; }
+  @include medium { font-size: 2.25rem; }
+  @include small { font-size: 1.75rem; }
+}
+
+.project-tagline {
+  margin-bottom: 2rem;
+  font-weight: normal;
+  color: v.$blockquote-text-color;
+
+  @include large { font-size: 1.25rem; }
+  @include medium { font-size: 1.15rem; }
+  @include small { font-size: 1rem; }
+}
+
+// Main content styles (shared between .main-content and .main-content-home)
+%content-shared {
+  @include content-wrapper;
+
+  // Typography
+  h1, h2, h3, h4, h5, h6 {
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+    font-weight: normal;
+    color: v.$section-headings-color;
+  }
+
+  p {
+    margin-bottom: 1em;
+  }
+
+  // Code elements
+  code {
+    padding: 2px 4px;
+    font-family: v.$font-family-mono;
+    font-size: 0.9rem;
+    color: v.$code-text-color;
+    background-color: v.$code-bg-color;
+    border-radius: 0.3rem;
+  }
+
+  pre {
+    @include code-block;
+    word-wrap: normal;
+    color: v.$code-text-color;
+    background-color: v.$code-bg-color;
+    border: solid 1px v.$border-color;
+
+    > code {
+      padding: 0;
+      margin: 0;
+      font-size: 0.9rem;
+      word-break: normal;
+      white-space: pre;
+      background: transparent;
+      border: 0;
     }
   }
 
-  // Links
-  a {
-    color: v.$link-color;
+  // Lists and blockquotes
+  ul, ol {
+    margin-top: 0;
+  }
 
-    &:hover {
-      color: v.$link-hover-color;
+  blockquote {
+    padding: 0 1rem;
+    margin-left: 0;
+    color: v.$blockquote-text-color;
+    border-left: 0.3rem solid v.$border-color;
+
+    > :first-child { margin-top: 0; }
+    > :last-child { margin-bottom: 0; }
+  }
+
+  // Tables
+  table {
+    display: block;
+    width: 100%;
+    overflow: auto;
+    border: 1px solid v.$table-border-color;
+    word-break: keep-all;
+    -webkit-overflow-scrolling: touch;
+
+    th {
+      font-weight: bold;
+    }
+
+    th, td {
+      padding: 0.5rem 1rem;
+      border: 1px solid v.$table-border-color;
+    }
+  }
+
+  // Other elements
+  img {
+    max-width: 100%;
+  }
+
+  figcaption {
+    text-align: center;
+  }
+
+  hr {
+    height: 2px;
+    padding: 0;
+    margin: 1rem 0;
+    background-color: v.$hr-border-color;
+    border: 0;
+  }
+
+  kbd {
+    background-color: v.$code-bg-color;
+    border: 1px solid v.$border-color;
+    border-bottom-color: v.$border-color;
+    color: v.$code-text-color;
+    border-radius: 3px;
+    color: v.$code-text-color;
+    display: inline-block;
+    font-size: 11px;
+    line-height: 10px;
+    padding: 3px 5px;
+    vertical-align: middle;
+  }
+}
+
+.main-content {
+  @extend %content-shared;
+
+  @include large {
+    padding: 0 6rem 2rem;
+    margin: 0 auto;
+  }
+
+  @include medium {
+    padding: 0 4rem 2rem;
+  }
+
+  @include small {
+    padding: 0 1rem 2rem;
+  }
+}
+
+.main-content-home {
+  @extend %content-shared;
+
+  @include large {
+    padding: 2rem 6rem;
+    margin: 0 auto;
+  }
+
+  @include medium {
+    padding: 2rem 4rem;
+  }
+
+  @include small {
+    padding: 2rem 1rem;
+  }
+
+  p {
+    margin-left: 10%;
+  }
+}
+
+// =============================
+// Components
+// =============================
+.btn {
+  display: inline-block;
+  margin-bottom: 1rem;
+  color: v.$theme-color;
+  background-color: v.$bg-color;
+  border: 1px solid v.$border-color;
+  border-radius: 0.3rem;
+  transition: color 0.2s, background-color 0.2s, border-color 0.2s;
+
+  &:hover {
+    color: v.$theme-color;
+    text-decoration: none;
+    color: v.$link-hover-color;
+    border-color: v.$theme-color;
+  }
+
+  + .btn {
+    margin-left: 1rem;
+  }
+
+  @include large { padding: 0.75rem 1rem; }
+  @include medium { 
+    padding: 0.6rem 0.9rem;
+    font-size: 0.9rem;
+  }
+  @include small {
+    display: block;
+    width: 100%;
+    padding: 0.75rem;
+    font-size: 0.9rem;
+
+    + .btn {
+      margin-top: 1rem;
+      margin-left: 0;
     }
   }
 }
@@ -90,7 +347,6 @@ body {
 .search-container {
   margin: 1em 0;
   position: relative;
-  padding: 0 0;
 
   input {
     width: 100%;
@@ -101,11 +357,11 @@ body {
     border-radius: 0;
     background: transparent;
     color: v.$text-color;
-    border-bottom: 1px solid color.scale(v.$theme-color, $alpha: -70%);
+    border-bottom: 1px solid v.$border-color;
     transition: all 0.2s ease;
 
     &::placeholder {
-      color: color.scale(v.$text-color, $alpha: -40%);
+      color: v.$placeholder-color;
     }
 
     &:focus {
@@ -125,599 +381,43 @@ body {
   flex-wrap: wrap;
   align-items: center;
   gap: 0.2em;
+}
 
-  .tag-button {
-    background: transparent;
-    border: none;
+.tag-button {
+  background: transparent;
+  border: none;
+  color: v.$theme-color;
+  padding: 0.3em;
+  font-family: v.$font-family-mono;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  position: relative;
+
+  &::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 1px;
+    background-color: v.$theme-color;
+    opacity: 0.3;
+    transition: opacity 0.2s ease;
+  }
+
+  &:hover::after {
+    opacity: 1;
+  }
+
+  &.active {
     color: v.$theme-color;
-    padding: 0.3em;
-    font-family: v.$font-family-mono;
-    cursor: pointer;
-    transition: all 0.2s ease;
-    position: relative;
+    font-weight: 600;
 
     &::after {
-      content: '';
-      position: absolute;
-      bottom: 0;
-      left: 0;
-      width: 100%;
-      height: 1px;
-      background-color: v.$theme-color;
-      opacity: 0.3;
-      transition: opacity 0.2s ease;
-    }
-
-    &:hover::after {
       opacity: 1;
-    }
-
-    &.active {
-      color: v.$theme-color;
-      font-weight: 600;
-
-      &::after {
-        opacity: 1;
-        height: 2px;
-      }
+      height: 2px;
     }
   }
-}
-
-a {
-  color: v.$link-color;
-  
-  &:hover {
-    color: v.$link-hover-color;
-  }
-}
-
-.btn {
-  display: inline-block;
-  margin-bottom: 1rem;
-  color: v.$theme-color;
-  background-color: color.scale(v.$theme-color, $alpha: -90%);
-  border-color: color.scale(v.$theme-color, $alpha: -80%);
-  border-style: solid;
-  border-width: 1px;
-  border-radius: 0.3rem;
-  transition: color 0.2s, background-color 0.2s, border-color 0.2s;
-
-  &:hover {
-    color: v.$theme-color;
-    text-decoration: none;
-    background-color: color.scale(v.$theme-color, $alpha: -80%);
-    border-color: color.scale(v.$theme-color, $alpha: -70%);
-  }
-
-  + .btn {
-    margin-left: 1rem;
-  }
-
-  @include large {
-    padding: 0.75rem 1rem;
-  }
-
-  @include medium {
-    padding: 0.6rem 0.9rem;
-    font-size: 0.9rem;
-  }
-
-  @include small {
-    display: block;
-    width: 100%;
-    padding: 0.75rem;
-    font-size: 0.9rem;
-
-    + .btn {
-      margin-top: 1rem;
-      margin-left: 0;
-    }
-  }
-}
-
-.page-header {
-  color: v.$theme-color;
-  text-align: left;
-
-  @include large {
-    max-width: 64rem;
-    padding: 5rem 6rem;
-    padding-bottom: 0rem;
-    margin: 0 auto;
-  }
-
-  @include medium {
-    padding: 3rem 4rem;
-    padding-bottom: 0rem;
-    margin: 0 auto;
-  }
-
-  @include small {
-    padding: 2rem 1rem;
-    padding-bottom: 0rem;
-    margin: 0 auto;
-  }
-}
-
-.project-name {
-  margin-top: 0;
-  margin-bottom: 0.1rem;
-  color: v.$theme-color;
-
-  @include large {
-    font-size: 3.25rem;
-  }
-
-  @include medium {
-    font-size: 2.25rem;
-  }
-
-  @include small {
-    font-size: 1.75rem;
-  }
-}
-
-.project-tagline {
-  margin-bottom: 2rem;
-  font-weight: normal;
-  color: color.scale(v.$text-color, $alpha: -30%);
-
-  @include large {
-    font-size: 1.25rem;
-  }
-
-  @include medium {
-    font-size: 1.15rem;
-  }
-
-  @include small {
-    font-size: 1rem;
-  }
-}
-
-.main-content {
-  word-wrap: break-word;
-
-  :first-child {
-    margin-top: 0;
-  }
-
-  @include large {
-    max-width: 64rem;
-    padding: 0 6rem 2rem 6rem;
-    margin: 0 auto;
-    font-size: 1.1rem;
-  }
-
-  @include medium {
-    padding: 0 4rem 2rem 4rem;
-    font-size: 1.1rem;
-  }
-
-  @include small {
-    padding: 0 1rem 2rem 1rem;
-    font-size: 1rem;
-  }
-  
-  kbd {
-    background-color: v.$code-bg-color;
-    border: 1px solid v.$border-color;
-    border-bottom-color: color.adjust(v.$border-color, $lightness: -10%);
-    border-radius: 3px;
-    box-shadow: inset 0 -1px 0 color.adjust(v.$border-color, $lightness: -10%);
-    color: v.$code-text-color;
-    display: inline-block;
-    font-size: 11px;
-    line-height: 10px;
-    padding: 3px 5px;
-    vertical-align: middle;
-  }
-
-  img {
-    max-width: 100%;
-  }
-
-  h1,
-  h2,
-  h3,
-  h4,
-  h5,
-  h6 {
-    margin-top: 2rem;
-    margin-bottom: 1rem;
-    font-weight: normal;
-    color: v.$section-headings-color;
-  }
-
-  p {
-    margin-bottom: 1em;
-  }
-
-  figcaption {
-    text-align: center;
-  }
-
-  code {
-    padding: 2px 4px;
-    font-family: "Nitti", "Fira Code", monospace;
-    font-size: 0.9rem;
-    color: v.$code-text-color;
-    background-color: v.$code-bg-color;
-    border-radius: 0.3rem;
-  }
-
-  pre {
-    padding: 0.8rem;
-    margin-top: 0;
-    margin-bottom: 1rem;
-    font: 1rem "Nitti", "Fira Code", monospace;
-    word-wrap: normal;
-    color: v.$code-text-color;
-    background-color: v.$code-bg-color;
-    border: solid 1px v.$border-color;
-    border-radius: 0.3rem;
-
-    > code {
-      padding: 0;
-      margin: 0;
-      font-size: 0.9rem;
-      word-break: normal;
-      white-space: pre;
-      background: transparent;
-      border: 0;
-    }
-  }
-
-  .highlight {
-    margin-bottom: 1rem;
-
-    pre {
-      margin-bottom: 0;
-      word-break: normal;
-    }
-  }
-
-  .highlight pre,
-  pre {
-    padding: 0.8rem;
-    overflow: auto;
-    font-size: 0.9rem;
-    line-height: 1.45;
-    border-radius: 0.3rem;
-    -webkit-overflow-scrolling: touch;
-  }
-
-  pre code,
-  pre tt {
-    display: inline;
-    max-width: initial;
-    padding: 0;
-    margin: 0;
-    overflow: initial;
-    line-height: inherit;
-    word-wrap: normal;
-    background-color: transparent;
-    border: 0;
-
-    &:before,
-    &:after {
-      content: normal;
-    }
-  }
-
-  ul,
-  ol {
-    margin-top: 0;
-  }
-
-  blockquote {
-    padding: 0 1rem;
-    margin-left: 0;
-    color: v.$blockquote-text-color;
-    border-left: 0.3rem solid v.$border-color;
-
-    > :first-child {
-      margin-top: 0;
-    }
-
-    > :last-child {
-      margin-bottom: 0;
-    }
-  }
-
-  table {
-    display: block;
-    width: 100%;
-    overflow: auto;
-    word-break: normal;
-    word-break: keep-all;
-    -webkit-overflow-scrolling: touch;
-
-    th {
-      font-weight: bold;
-    }
-
-    th,
-    td {
-      padding: 0.5rem 1rem;
-      border: 1px solid v.$table-border-color;
-    }
-  }
-
-  dl {
-    padding: 0;
-
-    dt {
-      padding: 0;
-      margin-top: 1rem;
-      font-size: 1rem;
-      font-weight: bold;
-    }
-
-    dd {
-      padding: 0;
-      margin-bottom: 1rem;
-    }
-  }
-
-  hr {
-    height: 2px;
-    padding: 0;
-    margin: 1rem 0;
-    background-color: v.$hr-border-color;
-    border: 0;
-  }
-}
-
-.site-footer {
-  padding-top: 2rem;
-  margin-top: 2rem;
-  border-top: solid 1px v.$hr-border-color;
-
-  @include large {
-    font-size: 1rem;
-  }
-
-  @include medium {
-    font-size: 1rem;
-  }
-
-  @include small {
-    font-size: 0.9rem;
-  }
-}
-
-.site-footer-owner {
-  display: block;
-  font-weight: bold;
-}
-
-.site-footer-credits {
-  color: v.$blockquote-text-color;
-}
-
-.main-content-home {
-  word-wrap: break-word;
-
-  :first-child {
-    margin-top: 0;
-  }
-
-  @include large {
-    max-width: 64rem;
-    padding: 2rem 6rem;
-    margin: 0 auto;
-    font-size: 1.1rem;
-  }
-
-  @include medium {
-    padding: 2rem 4rem;
-    font-size: 1.1rem;
-  }
-
-  @include small {
-    padding: 2rem 1rem;
-    font-size: 1rem;
-  }
-  
-  kbd {
-    background-color: v.$code-bg-color;
-    border: 1px solid v.$border-color;
-    border-bottom-color: color.adjust(v.$border-color, $lightness: -10%);
-    border-radius: 3px;
-    box-shadow: inset 0 -1px 0 color.adjust(v.$border-color, $lightness: -10%);
-    color: v.$code-text-color;
-    display: inline-block;
-    font-size: 11px;
-    line-height: 10px;
-    padding: 3px 5px;
-    vertical-align: middle;
-  }
-
-  img {
-    max-width: 100%;
-  }
-
-  h1,
-  h2,
-  h3,
-  h4,
-  h5,
-  h6 {
-    margin-top: 2rem;
-    margin-bottom: 1rem;
-    font-weight: normal;
-    color: v.$section-headings-color;
-  }
-
-  p {
-    margin-bottom: 1em;
-    margin-left: 10%;
-  }
-
-  figcaption {
-    text-align: center;
-  }
-
-  code {
-    padding: 2px 4px;
-    font-family: "Nitti", "Fira Code", monospace;
-    font-size: 0.9rem;
-    color: v.$code-text-color;
-    background-color: v.$code-bg-color;
-    border-radius: 0.3rem;
-  }
-
-  pre {
-    padding: 0.8rem;
-    margin-top: 0;
-    margin-bottom: 1rem;
-    font: 1rem "Nitti", "Fira Code", monospace;
-    color: v.$code-text-color;
-    word-wrap: normal;
-    background-color: v.$code-bg-color;
-    border: solid 1px v.$border-color;
-    border-radius: 0.3rem;
-
-    > code {
-      padding: 0;
-      margin: 0;
-      font-size: 0.9rem;
-      color: v.$code-text-color;
-      word-break: normal;
-      white-space: pre;
-      background: transparent;
-      border: 0;
-    }
-  }
-
-  .highlight {
-    margin-bottom: 1rem;
-
-    pre {
-      margin-bottom: 0;
-      word-break: normal;
-    }
-  }
-
-  .highlight pre,
-  pre {
-    padding: 0.8rem;
-    overflow: auto;
-    font-size: 0.9rem;
-    line-height: 1.45;
-    border-radius: 0.3rem;
-    -webkit-overflow-scrolling: touch;
-  }
-
-  pre code,
-  pre tt {
-    display: inline;
-    max-width: initial;
-    padding: 0;
-    margin: 0;
-    overflow: initial;
-    line-height: inherit;
-    word-wrap: normal;
-    background-color: transparent;
-    border: 0;
-
-    &:before,
-    &:after {
-      content: normal;
-    }
-  }
-
-  ul,
-  ol {
-    margin-top: 0;
-  }
-
-  blockquote {
-    padding: 0 1rem;
-    margin-left: 0;
-    color: v.$blockquote-text-color;
-    border-left: 0.3rem solid v.$border-color;
-
-    > :first-child {
-      margin-top: 0;
-    }
-
-    > :last-child {
-      margin-bottom: 0;
-    }
-  }
-
-  table {
-    display: block;
-    width: 100%;
-    overflow: auto;
-    word-break: normal;
-    word-break: keep-all; // For Firefox to horizontally scroll wider tables.
-    -webkit-overflow-scrolling: touch;
-
-    th {
-      font-weight: bold;
-    }
-
-    th,
-    td {
-      padding: 0.5rem 1rem;
-      border: 1px solid v.$table-border-color;
-    }
-  }
-
-  dl {
-    padding: 0;
-
-    dt {
-      padding: 0;
-      margin-top: 1rem;
-      font-size: 1rem;
-      font-weight: bold;
-    }
-
-    dd {
-      padding: 0;
-      margin-bottom: 1rem;
-    }
-  }
-
-  hr {
-    height: 2px;
-    padding: 0;
-    margin: 1rem 0;
-    background-color: v.$hr-border-color;
-    border: 0;
-  }
-}
-
-.site-footer {
-  padding-top: 2rem;
-  margin-top: 2rem;
-  border-top: solid 1px v.$hr-border-color;
-
-  @include large {
-    font-size: 1rem;
-  }
-
-  @include medium {
-    font-size: 1rem;
-  }
-
-  @include small {
-    font-size: 0.9rem;
-  }
-}
-
-.site-footer-owner {
-  display: block;
-  font-weight: bold;
-}
-
-.site-footer-credits {
-  color: v.$blockquote-text-color;
 }
 
 .posts-container {
@@ -764,20 +464,6 @@ a {
   }
 }
 
-.hidden {
-  display: none;
-}
-
-.back-link {
-  color: v.$theme-color;
-  text-decoration: none;
-  font-family: v.$font-family-mono;
-
-  &:hover {
-    text-decoration: underline;
-  }
-}
-
 .toc {
   background: rgba(v.$theme-color, 0.05);
   padding: 1.5rem;
@@ -797,7 +483,7 @@ a {
     margin: 0;
 
     li {
-      margin: 0.5rem 0; // Consistent spacing for all levels
+      margin: 0.5rem 0;
       
       a {
         color: v.$body-text-color;
@@ -808,24 +494,121 @@ a {
           color: v.$theme-color;
         }
       }
-    }
 
-    // Indent nested levels while maintaining vertical spacing
-    ul {
-      padding-left: 1.5rem;
-      margin: 0; // Remove default margins
-      
-      li {
-        margin: 0.5rem 0; // Same spacing as parent level
+      ul {
+        padding-left: 1.5rem;
+        margin: 0;
         
-        &:first-child {
-          margin-top: 0.5rem; // Consistent spacing after parent
-        }
-        
-        &:last-child {
-          margin-bottom: 0.5rem; // Consistent spacing before next parent
+        li {
+          margin: 0.5rem 0;
+          
+          &:first-child { margin-top: 0.5rem; }
+          &:last-child { margin-bottom: 0.5rem; }
         }
       }
     }
   }
+}
+
+// =============================
+// Footer
+// =============================
+.site-footer {
+  padding-top: 2rem;
+  margin-top: 2rem;
+  border-top: solid 1px v.$hr-border-color;
+
+  @include large { font-size: 1rem; }
+  @include medium { font-size: 1rem; }
+  @include small { font-size: 0.9rem; }
+}
+
+.site-footer-owner {
+  display: block;
+  font-weight: bold;
+}
+
+.site-footer-credits {
+  color: v.$blockquote-text-color;
+}
+
+// =============================
+// Utility Classes
+// =============================
+.hidden {
+  display: none;
+}
+
+.back-link {
+  color: v.$theme-color;
+  text-decoration: none;
+
+  &:hover {
+    text-decoration: underline;
+  }
+}
+
+.highlight {
+  .hll { background-color: v.$code-bg-color; }
+  
+  // Comments
+  .c, .cm, .c1, .cs { 
+    color: v.$syntax-comment; 
+    font-style: italic; 
+  }
+  
+  // Errors and Warnings
+  .err { 
+    color: v.$syntax-error; 
+    background-color: v.$code-bg-color; 
+  }
+  
+  // Keywords
+  .k, .kc, .kd, .kn, .kr, .kp, .ow { 
+    color: v.$syntax-keyword; 
+    font-weight: bold; 
+  }
+  
+  // Operators and Punctuation
+  .o { color: v.$syntax-operator; }
+  
+  // Functions and Classes
+  .nf { color: v.$syntax-function; }
+  .nc { 
+    color: v.$syntax-class; 
+    font-weight: bold; 
+  }
+  
+  // Variables
+  .nv, .vc, .vg, .vi { color: v.$syntax-variable; }
+  
+  // Strings
+  .s, .sb, .sc, .s2, .sh, .s1, .sx { color: v.$syntax-string; }
+  
+  // Numbers
+  .m, .mf, .mh, .mi, .mo, .il { color: v.$syntax-number; }
+  
+  // Attributes and Decorators
+  .na, .nd { color: v.$syntax-attribute; }
+  
+  // Built-ins
+  .nb, .bp { color: v.$syntax-builtin; }
+  
+  // Namespace
+  .nn { 
+    color: v.$syntax-namespace; 
+    font-weight: bold; 
+  }
+  
+  // Constants
+  .no { color: v.$syntax-constant; }
+  
+  // Deleted/Inserted
+  .gd { color: v.$syntax-deleted; }
+  .gi { color: v.$syntax-inserted; }
+  
+  // Other styles
+  .w { color: v.$text-color; }
+  .gs { font-weight: bold; }
+  .ge { font-style: italic; }
 }
