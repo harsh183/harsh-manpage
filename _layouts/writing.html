@@ -22,11 +22,15 @@
 
     <!-- Tag filter -->
     <div class="tag-container" {% unless site.features.tags %}style="display: none;" {% endunless %}>
-      {% assign tags = site.tags | sort %}
-      {% for tag in tags %}
-      <button class="tag-button" data-tag="{{ tag[0] }}">
-        {{ tag[0] }} ({{ tag[1].size }})
-      </button>
+      {% capture tags_string %}{% for tag in site.tags %}{{ tag | first }}:{{ tag | last | size }}|{% endfor %}{% endcapture %}
+      {% assign tags = tags_string | split: '|' | pop | sort | reverse %}
+      {% for tag_info in tags %}
+        {% assign tag_parts = tag_info | split: ':' %}
+        {% assign tag_name = tag_parts[0] | strip %}
+        {% assign tag_count = tag_parts[1] | strip %}
+        <button class="tag-button" data-tag="{{ tag_name }}">
+          {{ tag_name }} ({{ tag_count }})
+        </button>
       {% endfor %}
     </div>
   </header>

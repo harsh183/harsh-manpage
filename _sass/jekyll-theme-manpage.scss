@@ -7,28 +7,31 @@
 
 //UNCOMMENT THESE IF YOU HAVE NITTI 
 @font-face {
-	font-family: 'Nitti';
-	src: url('../../assets/fonts/Nitti-Normal.otf') format('truetype');
-	font-weight: normal;
-	font-style: normal;
+  font-family: 'Nitti';
+  src: url('../../assets/fonts/Nitti-Normal.otf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
 }
+
 @font-face {
-	font-family: 'Nitti';
-	src: url('../../assets/fonts/Nitti-NormalItalic.otf') format('truetype');
-	font-weight: normal;
-	font-style: italic;
+  font-family: 'Nitti';
+  src: url('../../assets/fonts/Nitti-NormalItalic.otf') format('truetype');
+  font-weight: normal;
+  font-style: italic;
 }
+
 @font-face {
-	font-family: 'Nitti';
-	src: url('../../assets/fonts/Nitti-Bold.otf') format('truetype');
-	font-weight: bold;
-	font-style: normal;
+  font-family: 'Nitti';
+  src: url('../../assets/fonts/Nitti-Bold.otf') format('truetype');
+  font-weight: bold;
+  font-style: normal;
 }
+
 @font-face {
-	font-family: 'Nitti';
-	src: url('../../assets/fonts/Nitti-BoldItalic.otf') format('truetype');
-	font-weight: bold;
-	font-style: italic;
+  font-family: 'Nitti';
+  src: url('../../assets/fonts/Nitti-BoldItalic.otf') format('truetype');
+  font-weight: bold;
+  font-style: italic;
 }
 
 // =============================
@@ -54,7 +57,7 @@
 
 @mixin content-wrapper {
   word-wrap: break-word;
-  
+
   :first-child {
     margin-top: 0;
   }
@@ -87,6 +90,14 @@
 // =============================
 // Base Styles
 // =============================
+:root {
+  color-scheme: light;
+}
+
+[data-theme="dark"] {
+  color-scheme: dark;
+}
+
 * {
   box-sizing: border-box;
 }
@@ -105,7 +116,7 @@ a {
   color: v.$link-color;
   text-decoration: none;
   transition: text-decoration 0.2s ease-in-out;
-  
+
   &:hover {
     text-decoration: underline;
   }
@@ -140,9 +151,17 @@ a {
   margin-bottom: 0.1rem;
   color: v.$theme-color;
 
-  @include large { font-size: 3.25rem; }
-  @include medium { font-size: 2.25rem; }
-  @include small { font-size: 1.75rem; }
+  @include large {
+    font-size: 3.25rem;
+  }
+
+  @include medium {
+    font-size: 2.25rem;
+  }
+
+  @include small {
+    font-size: 1.75rem;
+  }
 }
 
 .project-tagline {
@@ -150,9 +169,17 @@ a {
   font-weight: normal;
   color: v.$blockquote-text-color;
 
-  @include large { font-size: 1.25rem; }
-  @include medium { font-size: 1.15rem; }
-  @include small { font-size: 1rem; }
+  @include large {
+    font-size: 1.25rem;
+  }
+
+  @include medium {
+    font-size: 1.15rem;
+  }
+
+  @include small {
+    font-size: 1rem;
+  }
 }
 
 // Main content styles (shared between .main-content and .main-content-home)
@@ -160,7 +187,12 @@ a {
   @include content-wrapper;
 
   // Typography
-  h1, h2, h3, h4, h5, h6 {
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
     margin-top: 2rem;
     margin-bottom: 1rem;
     font-weight: normal;
@@ -188,7 +220,7 @@ a {
     background-color: v.$code-bg-color;
     border: solid 1px v.$border-color;
 
-    > code {
+    >code {
       padding: 0;
       margin: 0;
       font-size: 0.9rem;
@@ -200,7 +232,8 @@ a {
   }
 
   // Lists and blockquotes
-  ul, ol {
+  ul,
+  ol {
     margin-top: 0;
   }
 
@@ -210,8 +243,13 @@ a {
     color: v.$blockquote-text-color;
     border-left: 0.3rem solid v.$border-color;
 
-    > :first-child { margin-top: 0; }
-    > :last-child { margin-bottom: 0; }
+    > :first-child {
+      margin-top: 0;
+    }
+
+    > :last-child {
+      margin-bottom: 0;
+    }
   }
 
   // Tables
@@ -227,7 +265,8 @@ a {
       font-weight: bold;
     }
 
-    th, td {
+    th,
+    td {
       padding: 0.5rem 1rem;
       border: 1px solid v.$table-border-color;
     }
@@ -263,6 +302,7 @@ a {
     padding: 3px 5px;
     vertical-align: middle;
   }
+  
 }
 
 .main-content {
@@ -322,22 +362,26 @@ a {
     border-color: v.$theme-color;
   }
 
-  + .btn {
+  +.btn {
     margin-left: 1rem;
   }
 
-  @include large { padding: 0.75rem 1rem; }
-  @include medium { 
+  @include large {
+    padding: 0.75rem 1rem;
+  }
+
+  @include medium {
     padding: 0.6rem 0.9rem;
     font-size: 0.9rem;
   }
+
   @include small {
     display: block;
     width: 100%;
     padding: 0.75rem;
     font-size: 0.9rem;
 
-    + .btn {
+    +.btn {
       margin-top: 1rem;
       margin-left: 0;
     }
@@ -450,7 +494,7 @@ a {
     margin-right: 0.8em;
     font-size: 0.8em;
     position: relative;
-    
+
     &::after {
       content: '';
       position: absolute;
@@ -484,7 +528,7 @@ a {
 
     li {
       margin: 0.5rem 0;
-      
+
       a {
         color: v.$body-text-color;
         text-decoration: none;
@@ -498,12 +542,17 @@ a {
       ul {
         padding-left: 1.5rem;
         margin: 0;
-        
+
         li {
           margin: 0.5rem 0;
-          
-          &:first-child { margin-top: 0.5rem; }
-          &:last-child { margin-bottom: 0.5rem; }
+
+          &:first-child {
+            margin-top: 0.5rem;
+          }
+
+          &:last-child {
+            margin-bottom: 0.5rem;
+          }
         }
       }
     }
@@ -527,25 +576,25 @@ a {
 .sub-header {
   color: v.$theme-color;
   margin-left: 2em;
-} 
+}
 
 .social-links {
   margin-left: 10%;
   color: v.$theme-color;
-  
+
   a {
     color: inherit;
     text-decoration: none;
-    
+
     &:hover {
       text-decoration: underline;
     }
   }
-  
+
   .link-group {
     display: inline-block;
     margin-right: 1rem;
-    
+
     &:last-child {
       margin-right: 0;
     }
@@ -554,26 +603,49 @@ a {
 
 .fun-facts {
   margin-left: 10%;
-  
+
   .fact-item {
     margin-bottom: 0.5rem;
-    
+
     // Style for the numbered brackets
     &::before {
       color: v.$theme-color;
     }
-    
+
     // Last item (nullptr) styling
     &:last-child {
       margin-left: 0%;
       color: v.$theme-color;
     }
   }
-  
+
   .arrow {
     margin-left: .7rem;
     color: v.$theme-color;
     padding: 0.3 rem 0;
+  }
+}
+
+#scrollToTop {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 30px;
+  z-index: 99;
+  border: none;
+  outline: none;
+  background-color: v.$theme-color;
+  color: v.$bg-color;
+  cursor: pointer;
+  padding: 15px;
+  border-radius: 50%;
+  font-size: v.$font-size-base;
+  width: 50px;
+  height: 50px;
+  transition: background-color 0.3s;
+
+  &:hover {
+    background-color: v.$theme-color-secondary;
   }
 }
 
@@ -585,9 +657,17 @@ a {
   margin-top: 2rem;
   border-top: solid 1px v.$hr-border-color;
 
-  @include large { font-size: 1rem; }
-  @include medium { font-size: 1rem; }
-  @include small { font-size: 0.9rem; }
+  @include large {
+    font-size: 1rem;
+  }
+
+  @include medium {
+    font-size: 1rem;
+  }
+
+  @include small {
+    font-size: 0.9rem;
+  }
 }
 
 .site-footer-owner {
@@ -616,66 +696,123 @@ a {
 }
 
 .highlight {
-  .hll { background-color: v.$code-bg-color; }
-  
+  .hll {
+    background-color: v.$code-bg-color;
+  }
+
   // Comments
-  .c, .cm, .c1, .cs { 
-    color: v.$syntax-comment; 
-    font-style: italic; 
+  .c,
+  .cm,
+  .c1,
+  .cs {
+    color: v.$syntax-comment;
+    font-style: italic;
   }
-  
+
   // Errors and Warnings
-  .err { 
-    color: v.$syntax-error; 
-    background-color: v.$code-bg-color; 
+  .err {
+    color: v.$syntax-error;
+    background-color: v.$code-bg-color;
   }
-  
+
   // Keywords
-  .k, .kc, .kd, .kn, .kr, .kp, .ow { 
-    color: v.$syntax-keyword; 
-    font-weight: bold; 
+  .k,
+  .kc,
+  .kd,
+  .kn,
+  .kr,
+  .kp,
+  .ow {
+    color: v.$syntax-keyword;
+    font-weight: bold;
   }
-  
+
   // Operators and Punctuation
-  .o { color: v.$syntax-operator; }
-  
+  .o {
+    color: v.$syntax-operator;
+  }
+
   // Functions and Classes
-  .nf { color: v.$syntax-function; }
-  .nc { 
-    color: v.$syntax-class; 
-    font-weight: bold; 
+  .nf {
+    color: v.$syntax-function;
   }
-  
+
+  .nc {
+    color: v.$syntax-class;
+    font-weight: bold;
+  }
+
   // Variables
-  .nv, .vc, .vg, .vi { color: v.$syntax-variable; }
-  
-  // Strings
-  .s, .sb, .sc, .s2, .sh, .s1, .sx { color: v.$syntax-string; }
-  
-  // Numbers
-  .m, .mf, .mh, .mi, .mo, .il { color: v.$syntax-number; }
-  
-  // Attributes and Decorators
-  .na, .nd { color: v.$syntax-attribute; }
-  
-  // Built-ins
-  .nb, .bp { color: v.$syntax-builtin; }
-  
-  // Namespace
-  .nn { 
-    color: v.$syntax-namespace; 
-    font-weight: bold; 
+  .nv,
+  .vc,
+  .vg,
+  .vi {
+    color: v.$syntax-variable;
   }
-  
+
+  // Strings
+  .s,
+  .sb,
+  .sc,
+  .s2,
+  .sh,
+  .s1,
+  .sx {
+    color: v.$syntax-string;
+  }
+
+  // Numbers
+  .m,
+  .mf,
+  .mh,
+  .mi,
+  .mo,
+  .il {
+    color: v.$syntax-number;
+  }
+
+  // Attributes and Decorators
+  .na,
+  .nd {
+    color: v.$syntax-attribute;
+  }
+
+  // Built-ins
+  .nb,
+  .bp {
+    color: v.$syntax-builtin;
+  }
+
+  // Namespace
+  .nn {
+    color: v.$syntax-namespace;
+    font-weight: bold;
+  }
+
   // Constants
-  .no { color: v.$syntax-constant; }
-  
+  .no {
+    color: v.$syntax-constant;
+  }
+
   // Deleted/Inserted
-  .gd { color: v.$syntax-deleted; }
-  .gi { color: v.$syntax-inserted; }
-  
+  .gd {
+    color: v.$syntax-deleted;
+  }
+
+  .gi {
+    color: v.$syntax-inserted;
+  }
+
   // Other styles
-  .w { color: v.$text-color; }
-  .gs { font-weight: bold; }
-  .ge { font-style: italic; }
+  .w {
+    color: v.$text-color;
+  }
+
+  .gs {
+    font-weight: bold;
+  }
+
+  .ge {
+    font-style: italic;
+  }
 }

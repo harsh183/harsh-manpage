@@ -15,17 +15,49 @@
 
   <main id="content" class="main-content" role="main">
     {{ content }}
-    <div>
-    </div>
+    <button id="scrollToTop" title="Go to top">↑</button>
     <footer class="site-footer">
-      
+
       {% if page.layout == 'post' %}
       <a href="/writing" class="back-link">← back to Writing</a>
-          {% else %}
-          <span class="site-footer-credits" style="text-align: center;">{{ site.author }}, 2025</span>
-              {% endif %}
+      {% else %}
+      <span class="site-footer-credits" style="text-align: center;">{{ site.author }}, 2025</span>
+      {% endif %}
     </footer>
   </main>
+  <script>
+    console.log({
+      'data-theme': document.documentElement.getAttribute('data-theme'),
+      'color-scheme': document.documentElement.getAttribute('color-scheme'),
+      'root-bg': getComputedStyle(document.documentElement).getPropertyValue('--bg-color'),
+      'root-color': getComputedStyle(document.documentElement).getPropertyValue('--text-color')
+    });
+  </script>
+  <script>
+    {% if site.features.back_to_top %}
+    document.addEventListener('DOMContentLoaded', function () {
+      // Get the button
+      const scrollButton = document.getElementById("scrollToTop");
+
+      if (scrollButton) {
+        // Show button when user scrolls down 20px from top
+        window.onscroll = function () {
+          if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+            scrollButton.style.display = "block";
+          } else {
+            scrollButton.style.display = "none";
+          }
+        };
+
+        // Scroll to top when button is clicked
+        scrollButton.onclick = function () {
+          document.body.scrollTop = 0; // For Safari
+          document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
+        };
+      }
+    });
+  </script>
+  {% endif %}
 </body>
 
 </html>

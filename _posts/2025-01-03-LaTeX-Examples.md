@@ -15,8 +15,8 @@ This post demonstrates how to use LaTeX for mathematical expressions and equatio
 
 ## Inline Math
 
-You can write inline equations like this: $E = mc^2$ or $\pi r^2$
-
+You can write inline equations like this: $E = mc^2$ or $x^2 + y^2 = r^2$
+ 
 ## Block Equations
 
 For larger equations, use double dollar signs:

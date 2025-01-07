@@ -10,6 +10,7 @@ $code-bg-color-light: #f7f7f7;          // Lighter Background
 $border-color-light: rgba(77, 77, 76, 0.3);
 $link-hover-color-light: #c82829;       // Red
 $placeholder-color-light: #969896;
+$highlight-color-light: rgba(#4271ae, 0.15);
 
 // Dark mode base colors
 $dark-theme-color: #81a2be;         // Light Blue
@@ -23,6 +24,7 @@ $code-bg-color-dark: #282a2e;          // Selection Background
 $border-color-dark: rgba(197, 200, 198, 0.3);
 $link-hover-color-dark: #cc6666;       // Light Red
 $placeholder-color-dark: #81a2be;
+$highlight-color-dark: rgba(#81a2be, 0.2);
 
 // Light mode syntax colors
 $syntax-comment-light: #8e908c;    // Comment Gray
@@ -83,6 +85,7 @@ $syntax-inserted-dark: #b5bd68;    // Green
   --syntax-constant: #{$syntax-constant-light};
   --syntax-deleted: #{$syntax-deleted-light};
   --syntax-inserted: #{$syntax-inserted-light};
+  --highlight-color: #{$highlight-color-light};
 }
 
 
@@ -111,4 +114,5 @@ $syntax-inserted-dark: #b5bd68;    // Green
   --syntax-constant: #{$syntax-constant-dark};
   --syntax-deleted: #{$syntax-deleted-dark};
   --syntax-inserted: #{$syntax-inserted-dark};
+  --highlight-color: #{$highlight-color-dark};
 }
