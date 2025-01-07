@@ -1,6 +1,6 @@
 ---
 layout: home
-title: Jekyll Theme Manpage
+title: → ~ man jekyll-manpage
 terminal_name: username
 ---
 
@@ -46,7 +46,7 @@ Successfully convinced the office plant that my code was working as intended. Th
 Set new record: Found missing semicolon after only 3 hours of searching.
 
 
-[-> Read older news](/news-archive)
+[→ Read older news](/news-archive)
 
 ## RESEARCH
 

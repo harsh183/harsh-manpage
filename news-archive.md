@@ -19,4 +19,4 @@ Attempted to fix printer by performing ancient debugging ritual. Printer now onl
 {: .news}
 Discovered that my code runs faster when I threaten it with PHP. Ethical concerns have been raised about this approach.
 
-[<- Back to homepage](/)
+[← Back to homepage](/)

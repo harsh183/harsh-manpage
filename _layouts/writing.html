@@ -13,7 +13,7 @@
 
 <body>
   <header class="page-header">
-    <h1 class="project-name">-> ~ ls -lt /writing</h1>
+    <h1 class="project-name">→ ~ ls -lt /writing</h1>
 
     <!-- Search bar -->
     <div class="search-container" {% unless site.features.search %}style="display: none;" {% endunless %}>
@@ -60,64 +60,110 @@
     </div>
 
     <footer class="site-footer">
-      <a href="/" class="back-link"><- back to Home</a>
+      <a href="/" class="back-link">← back to Home</a>
     </footer>
   </main>
 
-  <!-- Search and filter script -->
-  <script>
-    document.addEventListener('DOMContentLoaded', function () {
-      const searchInput = document.getElementById('search-input')
-      const posts = document.querySelectorAll('.post-preview')
-      const noResults = document.getElementById('no-results')
-      const tagButtons = document.querySelectorAll('.tag-button')
-      const activeTags = new Set()
+<!-- ... existing code ... -->
 
-      function filterPosts() {
-        const searchTerm = searchInput.value.toLowerCase()
-        let visiblePosts = 0
+<!-- Search and filter script -->
+<script>
+  document.addEventListener('DOMContentLoaded', function () {
+    const searchInput = document.getElementById('search-input')
+    const postsContainer = document.querySelector('.posts-container')
+    const noResults = document.getElementById('no-results')
+    const tagButtons = document.querySelectorAll('.tag-button')
+    const activeTags = new Set()
+    let searchIndex = null
 
-        posts.forEach(post => {
-          const postText = post.textContent.toLowerCase()
-          const postTags = new Set(post.dataset.tags.split(' '))
-          const matchesSearch = postText.includes(searchTerm)
-
-          // If no tags are selected, show all posts that match search
-          // If tags are selected, post must have ALL selected tags
-          const matchesTags = activeTags.size === 0 ||
-            Array.from(activeTags).every(tag => postTags.has(tag))
-
-          if (matchesSearch && matchesTags) {
-            post.style.display = ''
-            visiblePosts++
-          } else {
-            post.style.display = 'none'
-          }
-        })
-
-        noResults.classList.toggle('hidden', visiblePosts > 0)
+    // Load and cache search index
+    async function loadSearchIndex() {
+      if (searchIndex) return searchIndex
+      
+      try {
+        const response = await fetch('/search_index.json')
+        searchIndex = await response.json()
+        return searchIndex
+      } catch (error) {
+        console.error('Error loading search index:', error)
+        return { posts: [] }
       }
+    }
 
-      searchInput.addEventListener('input', filterPosts)
+    function renderPost(post) {
+      return `
+        <article class="post-preview" data-tags="${post.tags.join(' ')}">
+          <h2>
+            <span class="post-date">${post.date}</span>
+            <a href="${post.url}">${post.title}</a>
+          </h2>
+          ${post.tags.length ? `
+            <div class="post-tags">
+              ${post.tags.map(tag => `<span class="tag">${tag}</span>`).join('')}
+            </div>
+          ` : ''}
+          <div class="post-excerpt">
+            ${post.excerpt}
+          </div>
+        </article>
+      `
+    }
 
-      tagButtons.forEach(button => {
-        button.addEventListener('click', () => {
-          const tag = button.dataset.tag
+    async function filterPosts() {
+      const searchTerm = searchInput.value.toLowerCase()
+      const data = await loadSearchIndex()
+      
+      const filteredPosts = data.posts.filter(post => {
+        const matchesSearch = searchTerm === '' || 
+          post.title.toLowerCase().includes(searchTerm) ||
+          post.content.toLowerCase().includes(searchTerm)
 
-          // Toggle tag selection
-          if (activeTags.has(tag)) {
-            activeTags.delete(tag)
-            button.classList.remove('active')
-          } else {
-            activeTags.add(tag)
-            button.classList.add('active')
-          }
+        const postTags = new Set(post.tags)
+        const matchesTags = activeTags.size === 0 ||
+          Array.from(activeTags).every(tag => postTags.has(tag))
 
-          filterPosts()
-        })
+        return matchesSearch && matchesTags
+      })
+
+      postsContainer.innerHTML = filteredPosts.map(renderPost).join('')
+      noResults.classList.toggle('hidden', filteredPosts.length > 0)
+    }
+
+    // Debounce function to limit how often filterPosts runs
+    function debounce(func, wait) {
+      let timeout
+      return function executedFunction(...args) {
+        const later = () => {
+          clearTimeout(timeout)
+          func(...args)
+        }
+        clearTimeout(timeout)
+        timeout = setTimeout(later, wait)
+      }
+    }
+
+    // Add event listeners
+    searchInput.addEventListener('input', debounce(filterPosts, 300))
+
+    tagButtons.forEach(button => {
+      button.addEventListener('click', () => {
+        const tag = button.dataset.tag
+        if (activeTags.has(tag)) {
+          activeTags.delete(tag)
+          button.classList.remove('active')
+        } else {
+          activeTags.add(tag)
+          button.classList.add('active')
+        }
+        filterPosts()
       })
     })
-  </script>
+
+    // Initial load of search index
+    loadSearchIndex()
+  })
+</script>
+
 </body>
 
 </html>

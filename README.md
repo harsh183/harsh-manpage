@@ -18,9 +18,13 @@ A minimalist Jekyll theme inspired by Linux man pages. Perfect for personal webs
   - Tag filtering
   - Table of contents
 - 📐 LaTeX support for mathematical expressions
-- 🎨 Multiple color themes
+- 🎨 Multiple color themes with light/dark variants
 - 🚀 Fast and lightweight
 - 📱 Mobile-first approach
+- 🔍 SEO optimized
+- 📊 Sitemap generation
+- 💬 Giscus comments integration
+- 📡 RSS feed support
 
 ## Installation
 
@@ -153,6 +157,14 @@ To enable comments:
 3. Paste the generated script into `_includes/comments.html`
 
 Disable comments for specific posts by adding `comments: false` to the post's front matter.
+
+### RSS Feed
+
+To enable RSS feed:
+
+1. Set `features.rss_feed: true` in your `_config.yml`
+
+Your feed will be available at `/feed.xml`.
 
 ### RSS Feed
 

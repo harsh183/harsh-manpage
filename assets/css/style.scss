@@ -1,7 +1,7 @@
 ---
 ---
 
-@forward "skins/{{ site.skin | default: 'nord'}}";
+@forward "skins/{{ site.skin | default: 'purple'}}";
 @use "variables";
 @use "normalize";
 @use "jekyll-theme-manpage";
