@@ -5,31 +5,31 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;400;500;600;700&display=swap');
 
-// UNCOMMENT THESE IF YOU HAVE NITTI 
-// @font-face {
-// 	font-family: 'Nitti';
-// 	src: url('../../assets/css/fonts/Nitti (Mono)/Nitti-Normal.otf') format('truetype');
-// 	font-weight: normal;
-// 	font-style: normal;
-// }
-// @font-face {
-// 	font-family: 'Nitti';
-// 	src: url('../../assets/css/fonts/Nitti (Mono)/Nitti-NormalItalic.otf') format('truetype');
-// 	font-weight: normal;
-// 	font-style: italic;
-// }
-// @font-face {
-// 	font-family: 'Nitti';
-// 	src: url('../../assets/css/fonts/Nitti (Mono)/Nitti-Bold.otf') format('truetype');
-// 	font-weight: bold;
-// 	font-style: normal;
-// }
-// @font-face {
-// 	font-family: 'Nitti';
-// 	src: url('../../assets/css/fonts/Nitti (Mono)/Nitti-BoldItalic.otf') format('truetype');
-// 	font-weight: bold;
-// 	font-style: italic;
-// }
+//UNCOMMENT THESE IF YOU HAVE NITTI 
+@font-face {
+	font-family: 'Nitti';
+	src: url('../../assets/fonts/Nitti-Normal.otf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'Nitti';
+	src: url('../../assets/fonts/Nitti-NormalItalic.otf') format('truetype');
+	font-weight: normal;
+	font-style: italic;
+}
+@font-face {
+	font-family: 'Nitti';
+	src: url('../../assets/fonts/Nitti-Bold.otf') format('truetype');
+	font-weight: bold;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'Nitti';
+	src: url('../../assets/fonts/Nitti-BoldItalic.otf') format('truetype');
+	font-weight: bold;
+	font-style: italic;
+}
 
 // =============================
 // Mixins
@@ -507,6 +507,73 @@ a {
         }
       }
     }
+  }
+}
+
+.section-content {
+  margin-left: 10%;
+  margin-bottom: 1rem;
+}
+
+.news-header {
+  color: v.$theme-color;
+  margin-left: 2em
+}
+
+.news {
+  margin-left: 10%;
+}
+
+.sub-header {
+  color: v.$theme-color;
+  margin-left: 2em;
+} 
+
+.social-links {
+  margin-left: 10%;
+  color: v.$theme-color;
+  
+  a {
+    color: inherit;
+    text-decoration: none;
+    
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+  
+  .link-group {
+    display: inline-block;
+    margin-right: 1rem;
+    
+    &:last-child {
+      margin-right: 0;
+    }
+  }
+}
+
+.fun-facts {
+  margin-left: 10%;
+  
+  .fact-item {
+    margin-bottom: 0.5rem;
+    
+    // Style for the numbered brackets
+    &::before {
+      color: v.$theme-color;
+    }
+    
+    // Last item (nullptr) styling
+    &:last-child {
+      margin-left: 0%;
+      color: v.$theme-color;
+    }
+  }
+  
+  .arrow {
+    margin-left: .7rem;
+    color: v.$theme-color;
+    padding: 0.3 rem 0;
   }
 }
 

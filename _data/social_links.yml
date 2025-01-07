@@ -1,0 +1,17 @@
+resume:
+  text: Resume
+  url: /assets/resume.pdf
+cv:
+  text: CV
+  url: /assets/cv.pdf
+social:
+  linkedin:
+    text: "@username"
+    url: "https://linkedin.com/in/username"
+  twitter:
+    text: "@username"
+    url: "https://twitter.com/username"
+  github:
+    text: "@username"
+    url: "https://github.com/username"
+email: "username(at)example(dot)com"  
