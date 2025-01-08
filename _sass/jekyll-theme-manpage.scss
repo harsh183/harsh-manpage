@@ -131,17 +131,17 @@ a {
 
   @include large {
     max-width: 64rem;
-    padding: 5rem 6rem 0;
+    padding: 5rem 6rem 0 2rem;
     margin: 0 auto;
   }
 
   @include medium {
-    padding: 3rem 4rem 0;
+    padding: 3rem 4rem 0 2rem;
     margin: 0 auto;
   }
 
   @include small {
-    padding: 2rem 1rem 0;
+    padding: 2rem 1rem 0 2rem;
     margin: 0 auto;
   }
 }
@@ -309,16 +309,16 @@ a {
   @extend %content-shared;
 
   @include large {
-    padding: 0 6rem 2rem;
+    padding: 2rem 4rem;
     margin: 0 auto;
   }
 
   @include medium {
-    padding: 0 4rem 2rem;
+    padding: 2rem 2rem;
   }
 
   @include small {
-    padding: 0 1rem 2rem;
+    padding: 1rem 2rem;
   }
 }
 
@@ -580,7 +580,7 @@ a {
 
 .social-links {
   margin-left: 10%;
-  color: v.$theme-color;
+  color: v.$theme-color-secondary;
 
   a {
     color: inherit;

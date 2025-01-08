@@ -87,6 +87,8 @@ Taught essential skills including advanced Google-fu, strategic keyboard mashing
 
 {% include fun_facts.html %}
 
-![Profile Image](assets/images/profile.png)   
+![Profile Image](assets/images/profile.png)
+{: .section-content}
+
 *Pictured: Me, explaining to the 'puter why my code should work*
 {: .section-content}
