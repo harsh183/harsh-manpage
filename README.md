@@ -17,6 +17,7 @@ A minimalist Jekyll theme inspired by Linux man pages. Perfect for personal webs
   - Full-text search
   - Tag filtering
   - Table of contents
+  - Reading Time
 - 📐 LaTeX support for mathematical expressions
 - 🎨 Multiple color themes with light/dark variants
 - 🚀 Fast and lightweight
@@ -50,7 +51,7 @@ bundle install
 
 ### GitHub Pages Installation
 
-For GitHub Pages, add this to your site's `_config.yml`:
+(NOT SUPPORTED YET) For GitHub Pages, add this to your site's `_config.yml`:
 
 ```yaml
 remote_theme: drshika/jekyll-theme-manpage
@@ -144,8 +145,13 @@ Enable optional features in your `_config.yml`:
 
 ```yaml
 features:
-  comments: false  # Enable Giscus comments
-  rss_feed: false  # Enable RSS feed
+  comments: true  # Set to true to enable Giscus comments
+  rss_feed: true  # Set to true to enable RSS feed
+  search: true  # Set to true to enable search
+  google_analytics: false  # Set to true to enable Google Analytics
+  tags: true  # Set to true to enable tags
+  read_time: true  # Set to true to enable read time
+  back_to_top: false  # Set to true to enable back to top button
 ```
 
 ### Comments

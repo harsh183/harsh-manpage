@@ -131,7 +131,7 @@ a {
 
   @include large {
     max-width: 64rem;
-    padding: 5rem 6rem 0 2rem;
+    padding: 5rem 6rem 0 4rem;
     margin: 0 auto;
   }
 
@@ -153,14 +153,21 @@ a {
 
   @include large {
     font-size: 3.25rem;
+    max-width: 64rem;
+    padding: 5rem 6rem 0 0;
+    margin: 0 auto;
   }
 
   @include medium {
-    font-size: 2.25rem;
+    font-size: 2.5rem;
+    padding: 3rem 4rem 0 0;
+    margin: 0 auto;
   }
 
   @include small {
     font-size: 1.75rem;
+    padding: 2rem 1rem 0 0;
+    margin: 0 auto;
   }
 }
 
@@ -193,7 +200,7 @@ a {
   h4,
   h5,
   h6 {
-    margin-top: 2rem;
+    margin-top: 1rem;
     margin-bottom: 1rem;
     font-weight: normal;
     color: v.$section-headings-color;
@@ -309,7 +316,7 @@ a {
   @extend %content-shared;
 
   @include large {
-    padding: 2rem 4rem;
+    padding: .75rem 4rem 1rem 4rem ;
     margin: 0 auto;
   }
 

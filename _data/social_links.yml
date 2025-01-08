@@ -5,13 +5,13 @@ cv:
   text: CV
   url: /assets/cv.pdf
 social:
-  linkedin:
+  - name: linkedin
     text: "@username"
     url: "https://linkedin.com/in/username"
-  twitter:
+  - name: twitter
     text: "@username"
     url: "https://twitter.com/username"
-  github:
+  - name: github
     text: "@username"
     url: "https://github.com/username"
-email: "username(at)example(dot)com"  
+email: "username(at)example(dot)com"

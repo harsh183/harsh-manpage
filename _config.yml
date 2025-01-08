@@ -4,7 +4,7 @@ author: Your Name
 show_downloads: false
 google_analytics:
 theme: jekyll-theme-manpage
-skin: purple
+skin: purple # Available skins: purple, tomorrow, github, dracula, nord, monokai
 quiet: true
 favicon:
   svg: /assets/images/favicon.svg
