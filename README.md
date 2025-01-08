@@ -1,6 +1,6 @@
 # 📇 Jekyll Theme Manpage
 
-> This theme is in development and not ready to use yet! 
+> This theme is currently being beta tested and any feedback is greatly appreciated!
 
 [![Netlify Status](https://api.netlify.com/api/v1/badges/d2497628-6688-4ba9-909c-4680a22f2a72/deploy-status)](https://app.netlify.com/sites/jekyll-theme-manpage/deploys)
 
