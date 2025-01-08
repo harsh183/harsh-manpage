@@ -23,11 +23,20 @@
     <!-- Tag filter -->
     <div class="tag-container" {% unless site.features.tags %}style="display: none;" {% endunless %}>
       {% capture tags_string %}{% for tag in site.tags %}{{ tag | first }}:{{ tag | last | size }}|{% endfor %}{% endcapture %}
-      {% assign tags = tags_string | split: '|' | pop | sort | reverse %}
+      {% assign tags = tags_string | split: '|' | pop %}
+      {% assign sorted_tags = "" | split: "" %}
       {% for tag_info in tags %}
         {% assign tag_parts = tag_info | split: ':' %}
-        {% assign tag_name = tag_parts[0] | strip %}
-        {% assign tag_count = tag_parts[1] | strip %}
+        {% assign count = tag_parts[1] | plus: 0 %}
+        {% assign padded_count = count | prepend: '0000' | slice: -4, 4 %}
+        {% assign sorted_tag = padded_count | append: ':' | append: tag_info %}
+        {% assign sorted_tags = sorted_tags | push: sorted_tag %}
+      {% endfor %}
+      {% assign sorted_tags = sorted_tags | sort | reverse %}
+      {% for sorted_tag in sorted_tags %}
+        {% assign parts = sorted_tag | split: ':' %}
+        {% assign tag_name = parts[1] | strip %}
+        {% assign tag_count = parts[2] | strip %}
         <button class="tag-button" data-tag="{{ tag_name }}">
           {{ tag_name }} ({{ tag_count }})
         </button>
