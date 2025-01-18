@@ -27,8 +27,7 @@ A minimalist Jekyll theme inspired by Linux man pages. Perfect for personal webs
 
 ## Installation
 
-1. Follow the step to [create repository from template](https://docs.github.com/en/repositories/creating-and-managing-repositories/creating-a-repository-from-a-template#creating-a-repository-from-a-template)
-2. When prompted to select a branch, select the `template` branch. 
+1. Follow the steps to [create repository from template](https://docs.github.com/en/repositories/creating-and-managing-repositories/creating-a-repository-from-a-template#creating-a-repository-from-a-template)
 
 ## Usage
 
