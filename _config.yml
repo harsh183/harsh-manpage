@@ -1,8 +1,7 @@
 title: Jekyll Theme Manpage
 description: Jekyll theme based on the manpage style for personal websites.
 author: Your Name
-show_downloads: false
-google_analytics:
+google_analytics: 
 theme: jekyll-theme-manpage
 skin: purple # Available skins: purple, tomorrow, github, dracula, nord, monokai
 quiet: true
