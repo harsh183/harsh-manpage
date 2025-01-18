@@ -3,6 +3,13 @@
 > This theme is currently being beta tested and any feedback is greatly appreciated!
 
 [![Netlify Status](https://api.netlify.com/api/v1/badges/d2497628-6688-4ba9-909c-4680a22f2a72/deploy-status)](https://app.netlify.com/sites/jekyll-theme-manpage/deploys)
+<a href="https://jekyll-themes.com/[GITHUB USER NAME]/[GITHUB REPOSITORY NAME]">
+  <img
+    src="https://img.shields.io/badge/featured%20on-JT-red.svg"
+    height="20"
+    alt="Jekyll Themes Shield"
+  />
+</a>
 
 A minimalist Jekyll theme inspired by Linux man pages. Perfect for personal websites, portfolios, and blogs with a technical focus.
 
