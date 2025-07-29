@@ -1,29 +1,31 @@
 ---
 layout: home
-title: → ~ man jekyll-manpage
-terminal_name: username
+title: → ~ man harsh183
+terminal_name: harsh183
 ---
 
 ## NAME
 
-Your Name *(they/them/caffeinated)*
+Harsh Deep *(he/him)*
 {: .section-content}
 
 {% include social_links.html %}
 
 ## SYNOPSIS
 
-**Education:** B.S. in Turning Coffee into Code, Stackoverflow University [Expected-2525]
+**Education:** B.S. in Computer Science and Statistics at University of Illinois at Urbana Champaign (UIUC) [2022-2018]
+IB Diploma Program at The International School Bangalore (TISB) [2016-2018]
+ICSE at Greenwood High School [2005-2016]
 {: .section-content}
 
 **Industry:**
-Cookies & Chrome Inc. [Professional Bug Creator][2023]   
-404 Not Found Ltd. [Chief Nap Officer][2022]   
+Modern Treasury [Software Engineer][2022-Current]   
+University of Illinois [Mix of Research and Course Assistant Roles][2018-2022]   
 {: .section-content}
 
 **Research:**
-Department of Rubber Duck Debugging [Head Duck Whisperer][2023]   
-Institute of Coffee-Driven Development [Bean Counter][2022]
+UIUC Universal Design for Learning Group [Writing Code And Field Testing][2020-2022]   
+UIUC HCI Group under Alex Kirlik [Experiment Design, Writing Papers, Visualizing Complex Data and Running User Studies][2022]
 {: .section-content}
 
 ## DESCRIPTION
