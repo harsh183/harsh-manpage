@@ -13,19 +13,30 @@ Harsh Deep *(he/him)*
 
 ## SYNOPSIS
 
-**Education:** B.S. in Computer Science and Statistics at University of Illinois at Urbana Champaign (UIUC) [2022-2018]
+**Education:** 
+B.S. in Computer Science and Statistics at University of Illinois at Urbana Champaign (UIUC) [2022-2018]
+
 IB Diploma Program at The International School Bangalore (TISB) [2016-2018]
+
 ICSE at Greenwood High School [2005-2016]
+
 {: .section-content}
 
 **Industry:**
-Modern Treasury [Software Engineer][2022-Current]   
+
+Modern Treasury [Software Engineer II][2024-Current] - Payment Rails and Banks Send with even more on global payments and systemic fixes so we can scale adding lots of payments
+
+Modern Treasury [Software Engineer I][2022-2024] - Payments Rails with a focus on global payments
+
 University of Illinois [Mix of Research and Course Assistant Roles][2018-2022]   
+
 {: .section-content}
 
 **Research:**
 UIUC Universal Design for Learning Group [Writing Code And Field Testing][2020-2022]   
+
 UIUC HCI Group under Alex Kirlik [Experiment Design, Writing Papers, Visualizing Complex Data and Running User Studies][2022]
+
 {: .section-content}
 
 ## DESCRIPTION
