@@ -13,30 +13,34 @@ Harsh Deep *(he/him)*
 
 ## SYNOPSIS
 
-**Education:** 
+**Education:**
+
 B.S. in Computer Science and Statistics at University of Illinois at Urbana Champaign (UIUC) [2022-2018]
+{: .section-content}
 
 IB Diploma Program at The International School Bangalore (TISB) [2016-2018]
+{: .section-content}
 
 ICSE at Greenwood High School [2005-2016]
-
 {: .section-content}
 
 **Industry:**
 
 Modern Treasury [Software Engineer II][2024-Current] - Payment Rails and Banks Send with even more on global payments and systemic fixes so we can scale adding lots of payments
+{: .section-content}
 
 Modern Treasury [Software Engineer I][2022-2024] - Payments Rails with a focus on global payments
+{: .section-content}
 
 University of Illinois [Mix of Research and Course Assistant Roles][2018-2022]   
-
 {: .section-content}
 
 **Research:**
-UIUC Universal Design for Learning Group [Writing Code And Field Testing][2020-2022]   
+
+UIUC Universal Design for Learning Group [Writing Code And Field Testing][2020-2022]
+{: .section-content}
 
 UIUC HCI Group under Alex Kirlik [Experiment Design, Writing Papers, Visualizing Complex Data and Running User Studies][2022]
-
 {: .section-content}
 
 ## DESCRIPTION
@@ -58,8 +62,8 @@ Successfully convinced the office plant that my code was working as intended. Th
 {: .news}
 Set new record: Found missing semicolon after only 3 hours of searching.
 
-
 [→ Read older news](/news-archive)
+{: .section-content}
 
 ## RESEARCH
 
