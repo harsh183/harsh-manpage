@@ -67,21 +67,32 @@ I got to come back to UIUC to judge at HackIllinois 2025. I saw lots of cool pro
 
 ## RESEARCH
 
-**WHY DO COMPUTERS HATE ME?**, Department of Rubber Duck Debugging [2023]
+### PUBLICATIONS
+
+**Validating Trust in Human-Robot Interaction Through Virtual Reality: Comparing Embodied and “Behind-the-Screen”
+Interactions**, S Rodriguez, **H Deep**, D Asher, J Schaffer, A Kirlik [2023]
 {: .sub-header}
 
-Groundbreaking study into why computers seem to malfunction more frequently when deadlines approach. Key finding: They can smell fear. Secondary finding: Talking nicely to your computer does not improve compile times.
+Tried having participants vary based on doing a virtual warehouse task with 2D screens or VR to see if a robot assistant was trusted more. With 119 participants, the VR environments did lead to more trusting behavior.
 {: .section-content}
 
-## INDUSTRY
-
-**COOKIES & CHROME**, Professional Bug Creator [2023]
+**What’s This? A Voice and Touch Multimodal Approach for Ambiguity Resolution in Voice Assistants**, Jaewook Lee, Sebastian S Rodriguez, Raahul Natarrajan, Jacqueline Chen, **Harsh Deep**, Alex Kirlik [2021]
 {: .sub-header}
 
-Specialized in writing code that works perfectly until the client demos it. Achieved 99.9% success rate in creating bugs that only appear in production. Mastered the art of writing documentation that makes sense only on Tuesdays.
+We had a voice assistant where a participant could point their phone at a set of items and ask actions like "Find me a recipe that includes these" or "How to assemble this?" and that would include that as context for the AI. Users generally liked it based on the NASA-TLX scale and preferred it over not having the feature in the study
 {: .section-content}
+
+**Measuring complacency in humans interacting with autonomous agents in a multi-agent system**, SS Rodriguez, J Chen, **H Deep**, JJ Lee, DE Asher, E Zaroukian [2020]
+{: .sub-header}
+
+We created a group tag game where humans team up with AI to chase another AI. We varied how good the AI were to see if humans would get more complacent if the AI was really good. There was a lot of fun measurement with eye tracking to see focus, task load, and trust in automation.
+{: .section-content}
+
+<!-- put presentations as well -->
 
 ## PROJECTS
+
+<!-- throw in my abandonware from the ages -->
 
 **CTRL-Z-LIFE**
 \--GitHub_link=[https://github.com/username/ctrl-z-life](https://github.com/username/ctrl-z-life)
@@ -90,14 +101,17 @@ Specialized in writing code that works perfectly until the client demos it. Achi
 A revolutionary app that lets you undo real-life mistakes. Currently stuck in development because we can't undo the mistakes we made while building it. Features include: "What Did I Just Delete?" tracker and "Where Did I Put My Keys?" locator.
 {: .section-content}
 
-## SERVICE, LEADERSHIP & TEACHING
+## TEACHING
 
-**teaching**
+I've spent multiple semesters having pivotal roles teaching various introductory computer science resources at UIUC like:
+{: .section-content}
 
-**HOW TO PRETEND YOU KNOW WHAT YOU'RE DOING 101** [Fall][2023]
-{: .sub-header}
-
-Taught essential skills including advanced Google-fu, strategic keyboard mashing, and how to look busy while waiting for code to compile. Student feedback includes "Finally, practical skills for the real world" and "Best nap time ever."
+* [CS 125](https://cs125.cs.illinois.edu/) -  Introduction to Computer Science (Java)
+* [CS 199: IKP](https://kotlin.cs.illinois.edu/) - Intro to Kotlin Programming (Kotlin)
+* [CS 199: EMP](https://cs199emp.netlify.app/) - Even More Practice (Java)
+* [CS 225](https://courses.engr.illinois.edu/cs225/sp2022/) -  Introduction to Data Structures and Algorithms with C++ 
+* [CS 277](https://courses.grainger.illinois.edu/cs277/fa2021/) -  Algorithms and Data Structures for Data Science (Python)
+* [Summer of Side Projects](https://sosp22.com) - Summer 2021 and 2022 I led a series of workshops and guided projects with Python and JavaScript with over 65+ projects by 40+ participants. (Python, JavaScript)
 {: .section-content}
 
 ## EXTRAS
