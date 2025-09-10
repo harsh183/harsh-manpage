@@ -5,18 +5,16 @@ terminal_name: news
 author: Your Name
 ---
 
-## NEWS ARCHIVE
-
 {: .news-header}
-[September, 2023]
+[September, 2024]
 
 {: .news}
-Attempted to fix printer by performing ancient debugging ritual. Printer now only prints in hieroglyphics. Considering this an improvement.
+I got to judge, mentor, and speak at a panel at UPenn for PennApps XXV. It was really fun spending the whole weekend with students from all over the country and even some from halfway across the world who flew in for just this.
 
 {: .news-header}
-[July, 2023]
+[July, 2022]
 
 {: .news}
-Discovered that my code runs faster when I threaten it with PHP. Ethical concerns have been raised about this approach.
+Moved to NYC! 🥳
 
 [← Back to homepage](/)
