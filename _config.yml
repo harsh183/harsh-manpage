@@ -3,7 +3,7 @@ description: Harsh Deep is a SWE who likes writing code that sparks joy
 author: Harsh Deep
 google_analytics: 
 theme: jekyll-theme-manpage
-skin: purple # Available skins: purple, tomorrow, github, dracula, nord, monokai
+skin: monokai # Available skins: purple, tomorrow, github, dracula, nord, monokai
 quiet: true
 favicon:
   svg: /assets/images/favicon.svg
