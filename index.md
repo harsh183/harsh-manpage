@@ -45,22 +45,22 @@ UIUC HCI Group under Alex Kirlik [Experiment Design, Writing Papers, Visualizing
 
 ## DESCRIPTION
 
-Professional keyboard warrior specializing in converting caffeine into semicolons. Known for debugging code by explaining it to inanimate objects and occasionally fixing problems by turning things off and on again. Currently researching why code works on Friday but breaks on Monday without any changes.
+`har.sh` likes full stack web development, human computer interaction, automating banking, teaching programming, distributed systems, and making work available to the public through both code and writing.
 {: .section-content}
 
 ## NEWS
 
 {: .news-header}
-[December, 2023]
+[August, 2025]
 
 {: .news}
-Successfully convinced the office plant that my code was working as intended. The plant remains skeptical.
+I wrote my first technical post on my company's Engineering Blog that I'm now running: [Floats Don’t Work For Storing Cents: Why Modern Treasury Uses Integers Instead](https://www.moderntreasury.com/journal/floats-dont-work-for-storing-cents)
 
 {: .news-header}
-[October, 2023]
+[March, 2025]
 
 {: .news}
-Set new record: Found missing semicolon after only 3 hours of searching.
+I got to come back to UIUC to judge at HackIllinois 2025. I saw lots of cool projects and a shark-tank like final round presentation competition. 
 
 [→ Read older news](/news-archive)
 {: .section-content}
