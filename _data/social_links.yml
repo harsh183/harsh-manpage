@@ -1,15 +1,15 @@
 resume:
   text: Resume
-  url: /assets/resume.pdf
+  url: /assets/Harsh_Deep_resume_f24_d17.pdf
 cv:
   text: CV
-  url: /assets/cv.pdf
+  url: /assets/2024_Deep_Harsh_CV-Dec-9.docx
 social:
   - name: linkedin
-    text: "@username"
-    url: "https://linkedin.com/in/username"
+    text: "@harsh183"
+    url: "https://linkedin.com/in/harsh183"
   - name: github
     text: "@username"
-    url: "https://github.com/username"
+    url: "https://github.com/harsh183"
   # add any additional social links here following the syntax from above.
-email: "username(at)example(dot)com"
+email: "harsh.deep.3984(at)gmail(dot)com"
