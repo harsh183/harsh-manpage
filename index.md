@@ -35,6 +35,9 @@ Modern Treasury [Software Engineer I][2022-2024] - Team: Payments Rails - Focusi
 University of Illinois [Mix of Research and Course Assistant Roles][2018-2022]   
 {: .section-content}
 
+Treniq [Intern][Summer 2017] - Worked on lots of data ingestion and web bot automation for use cases in the high end furniture industry
+{: .section-content}
+
 **Research:**
 
 UIUC Universal Design for Learning Group [Writing Code And Field Testing][2020-2022]
