@@ -88,17 +88,59 @@ We had a voice assistant where a participant could point their phone at a set of
 We created a group tag game where humans team up with AI to chase another AI. We varied how good the AI were to see if humans would get more complacent if the AI was really good. There was a lot of fun measurement with eye tracking to see focus, task load, and trust in automation.
 {: .section-content}
 
-<!-- put presentations as well -->
+<!-- put presentations as well https://github.com/rdembi2/webgazer-prep -->
 
 ## PROJECTS
 
 <!-- throw in my abandonware from the ages -->
 
-**CTRL-Z-LIFE**
-\--GitHub_link=[https://github.com/username/ctrl-z-life](https://github.com/username/ctrl-z-life)
+### OPEN SOURCE
+
+**StompJS**
+\--github_link=[stomp-js/stompjs](https://github.com/stomp-js/stompjs)
 {: .sub-header}
 
-A revolutionary app that lets you undo real-life mistakes. Currently stuck in development because we can't undo the mistakes we made while building it. Features include: "What Did I Just Delete?" tracker and "Where Did I Put My Keys?" locator.
+StompJS is a library that lets browsers and other JS environments talk to AMQP Queues like RabbitMQ using STOMP. I added exponential backoff for connection issues, and wrote reference implementations in React and Svelte. (250k weekly downloads)
+{: .section-content}
+
+**ClassTranscribe**
+\--github_link=[ClassTranscribe](https://github.com/classtranscribe)
+{: .sub-header}
+
+ClassTranscribe is an accessibility focused video website for educational lectures. I added support for live streams, modernized to recent Node [after a lot of pain](https://www.freecodecamp.org/news/how-to-upgrade-node-and-jest-while-on-react-scripts-v4/) and added the first test cases to the project.
+
+(Used by thousands of students across several universities)
+{: .section-content}
+
+
+### PERSONAL
+
+**UIUC Course Explorer++**
+\--github_link=[harsh183/uiuc-course-explorer-plus-plus/](https://github.com/harsh183/uiuc-course-explorer-plus-plus/)
+{: .sub-header}
+
+A browser extension that improves the UIUC Course Explorer website to allow directly jumping to a course page, google map links for all locations on campus, and links to GPA [statistics](https://1010labs.org/gpa) and Reddit gossip about the class. 
+{: .section-content}
+
+**Fibonacci Array**
+\--github_link=[harsh183/fibArray.rb](https://gist.github.com/harsh183/2c3a83ec356a16d4cf88bf0359b89c83)
+{: .sub-header}
+
+An experimental data structure that uses Fibonacci numbers like 0, 1, 2, 3, 5, 8 to access list elements instead of typical index numbers like 0, 1, 2, 3.  
+{: .section-content}
+
+**Simple Kotlin Scoring Test Framework**
+\--github_link=[harsh183/hackyTestWithScores.kt](https://gist.github.com/harsh183/fb32427bb283b5b546bab7974859060b)
+{: .sub-header}
+
+A simple hacky test framework that creates a DSL for writing test cases where there can be custom weights for scoring. The goal was to have a single file with no imports or frameworks required to run in a very fast kotlin environment.
+{: .section-content}
+
+**Fancy Git Client**
+\--github_link=[harsh183/fgit](https://github.com/harsh183/fgit)
+{: .sub-header}
+
+A sleek command line git client that has interactive menus, colors, status sliders, nicer displays for a single command invocation to add, commit, and push.
 {: .section-content}
 
 ## TEACHING
@@ -106,11 +148,11 @@ A revolutionary app that lets you undo real-life mistakes. Currently stuck in de
 I've spent multiple semesters having pivotal roles teaching various introductory computer science resources at UIUC like:
 {: .section-content}
 
-* [CS 125](https://cs125.cs.illinois.edu/) -  Introduction to Computer Science (Java)
+* [CS 125](https://cs125.cs.illinois.edu/) - Introduction to Computer Science (Java)
 * [CS 199: IKP](https://kotlin.cs.illinois.edu/) - Intro to Kotlin Programming (Kotlin)
 * [CS 199: EMP](https://cs199emp.netlify.app/) - Even More Practice (Java)
-* [CS 225](https://courses.engr.illinois.edu/cs225/sp2022/) -  Introduction to Data Structures and Algorithms with C++ 
-* [CS 277](https://courses.grainger.illinois.edu/cs277/fa2021/) -  Algorithms and Data Structures for Data Science (Python)
+* [CS 225](https://courses.engr.illinois.edu/cs225/sp2022/) - Introduction to Data Structures and Algorithms with C++ 
+* [CS 277](https://courses.grainger.illinois.edu/cs277/fa2021/) - Algorithms and Data Structures for Data Science (Python)
 * [Summer of Side Projects](https://sosp22.com) - Summer 2021 and 2022 I led a series of workshops and guided projects with Python and JavaScript with over 65+ projects by 40+ participants. (Python, JavaScript)
 {: .section-content}
 
