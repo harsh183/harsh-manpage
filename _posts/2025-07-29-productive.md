@@ -49,7 +49,7 @@ Some people even like getting a real kitchen clock that could even have a tickin
 
 There are variations in the timings too. Some people like short burst times while others want longer, here are some of the other popular ones
 * 45 minutes of work - 15 minutes of break
-* 50 minutes of work - 10 minutes of break
+* 50 minutes of work - 10 minutes of break (my personal favorite)
 * 60 minutes of work - 15 minutes of break
 * 75 minutes of work - 15 minutes of break
 
