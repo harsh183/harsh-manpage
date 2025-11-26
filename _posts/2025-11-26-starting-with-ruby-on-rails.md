@@ -76,7 +76,7 @@ I highly recommend Michael Hartl's long book that takes you over several Rails a
 
 This book is how I went from a programmer to a software engineer. While it took me many years (and a cs degree) to become reasonably productive, 
 
-## Ruby
+### Ruby
 
 <https://poignant.guide/>
 
@@ -84,7 +84,7 @@ Why's Poignant Guide to Ruby is a cute and quirky book that dives further into u
 
 I actually have this one in print from a limited edition run, I don't know if there's still any runs around. 
 
-## Ruby style Object Oriented Programming 
+### Ruby style Object Oriented Programming 
 
 While you've probably worked with other OOP languages before, Ruby takes a certain message passing purist approach to it. Until I read all of this myself, I never really appreciated why it's such a powerful paradigm and why Ruby is uniquely well suited to it. 
 
@@ -95,7 +95,7 @@ I think Sandy Metz writes about it the best:
 <https://www.poodr.com/> - **PAID** Her Book, Practical Object Oriented Design in Ruby (POODR) really dives deep into the different ideas around object oriented programming and how to use it to create well readable and flexible code. While I wasn't new to the principles from the book, this book really helped me embrace the _why_ and _how_. 
 
 
-## Rails Guides 
+### Rails Guides 
 
 Rails officially has lots of guides on a very broad variety of topics. It doesn't have everything, but it's a great starting point to learn more about specific points. Besides the Getting Started Guide I've contributed a lot too, you might catch some of my other contributions here or there.
 
