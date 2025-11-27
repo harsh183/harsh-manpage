@@ -54,7 +54,7 @@ Rails is a _huge_ framework that's famous for being batteries included for basic
 
 Rails started with a view of embedded ruby and sending html over the wire, but it's quite popular to use it with a popular frontend framework. Here's an example for React with Rails 7
 
-< https://thoughtbot.com/blog/how-to-integrate-react-rails>
+<https://thoughtbot.com/blog/how-to-integrate-react-rails>
 
 ## Rails Philosophy
 
