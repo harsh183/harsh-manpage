@@ -120,9 +120,9 @@ There's no clear agreement on how long time slot should be, and it often varies 
 
 ## Todo Lists
 
-Some people find it overwhelming just to keep track of what needs to be done, and keeping it all in their head can get overwhelming. Having an external to-do list is quite helpful since the cognitive load is pushed onto technology/paper. You can use this to split up big intimidating tasks into smaller and nicer tasks as well. Some people like the motivation from sharing these or from checking off items. Many sites online have gamified to-do lists as well, like Habitca.
+Some people find it overwhelming just to keep track of what needs to be done, and keeping it all in their head can get overwhelming. Having an external to-do list is quite helpful since the cognitive load is pushed onto technology/paper. You can use this to split up big intimidating tasks into smaller and nicer tasks as well. Some people like the motivation from sharing these or from checking off items. Many sites online have gamified to-do lists like Habitca.
 
-This combines well with SMART goals quite well too
+This combines with SMART goals quite well too
 
 ## Additional Deadlines
 
