@@ -1,5 +1,5 @@
 title: Harsh Deep 
-description: Harsh Deep is a SWE who likes writing code that sparks joy
+description: Harsh likes writing code that sparks joy
 author: Harsh Deep
 google_analytics: 
 theme: jekyll-theme-manpage
@@ -7,7 +7,7 @@ skin: monokai # Available skins: purple, tomorrow, github, dracula, nord, monoka
 quiet: true
 favicon:
   svg: /assets/images/favicon.svg
-url: "https://jekyll-theme-manpage.netlify.app"
+url: "https://harsh183.com"
 plugins:
   - jekyll-katex  
   - jekyll-seo-tag
