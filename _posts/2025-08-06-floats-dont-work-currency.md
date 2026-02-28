@@ -1,6 +1,11 @@
 ---
 layout: post
 title: Floats Don’t Work For Storing Cents: Why Modern Treasury Uses Integers Instead
+date: 2025-08-06
+comments: true
+external-url:
+tag: Info
+toc: true
 ---
 
 Pretty much everywhere within my field of Finance seems to use some kind of fixed point representation for good reason, I was wondering about that one day and thought about exploring all the things that need to be accounted for when trying to store money in floats. 
