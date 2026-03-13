@@ -18,22 +18,13 @@ Note: The info here is based on what is true at the time of writing, the cs reqs
 
 Start planning early, ideally before your first semester. This needs coordination in terms of proficiency tests, planning requirements, and moving up paperwork. This is still possible later in your degree, but the later you start, the more stressful it will be. Make a worksheet of how every single semester will have with clearly defined classes or groups to ensure the entire plan works. I always went to my advisor every semester with my 3 (and later 4) year plan to ensure every single thing was right and I ran a DARS audit before and after every semester to ensure no surprises.
 
-### Understand the CS Sequence Really Well
+### Understand the CS and math Sequence Really Well
 
 The main thing to keep in mind is making progress on the core CS sequence as quickly as possible. Once you get past 225, it unblocks a lot of chains at once, so the sooner you get there is better.
 
-<!-- TODO: Check this, im writing from memory, I wonder if there's a neat way to render a DAG in LaTeX or similar lol. I think i remember some tools -->
+<img src="/assets/images/uiuc-cs-dfa.svg"> <!-- ensure this actually renders -->
 
-At the time of writing, roughly the DAG is: 
-
-```
-CS124 -> CS173 & CS128 -> CS 225 -> CS 374 -> CS 421
-                                 -> lots of electives
-		       
-                       -> CS 233 -> CS 341/ECE391
-      -> CS 357 
-      -> CS 361
-```
+Note: 'con' stands for concurrent since CS 233 normally required CS 225 unless cross registered with CS 225, more on that in a bit.
 
 The longest chain in this length 5 so ensure that you're making strong process towards that. This strictly forms the lower bound of how quickly you can graduate. If your goal is 6 semesters, this means you only get a single semester where you're not progressing on the longest chain, and I reccomend having that one semester be the last one, but knowing that you have some slack here can be good if a semester is getting too rough. Later I'll talk about proficiency tests which can shorten the main sequence and get you to electives quicker.
 
