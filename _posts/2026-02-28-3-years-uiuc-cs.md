@@ -30,7 +30,7 @@ Note: This image is made using Evan Wallace's [Finite State Machine Designer](ht
 * CS classes are indicated with no number, and I'm using `M` to indicate Math classes
 * 'con' stands for concurrent since CS 233 normally required CS 225 unless cross registered with CS 225. I highly suggest both at once.
 
-The longest chain is length 5 in both Math and Computer Science, so ensure that you're making strong progress toward each. This strictly forms the lower bound of how quickly you can graduate. If your goal is 6 semesters, this means you only get a single semester where you're not progressing on the longest chain, and I recommend having that one semester be the last one, but knowing that you have some slack here can be good if a semester gets too rough. Later I'll talk about proficiency tests, which can shorten the main sequence and get you to electives quicker.
+The longest chain is length 5 in both Math and Computer Science, so ensure that you're making strong progress toward each. This strictly forms the lower bound of how quickly you can graduate. If your goal is 6 semesters, this means you only get a single semester where you're not progressing on the longest chain, and I recommend having that one semester be the last one, but knowing that you have some slack here can be good if a semester gets too rough. Later I'll talk about proficiency tests, which can shorten the [main sequence](https://www.space.com/22437-main-sequence-star.html) and get you to electives quicker.
 
 In the past, prereqs weren't as strictly enforced, so some of the older advice you will get may not apply, but often it's still possible if you ask nicely and acknowledge to advisors, professors, and the department that this might blow up in your face. Usually this is also easier after your first semester since you can point to your strong academic record so far. I had a friend who took CS 233, 374, and 421 at the same time for their third semester, and did CS 225 alongside 126 (precursor to 128) during the second semester. I don't recommend relying on this, but it can certainly help. Having overrides on prereqs worked well for me when I was signing up for grad classes since their enforcement is less strict and professors have far more leeway.  
  
@@ -56,7 +56,7 @@ Not all electives are equal in difficulty, so definitely keep this in mind as yo
 
 ### CS & X or CS + X - Frontload your X Classes
 
-There are quite a few of these majors, so I'm generalizing here, but almost all of them function kind of like a minor and don't require too many electives beyond fulfilling a handful of groups. The X portion of your major likely also has a main sequence that's 4-5 classes long, so you should be moving that along almost every semester too. For example, I was in CS and Statistics, so I was also pushing along my Statistics mainline, which definitely made the earlier parts of college harder.
+There are quite a few of these majors, so I'm generalizing here, but almost all of them function kind of like a minor and don't require too many electives beyond fulfilling a handful of groups. The X portion of your major likely also has a main sequence that's 4-5 classes long, so you should be moving that along almost every semester too. For example, I was in CS and Statistics, so I was also pushing along my Statistics main sequence, which definitely made the earlier parts of college harder.
 
 ### General Education Requirements
 
