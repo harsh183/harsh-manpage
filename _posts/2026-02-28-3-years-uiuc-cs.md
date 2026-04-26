@@ -8,19 +8,19 @@ tag: Info
 toc: true
 ---
 
-Despite having graduated from UIUC a couple of years ago, I still answer lots of people's questions on graduating in 3 years from UIUC CS. While it sounds very accelerated, it's totally possible for most people in the degree with the right planning. I also don't think it's a good idea for most people to try this, though there are some good reasons to do this. I'll try to address both of these seemingly contradictory ideas in this post since I think it's better to make informed choices about your degree path. At a deep level, you have to be really clear on what this degree means to you, and how it plays into your life goals.
+Despite having graduated from UIUC a couple of years ago, I still answer lots of questions about graduating from UIUC CS in 3 years. While it sounds very accelerated, it's totally possible for most people in the degree with the right planning. I also don't think it's the right idea for most people, though there are good reasons to do it. I'll try to address both of these seemingly contradictory ideas in this post, since it's better to make informed choices about your degree path. At a deep level, you have to be clear on what this degree means to you and how it plays into your life goals.
 
-To be clear, I'm also not your advisor and not replacing their place in all of this. Please meet with them every single semester with your plan and be very upfront about this. A lot of people think advisors aren't friendly to 3 year plans but they were actually very helpful with mine, and helped me reshuffle my plan so it was more realistic. If you seem uncertain, then they will try to guide you towards a risk averse path which is the right answer for most people, but indicating preparedness and determination can get surprising support. That being said, feel free to email/DM me with your plan and I'll try to give some feedback.
+To be clear, I'm not your advisor and not a replacement for one. Please meet with them every single semester with your plan and be upfront about this. A lot of people think advisors aren't friendly to 3-year plans, but they were actually very helpful with mine and helped me reshuffle it so it was more realistic. If you seem uncertain, they'll guide you toward a risk-averse path, which is the right answer for most people, but showing preparedness and determination can get surprising support. That being said, feel free to email/DM me with your plan and I'll try to give feedback.
 
 Note: The info here is based on what is true at the time of writing. The CS requirements will keep changing slowly as the years go by, but the mindset will stay largely the same. Feel free to reach out or make a [pull request](https://github.com/harsh183/harsh-manpage/pulls) if you'd like to update any information.
 
 ## Plan
 
-Start planning early, ideally before your first semester. This needs coordination in terms of proficiency tests, planning requirements, and moving up paperwork. This is still possible later in your degree, but the later you start, the more stressful it will be. Make a worksheet of how every single semester will have with clearly defined classes or groups to ensure the entire plan works. I always went to my advisor every semester with my 3 (and later 4) year plan to ensure every single thing was right and I ran a DARS audit before and after every semester to ensure no surprises.
+Start planning early, ideally before your first semester. This needs coordination around proficiency tests, degree requirements, and paperwork. It is still possible to do this later in your degree, but the later you start, the more stressful it gets. Make a worksheet of what every semester will include, with clearly defined classes or class groups, to ensure the whole plan works.
 
 ### Understand the CS and Math Main Sequence Really Well
 
-The main thing to keep in mind is making progress on the core CS sequence as quickly as possible. Once you get past 225, it unblocks a lot of chains at once, so the sooner you get there is better. Use your degree page to map out your exact sequence, but the common part for most CS majors as a [DAG](https://en.wikipedia.org/wiki/Directed_acyclic_graph) that looks something like this:
+The main thing to keep in mind is making progress on the core CS sequence as quickly as possible. Once you get past 225, it unblocks a lot of chains at once, so getting there early helps a lot. Use your degree page to map out your exact sequence, but for most CS majors the common part looks like this [DAG](https://en.wikipedia.org/wiki/Directed_acyclic_graph):
 
 <img src="/assets/images/cs-and-math-uiuc-dag.png">
 
@@ -34,47 +34,47 @@ The longest chain is length 5 in both Math and Computer Science, so ensure that 
 
 In the past, prereqs weren't as strictly enforced, so some of the older advice you will get may not apply, but often it's still possible if you ask nicely and acknowledge to advisors, professors, and the department that this might blow up in your face. Usually this is also easier after your first semester since you can point to your strong academic record so far. I had a friend who took CS 233, 374, and 421 at the same time for their third semester, and did CS 225 alongside 126 (precursor to 128) during the second semester. I don't recommend relying on this, but it can certainly help. Having overrides on prereqs worked well for me when I was signing up for grad classes since their enforcement is less strict and professors have far more leeway.  
  
-Some of these classes also have various math requirements too, so make sure to keep progressing those along. I have seen some first year CS 357 and 361 but slot them in when it makes sense. This will also depend on what kind of electives you're more interested in. For example, I wanted exposure to C and systems level stuff for my elecives, and did CS 357 early since it aligned with my Statistics classes. However, I wasn't too interested in the programming language side of things so I put CS 421 towards my senior year since I did have a passing interest in functional programming, but I wasn't interested in a deeper understanding beyond type inference and `lex`+`yacc`. 
+Some of these classes also have math requirements, so keep those moving too. I have seen some first-years take CS 357 and 361, but slot them in when it makes sense for your plan. This also depends on which electives you're more interested in. For example, I wanted exposure to C and systems-level stuff for my electives, so I took CS 357 early since it aligned with my Statistics classes. I wasn't as interested in the programming language side, so I put CS 421 toward my senior year. I had a passing interest in functional programming, but not enough to go much deeper than type inference and `lex`+`yacc`. 
 
-If you're not really sure what you want, just frontload as many core classes earlier so that you have more optionality, and you can decide more later.
+If you're not sure what you want yet, frontload core classes so you keep more optionality and can decide more later.
 
 ### Keep the main math sequence in mind
 
 The Math sequence is more linear: MATH 220/221 -> MATH 231 -> MATH 241 -> MATH 415/CS 257 -> CS 357
 
-Quite a lot of people do come in with credit for Calc 1 (such as IB) and even credit for Calc 2 (APs, college courses), so they will start further in the sequence. Though unless you went to the narrow slice of elite American and international schools, it will start you around the beginning.  
+Quite a lot of people come in with credit for Calc 1 (such as IB) and even credit for Calc 2 (APs, college courses), so they start further along in the sequence. Unless you went to a narrow slice of elite American and international schools, though, you'll usually start around the beginning.  
 
-I suggest first trying to get through the placement/proficiency tests so you can start as far as possible based on your current knowledge. Quite similarly to the longest CS chain, you should always keep making progress on this too in almost every semester. Just like the main CS sequence, make progress on this every semester.
+I suggest first trying to get through the placement/proficiency tests so you can start as far as possible based on your current knowledge. Just like the longest CS chain, you should keep making progress on this in almost every semester. Just like the main CS sequence, make progress on this every semester.
 
-Some of the newer CS + X majors vary on how far you need in this sequence, so you might need to keep less of this in mind. However, I do personally think every CS major should understand multivariate calc and linear algebra so I do strongly suggest taking it anyway, unless it really gets in the way of your graduation plans. I've used concepts from these a lot in my later classes and it's often come up in my work as well. 
+Some of the newer CS + X majors vary in how far you need to go in this sequence, so you might need to keep less of this in mind. However, I personally think every CS major should understand multivariate calc and linear algebra, so I strongly suggest taking them anyway unless it really gets in the way of your graduation plans. I've used concepts from these a lot in later classes, and they've often come up in my work as well. 
 
 ### CS College of Engineering - Account For Electives
 
-If you're in CS in the College of Engineering, you'll have 8 electives, 6 have to be within CS, and 2 can be outside. For most people I'd still suggest doing all CS anyway since that's what we attend university for, but go based on your interests and your semester's overall difficulty. As soon as you're able to, generally in your second year, start loading up on electives as soon as they unlock themselves. Assuming you finish CS 225+233 by the end of your third semester, you'll have to take 3 electives for 2 more semesters and 2 electives for one semester. 
+If you're in CS in the College of Engineering, you'll have 8 electives: 6 have to be within CS, and 2 can be outside. For most people I'd still suggest doing all CS anyway since that's what we attend university for, but go based on your interests and your semester's overall difficulty. As soon as you're able to, generally in your second year, start loading up on electives as they unlock. Assuming you finish CS 225+233 by the end of your third semester, you'll have to take 3 electives for 2 more semesters and 2 electives for one semester. 
 
 Not all electives are equal in difficulty, so definitely keep this in mind as you slot things in.
 
 ### CS & X or CS + X - Frontload your X Classes
 
-There's quite a few of these majors so I'm generalizing here, but almost all of them are functionally like a minor and don't really require too many electives beyond fulfilling a handful of groups. Your X portion of your major likely also has a 4-5 length main sequence so you should always be moving that along almost every semester as well. For example, I was in CS and Statistics so I was also pushing along my Statistics mainline sequence as well, which made the earlier parts of college harder for sure.
+There are quite a few of these majors, so I'm generalizing here, but almost all of them function kind of like a minor and don't require too many electives beyond fulfilling a handful of groups. The X portion of your major likely also has a main sequence that's 4-5 classes long, so you should be moving that along almost every semester too. For example, I was in CS and Statistics, so I was also pushing along my Statistics mainline, which definitely made the earlier parts of college harder.
 
 ### General Education Requirements
 
-Graduating in 3 years means making tradeoffs and largely this will be at the expense of your general liberal arts education that large universities like UIUC are really famous for. They're really cool and it's hard to get this kind of educational opportunity later in life, but taking very good gen ed classes will definitely make 3 years more daunting. There are many UIUC classes that can count towards two or even three requirements, as well as some eight week online-online forum post style classes that are very little work. 
+Graduating in 3 years means making tradeoffs, and this will often be at the expense of the broad liberal arts education that large universities like UIUC are known for. Those classes are genuinely great, and it's hard to get this kind of educational opportunity later in life, but taking high-effort gen ed classes will make 3 years more daunting. There are many UIUC classes that can count toward two or even three requirements, as well as some eight-week online forum-post style classes that are very little work. 
 
 Similar to the earlier sequences, the students who went to the _right schools (tm)_ will have quite a few of these requirements already fulfilled, but it is still quite doable. Proficiency tests still help here for things you do have prior knowledge of. 
 
-Many students all have the same idea and these classes can end up booked out quite quickly so don't have too rigid of a plan on when you're finishing which specific requirement, as long as you're moving along on gen eds. As you progress later in your degree, you'll be able to register earlier and being in the honors program also helps.
+Many students have the same idea, and these classes can book out quickly, so don't have too rigid a plan for exactly when you'll finish each requirement, as long as you're moving along on gen eds. As you progress later in your degree, you'll be able to register earlier, and being in the honors program also helps.
 
 In terms of scheduling I suggest pushing this later in your degree because I think it's more important to hit your core degree requirements upfront, especially for CS&X/CS+X, but this can be fairly flexible. If you do have a language requirement I think it's fine to do towards the end because it doesn't really unlock anything too meaningful. 
 
-Personally I really enjoyed my higher-effort comp lit classes a lot, and getting to survey new fields like linguistics, disability studies, and horticulture was great. Despite the tight timeline, you can still take many interesting gen eds, but this will always come at a cost and this is tragically a luxury.
+Personally I enjoyed my higher-effort comp lit classes a lot, and getting to survey new fields like linguistics, disability studies, and horticulture was great. Despite the tight timeline, you can still take many interesting gen eds, but this will always come at a cost and this is tragically a luxury.
 
 ### Understand The Relative Difficulty of Classes To Balance A Semester
 
-While planning you should have a very solid idea of the rough difficulty of a given semester's schedule because you don't want to accidentally burn yourself out. This is a marathon, not a sprint, and having the right pacing throughout is key. For the 5-6 classes you're taking each semester, aim for two hard, three medium, and one easy class. Depending on your planning, you might end up with a semester where you have three hards which you'll have to power through.
+While planning you should have a solid idea of the rough difficulty of a given semester's schedule because you don't want to accidentally burn yourself out. This is a marathon, not a sprint, and having the right pacing throughout is key. For the ~5-6 real classes you're taking each semester, aim for two hard, three medium, and one easy class. Depending on your planning, you might end up with a semester where you have three hards which you'll have to power through.
 
-Figuring out which each class falls in those approximate buckets is not easy, I like to approach this nuance in an axis of:
+Figuring out which class falls into which bucket isn't easy. I like to approach this along these axes:
 
 * how much work a class has: homework, midterms, quizzes, MPs, team projects, readings
 * how intellectually challenging a class is
@@ -92,18 +92,18 @@ The first piece of data you should understand is the GPA averages for the class:
 * [GPA++](https://1010labs.org/gpa) - enter a class, class level or just filter by category (e.g. `CS 4`) to see gpa history by professor - developed by my uiuc roommates
 * [waf.cs GPA visualizations](https://waf.cs.illinois.edu/discovery/gpa/) many different great data visualizations - developed in the group led by Professor Wade Fagen-Ulmschneider
 
-As someone who really loves education and learning, it feels bad to talk about optimizing classes around GPA. While I don't think the point of an education is just taking the easiest possible classes to get a piece of paper, but I'm also someone who did overplay my hand in the past and really got burned. I think it's definitely possible to have a nuanced understanding of keeping a shorter graduation timeline in mind, while also learning quite a bit effectively.
+As someone who loves education and learning, it feels bad to talk about optimizing classes around GPA. I don't think the point of an education is taking the easiest possible classes to get a piece of paper, but I'm also someone who overplayed my hand in the past and got burned. I think it's possible to keep a shorter graduation timeline in mind while also learning quite a bit effectively.
 
 #### Past Student Reviews
 
-The second piece of data is more subjective, since it's mostly from disgruntled students who are very unreliable narrators, and has all sorts of demographic and difficulty bias mixed in. Still, I think reading it is useful data for things like workload or course structure that GPA data can't capture. Usually I'd look on
+The second piece of data is more subjective, since it's mostly from disgruntled students who can be very unreliable narrators, and it has all sorts of demographic and difficulty bias mixed in. Still, I think it's useful for things like workload or course structure that GPA data can't capture. Usually I'd look on:
 
-* [RateMyProfessors](https://www.ratemyprofessors.com/) - Has basically every American university on but the data quality is _really_ bad. 
+* [RateMyProfessors](https://www.ratemyprofessors.com/) - Has basically every American university on it, but the data quality is _really_ bad. 
 * [r/uiuc](https://www.reddit.com/r/UIUC/) - and similar subreddits have discussion on various classes and professors. It's a little better than RMP but not a lot better.
 
 Also make sure to filter by class since the same professor can be totally different by class, but trends across classes hold like teaching quality or friendliness. If an instructor is new to UIUC, you can often find online gossip from their previous university too.
 
-UIUC also collects internal teacher evaluations with far better completion rates that isn't just biased towards upset students called ICES, but these are only accessible within the department. I do wish it were public since it is much better than the places I've linked, and there's a good [r/uiuc discussion about this](https://www.reddit.com/r/UIUC/comments/10i1ng9/why_are_ices_forms_not_public/). It still suffers from a lot of the same biases I mention though.
+UIUC also collects internal teacher evaluations called ICES, with far better completion rates and less bias toward upset students, but these are only accessible within the department. I do wish it were public since it is much better than the places I've linked, and there's a good [r/uiuc discussion about this](https://www.reddit.com/r/UIUC/comments/10i1ng9/why_are_ices_forms_not_public/). It still suffers from a lot of the same biases I mention though.
 
 #### Public Teaching Material
 
@@ -113,13 +113,13 @@ UIUC CS has a great culture of just publishing teaching material on the open int
 
 Many students arrive at college with a scarcity mindset when it comes to interesting things to do, since school was often a far more limited environment compared to the sheer abundance of what's available in terms of classes, clubs, teaching, research, events, food, travel and more. 3 years is still perfectly doable while having a lot of fun side questing, but keep in mind you'll get to do a lot less than most of your peers who are spending 4 years. While there's an abundance of opportunity, your true scarcity is having a shorter timeframe and you should take extra care in what you take on. 
 
-If you start taking too much, that the opportunity cost will be your three year plan. I actually ended up in that situation, where I wanted to do so many fun extra classes, do research and teaching almost every semester, have a really busy social life, and go deeper into an area of study that has excited me almost all my life, so I abandoned my plan towards the end of my second year. Part of my motivation was also covid19 taking away from the in person campus experience I enjoyed so much, so ironically I ended up spending 3 years on campus anyway.
+If you start taking on too much, the opportunity cost can be your three-year plan. I actually ended up in that situation: I wanted to do lots of fun extra classes, do research and teaching almost every semester, have a really busy social life, and go deeper into an area of study that has excited me almost all my life, so I abandoned my plan toward the end of my second year. Part of my motivation was also COVID-19 taking away the in-person campus experience I enjoyed so much, so ironically I ended up spending 3 years on campus anyway.
 
 ### Lean Towards More Classes At Once Due to UIUC's Flat Free Structure
 
 Unlike many other universities, UIUC is a fixed cost once you cross 12 credits (full-time semester), which means that you should think about sustainably overloading (>18 credits) when possible because there's no extra cost here. I was close to 18 or crossed it for many of my semesters for this reason since you're getting more product for the same price. If any of your semesters are part-time, the tradeoffs are really different, but for a 3-year plan you're likely taking full-time semesters. 
 
-I definitely don't recommend overloading your very first semester since university is still a huge change, and you might be living in a new city (and country) with everything being so different. Advisors will usually try to stop you as well.
+I don't recommend overloading your very first semester since university is already a huge change, and you might be living in a new city (or country) where everything is different. Advisors will usually try to stop you as well.
 
 ### Credit Fillers
 
@@ -137,15 +137,15 @@ If someone doesn't have a strong starting point in terms of the CS or Math seque
 
 ### Think about Summer Classes [Optional]
 
-If you're strictly optimizing for cost, I'd suggest just overloading the typical semesters since that's got no marginal cost, but if you're fine with some extra cost, summer classes are worth thinking about. The costs are around half of typical tuition so it does win if the alternative is extra typical fall/spring semesters. Most students who are aiming to reduce costs will live in off campus apartments, which usually run on yearly leases so there's no extra marginal cost of housing in that case, since the supply of summer sublets is far higher than demand. If you just finished living in the dorms, the cost of summer sublets can be really cheap if you look correctly.
+If you're strictly optimizing for cost, I'd suggest just overloading your normal semesters since that has no marginal cost. But if you're okay with some extra cost, summer classes are worth thinking about. The cost is around half of typical tuition, so it can still win if the alternative is extra fall/spring semesters. Most students aiming to reduce costs will live in off-campus apartments, which usually run on yearly leases, so there's no extra marginal housing cost in that case, especially since the supply of summer sublets is much higher than demand. If you just finished living in the dorms, summer sublets can also be really cheap if you look carefully.
 
-Side note: I did not look correctly, trusted the wrong person, had multiple break-ins which contributed to a [campus massmail](https://massmail.illinois.edu/massmail/28664.html), which cost thousands in rent in a way.
+Side note: I did not look carefully, trusted the wrong person, and had multiple break-ins which contributed to a [campus massmail](https://massmail.illinois.edu/massmail/28664.html), which in a way cost thousands in rent.
 
 I think it's also important here to think about whether your goal is 3 calendar years or a 6-semester fall/spring plan. Having these classes can definitely free up more of your regular semesters since your time in class gets closer to 8 traditional semesters, so your opportunity-cost tradeoffs get less severe and it's a more relaxed college experience. 
 
 That being said, a 6-semester plan with no summer classes is perfectly doable so you don't have to do this, but I do recommend it as a softer 3-year plan if that's within budget and your vacations have room. 
 
-There are also winter classes, but it's a very short break and these typically just get gen eds out of the way, which I don't really think is better than just doing it in the normal semester, especially with the double/triple and 8 week classes that exist. I honestly liked using winters as a true guilt-free break of doing nothing and spending time with family to recharge for the next year. I also came from a part of the world with very standard daylight duration, so this helped me recover from the seasonal depression a bit.
+There are also winter classes, but it's a very short break and these typically just get gen eds out of the way, which I don't think is better than doing it in a normal semester, especially with the double/triple and 8-week classes that exist. I honestly liked using winters as a true guilt-free break of doing nothing and spending time with family to recharge for the next year. I also came from a part of the world with very standard daylight duration, so this helped me recover from the seasonal depression a bit.
 
 With summer you have to remember that most courses are compressed to 8 weeks so it's actually twice as fast. If you want to recharge between semesters, are doing research, are interning somewhere I suggest only taking a single class. If you're fine with the intensity of a normal semester, take two classes. Taking more than that can be challenging so I don't suggest it.
 
@@ -157,11 +157,11 @@ The chain length of 5 is the main thing to tackle, and the best way to do that i
 
 The Math department lists out their proficiency tests [here](https://math.illinois.edu/academics/undergraduate/proficiencyexaminations) which I suggest reading. Similar to CS, you can go quite far in the core sequence: MATH 220, MATH 231, MATH 241, MATH 257.
 
-Someone being able to do _all_ of these is quite rare, but people can often get surprisingly far. These are free of additional cost, so I suggest doing it anyway. My suggestion is try CS 124, CS 173, and one of the math ones from the starting point you have. Doing more than that is a lot to prep for the summer. If this is winter, only target one test.
+Someone being able to do _all_ of these is quite rare, but people can often get surprisingly far. These are free, so I suggest trying them anyway. My suggestion is to target CS 124, CS 173, and one math test from wherever you're starting. Doing more than that is a lot to prep for over the summer. If this is winter, only target one test.
 
-The right time for these tests is usually the first semester before classes begin, which is summer for most people. It does get in the way of enjoying that peaceful bliss between high school and summer, but I didn't really mind it since I had 4 months and was interning at a really happening startup anyway. There's also some window to do these right before the second semester and before the start of the summer term, but it's not worth thinking about after since these only cover early sequence classes.
+The right time for these tests is usually before your first semester begins, which means summer for most people. It does get in the way of that peaceful break between high school and college, but I didn't really mind it since I had 4 months and was interning at a pretty active startup anyway. There's also some window to do these right before the second semester and before the start of the summer term, but it's not worth thinking about much later since these only cover early-sequence classes.
 
-If you don't prof out of these classes, your first semester will be lighter on your major classes so I suggest this is a good time to frontload on gen eds to keep the 3 year plan going. 
+If you don't prof out of these classes, your first semester will be lighter on major classes, so it's a good time to frontload gen eds and keep the 3-year plan going. 
 
 ### CS 124
 
@@ -174,40 +174,40 @@ Personally I did CS 124 anyway, though more out of a feeling of misplaced impost
 
 ### CS 173
 
-If you did high school math or self learned topics like set theory or basic proofs, I suggest CS 173 prof test too. Start with reading Professor Margaret Fleck's amazing textbook [Building Blocks for Theoretical Computer Science](https://mfleck.cs.illinois.edu/building-blocks/index-sp2020.html), it is a wonderful book I kept going back to years after the class and it helped me learn so much. It doesn't assume too much of a background and explains all the core concepts of the class really well, so definitely familiarize yourself with the book. After that, look at the [CS173 Official Study Material](https://courses.grainger.illinois.edu/cs173/fa2025/Help-info/study-resources.html) and especially the past examlets. 
+If you did high school math or self-learned topics like set theory or basic proofs, I suggest the CS 173 proficiency test too. Start by reading Professor Margaret Fleck's amazing textbook [Building Blocks for Theoretical Computer Science](https://mfleck.cs.illinois.edu/building-blocks/index-sp2020.html). It's a wonderful book that I kept going back to years after the class, and it helped me learn so much. It doesn't assume too much background and explains all the core concepts of the class really well, so definitely familiarize yourself with it. After that, look at the [CS173 Official Study Material](https://courses.grainger.illinois.edu/cs173/fa2025/Help-info/study-resources.html), especially the past examlets. 
 
 If you find yourself not sailing through all of it, like I did, just take the class. Personally I was good with about half of the material but lacking on the rest, and I gained a lot from taking the class which helped me do well in CS 374 later and excel in my new grad interviews. 
 
 ### Calc Tests
 
-I suggest only doing tests at a level of Math you've already learned, but to refresh, I suggest checking out [Paul's Online Notes](https://tutorial.math.lamar.edu/) for Calc I+II+III which I used a lot as a student and they're very well written. I also liked the videos by [Khan Academy](https://www.khanacademy.org/math/calculus-1) and I think they have many practice problems too. Often when I was stuck, I found [Wolfram Alpha's Solver](https://www.wolframalpha.com/) (made by UIUC CS Professor [Stephen Wolfram](https://math.illinois.edu/directory/profile/wolfram)) to cross check against while practicing.
+I suggest only doing tests at a level of math you've already learned, but for review, check out [Paul's Online Notes](https://tutorial.math.lamar.edu/) for Calc I+II+III. I used them a lot as a student, and they're very well written. I also liked the videos by [Khan Academy](https://www.khanacademy.org/math/calculus-1), and I think they have many practice problems too. Often when I was stuck, I used [Wolfram Alpha's Solver](https://www.wolframalpha.com/) (made by UIUC CS Professor [Stephen Wolfram](https://math.illinois.edu/directory/profile/wolfram)) to cross-check while practicing.
 
 My own high school credit started me at Calc II so I wasn't too worried about it, but in hindsight I should have been starting in Calc III.
 
 ### ALEKS Placement Test
 
-UIUC has students take the [ALEKS PPL Mathematics Assessment Exam](https://math.illinois.edu/academics/undergraduate/ALEKS) when starting out to figure out if a student should start with Calc I or go earlier. While I didn't prep at all for this, since calc was very fresh for me, I suggest taking a bit of review before you do so. If you don't get placed into Calc I, I highly suggest taking the time to build up the right math foundation into your coursework and not really doing any proficiency tests. 
+UIUC has students take the [ALEKS PPL Mathematics Assessment Exam](https://math.illinois.edu/academics/undergraduate/ALEKS) when starting out to figure out whether they should start with Calc I or earlier. I didn't prep at all for this since calc was very fresh for me, but I suggest doing a bit of review beforehand. If you don't get placed into Calc I, I highly suggest taking the time to build the right math foundation in your coursework and avoiding proficiency tests for now. 
 
 ## During the Degree
 
-Past the detailed planning and getting a good starting point through tests, now comes actually following through. How to do your degree well is a huge topic and out of scope for this post, and I'll leave some helpful links at the end. More specific to the three year plan, every semester make sure to
+Past detailed planning and getting a good starting point through tests, now comes actually following through. How to do your degree well is a huge topic and out of scope for this post, and I'll leave some helpful links at the end. More specific to the three-year plan, every semester make sure to:
 
-* track your degree progress against your overall plan - I did this with google sheets but use whatever tool fits the best for you. With every semester things will become more solidified and you can reshuffle things as needed as long as you're good with the overall plan and following the main sequence. I also kept a 3 and 4 year variant of my plan and you should plan branches accordingly.
+* track your degree progress against your overall plan - I did this with Google Sheets, but use whatever tool fits best for you. With every semester, things become more solidified and you can reshuffle as needed as long as you're still good on the overall plan and main sequence. I also kept 3-year and 4-year variants of my plan, and you should plan branches accordingly.
 * right before and after you register for classes, run a [DARS Audit](https://registrar.illinois.edu/academic-records/dars-audit/) to ensure your academic plan is actually working
 * go to your advisor every single semester with your plan and audit so far and the classes for the remaining semesters to get their thoughts
-* do really well in your classes, learn, and have fun! 
+* do well in your classes, learn, and have fun!
 
 ## Reasons
 
-Only do this plan if you have a good reason to. College is designed around the 4 year cycle for a reason and the minimum degree requirements are intentionally light. If you can get the full college experience, I highly recommend it, but circumstances really vary and privilege absolutely applies. Having a good motivation driving you here will be key to being successful. Besides this [nice r/uiuc thread](https://www.reddit.com/r/UIUC/comments/17g87he/benefits_and_detriments_of_graduating_in_335_years/), here are my thoughts on some common reasons I've heard:
+Only do this plan if you have a good reason. College is designed around the 4-year cycle for a reason and the minimum degree requirements are intentionally light. If you can get the full college experience, I highly recommend it, but circumstances really vary and privilege absolutely applies. Having a good motivation driving you here will be key to being successful. Besides this [nice r/uiuc thread](https://www.reddit.com/r/UIUC/comments/17g87he/benefits_and_detriments_of_graduating_in_335_years/), here are my thoughts on common reasons I've heard:
 
 ## Bad Reasons
 
-I think almost all reasons to graduate early are good ones, but here are a few I'd caution against:
+I think almost all reasons to graduate early are valid, but here are a few I'd caution against:
 
 ### Peer group 
 
-If your main motivation is seeing that your friends are doing three and you also want to, I suggest not to since their circumstances might not really yours and it might even be driven by pointless competitiveness. As time goes on, a lot of the peer group might just end up doing 7 or 8 semesters, which is far more doable but then you took on more stress for nothing. It is nice to take classes in sync with your peer group, so I suggest just doing that and piling on extra things to do once they wrap up. Many people who did three ended up living on campus for a fourth year as well, so many friends might still be around.
+If your main motivation is seeing your friends do it and wanting to do it too, I'd suggest against that, since their circumstances might not match yours and it might be driven by pointless competitiveness. As time goes on, a lot of that peer group might end up doing 7 or 8 semesters, which is far more doable, and then you took on extra stress for nothing. It is nice to take classes in sync with your peer group, so I suggest doing that and piling on extra things once they wrap up. Many people who did three ended up living on campus for a fourth year as well, so many friends might still be around.
 
 ### Personal Challenge
 
@@ -215,7 +215,7 @@ I am always in support of people taking on a harder pathway to grow, but I'd sug
 
 ## Good Reasons
 
-I think the primary reason to think about this is cost, but there's many great reasons I saw:
+I think the primary reason to think about this is cost, but I saw many other good reasons too:
 
 ### Sticker Price
 
@@ -233,9 +233,9 @@ Related to the idea of a price tag, the financial opportunity cost of an entire 
 
 ### Doing A Combined Masters  
 
-I knew many people do a 3+1 BS+MS program which let them graduate at the same time as their typical cohort and having the same number of internships while walking out with a nicer degree. While most CS related jobs no longer have a _huge_ boost for doing a masters like in the past, it's still a sizable bump in many cases and not having to take a career break for one is really nice. The access to classes is quite similar to undergrad but being granted a whole extra degree for taking a full schedule of 4 years of CS classes is nice. Many CS degrees don't have an explicit 3+1 program, but generally you can just apply for a masters like normal and get in through some level of connections and having the home field bias.
+I knew many people who did a 3+1 BS+MS program, which let them graduate at the same time as their typical cohort, have the same number of internships, and walk out with a nicer degree. While most CS-related jobs no longer have a _huge_ boost for doing a master's like in the past, it's still a sizable bump in many cases, and not having to take a career break for one is really nice. Access to classes is quite similar to undergrad, but getting a whole extra degree for taking a full schedule of 4 years of CS classes is nice. Many CS degrees don't have an explicit 3+1 program, but generally you can just apply for a master's like normal and get in through some combination of connections and home-field bias.
 
-This can actually work out cheaper than a normal 4 year degree too, because the grad school teaching and research positions actually come with tuition waivers and stipends, compared to the undergrad equivalents barely hitting minimum wage and not offering as many hours. Many people I know got to experience their 4 years at UIUC cheaper because of this, though it'd be nice if undergrads were given the same level of waivers like some [universities do](https://eecsdsstaff.org/know-your-rights/fee-remission/).
+This can actually work out cheaper than a normal 4-year degree too, because grad-school teaching and research positions often come with tuition waivers and stipends, while the undergrad equivalents barely hit minimum wage and don't offer as many hours. Many people I know got to experience 4 years at UIUC more cheaply because of this, though it'd be nice if undergrads were given the same level of waivers like some [universities do](https://eecsdsstaff.org/know-your-rights/fee-remission/).
 
 Note for F1 Visa: keep in mind doing a combined program for 4 years will skip the 3 years of OPT (1 year normal + 2 years STEM), which means less time in industry and lottery attempts if that is your goal. If you're targeting academia this is fine, but just keep this caveat in mind.
 
@@ -255,7 +255,7 @@ While doing part-time semester internships and full-time 3-5 summer internships 
 
 ### Not Liking University or Wanting to Spend Less Time Here
 
-Some people don't like life in academia, others miss family that's often in a different city/state/country, don't find the right social crowd or perhaps simply just want to get their education and resume life back home. Whatever someone's reason, I think it's valid even though I'd love if everyone really wanted to spend very long at UIUC to experience what I did. Time is a very precious resource, and if less time at UIUC aligns with your goals, I think that is absolutely worth it.
+Some people don't like life in academia. Others miss family that's often in a different city, state, or country, don't find the right social crowd, or simply want to get their education and resume life back home. Whatever someone's reason, I think it's valid, even though I'd love it if everyone wanted to spend a long time at UIUC and experience what I did. Time is a very precious resource, and if less time at UIUC aligns with your goals, I think that is absolutely worth it.
 
 ## Middle ground: 7 semesters
 
@@ -265,7 +265,7 @@ Note for F1 Visa: If you graduate in December keep in mind it reduces the lotter
 
 ## Links 
 
-These are largely out of scope for this page, but I think you should also check these out
+These are largely out of scope for this page, but I think they're also worth checking out:
 
 * My guide on [Staying Productive](/productive) - a lot of different strategies you should A/B test on to be highly effective
 * [Drshika Asher](https://www.drshika.com/)'s [UIUC Mental Health Sources Links Collection](https://uiuc-mh-resources.netlify.app/)
