@@ -26,7 +26,10 @@ ICSE at Greenwood High School [2005-2016]
 
 **Industry:**
 
-Modern Treasury [Software Engineer II][2024-Current] - Team: Payment Rails and later Banks Send - More on global payments and systemic fixes so we can scale adding lots of payments
+Modern Treasury [Software Engineer III][2026-] - Team: Banks Send 
+{: .section-content}
+
+Modern Treasury [Software Engineer II][2024-2026] - Team: Payment Rails and later Banks Send - More on global payments and systemic fixes so we can scale adding lots of payments
 {: .section-content}
 
 Modern Treasury [Software Engineer I][2022-2024] - Team: Payments Rails - Focusing on Low Cost Global Payments to APAC and EMEA
@@ -37,6 +40,8 @@ University of Illinois [Mix of Research and Course Assistant Roles][2018-2022]
 
 Treniq [Intern][Summer 2017] - Worked on lots of data ingestion and web bot automation for use cases in the high end furniture industry
 {: .section-content}
+
+imr.sv Media Group [Intern][2017] - Worked on a funky portfolio site of interesting 360-degree interactive photos, videos, and house tours. 
 
 **Research:**
 

@@ -23,6 +23,12 @@ features:
   read_time: true  # Set to true to enable read time
   back_to_top: true  # Set to true to enable back to top button
 excerpt_separator: "<!--more-->"
+defaults:
+  - scope:
+      path: ""
+      type: posts
+    values:
+      permalink: /:title
 toc:
   min_level: 1 # default: 1
   max_level: 3 # default: 6
