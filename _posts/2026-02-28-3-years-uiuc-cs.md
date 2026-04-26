@@ -8,7 +8,7 @@ tag: Info
 toc: true
 ---
 
-Despite having graduated from UIUC a couple of years ago, I still answer lots of people's questions on graduating in 3 years from UIUC CS. While it sounds very accelerated, it's totally possible for most people in the degree with the right planning. I also don't think it's a good idea for most people to try this, though there are some good reasons to do this. I'll try to address both of these seemingly contradictory ideas in this post since I think it's better to make informed choices about your degree path.
+Despite having graduated from UIUC a couple of years ago, I still answer lots of people's questions on graduating in 3 years from UIUC CS. While it sounds very accelerated, it's totally possible for most people in the degree with the right planning. I also don't think it's a good idea for most people to try this, though there are some good reasons to do this. I'll try to address both of these seemingly contradictory ideas in this post since I think it's better to make informed choices about your degree path. At a deep level, you have to be really clear on what this degree means to you, and how it plays into your life goals.
 
 To be clear, I'm also not your advisor and not replacing their place in all of this. Please meet with them every single semester with your plan and be very upfront about this. A lot of people think advisors aren't friendly to 3 year plans but they were actually very helpful with mine, and helped me reshuffle my plan so it was more realistic. If you seem uncertain, then they will try to guide you towards a risk averse path which is the right answer for most people, but indicating preparedness and determination can get surprising support. That being said, feel free to email/DM me with your plan and I'll try to give some feedback.
 
@@ -18,7 +18,7 @@ Note: The info here is based on what is true at the time of writing, the cs reqs
 
 Start planning early, ideally before your first semester. This needs coordination in terms of proficiency tests, planning requirements, and moving up paperwork. This is still possible later in your degree, but the later you start, the more stressful it will be. Make a worksheet of how every single semester will have with clearly defined classes or groups to ensure the entire plan works. I always went to my advisor every semester with my 3 (and later 4) year plan to ensure every single thing was right and I ran a DARS audit before and after every semester to ensure no surprises.
 
-### Understand the CS and Math Sequence Really Well
+### Understand the CS and Math Main Sequence Really Well
 
 The main thing to keep in mind is making progress on the core CS sequence as quickly as possible. Once you get past 225, it unblocks a lot of chains at once, so the sooner you get there is better. Use your degree page to map out your exact sequence, but the common part for most CS majors as a [DAG](https://en.wikipedia.org/wiki/Directed_acyclic_graph) that looks something like this:
 
@@ -30,7 +30,7 @@ Note: This image is made using Evan Wallace's [Finite State Machine Designer](ht
 * CS classes are indicated with no number, and I'm using `M` to indicate Math classes
 * 'con' stands for concurrent since CS 233 normally required CS 225 unless cross registered with CS 225. I highly suggest both at once.
 
-The main thing to understand here is that the longest chain in this length 5 in both Math and Computer Science so ensure that you're making strong process towards each. This strictly forms the lower bound of how quickly you can graduate. If your goal is 6 semesters, this means you only get a single semester where you're not progressing on the longest chain, and I reccomend having that one semester be the last one, but knowing that you have some slack here can be good if a semester is getting too rough. Later I'll talk about proficiency tests which can shorten the main sequence and get you to electives quicker.
+The longest chain in this length 5 in both Math and Computer Science so ensure that you're making strong process towards each. This strictly forms the lower bound of how quickly you can graduate. If your goal is 6 semesters, this means you only get a single semester where you're not progressing on the longest chain, and I reccomend having that one semester be the last one, but knowing that you have some slack here can be good if a semester is getting too rough. Later I'll talk about proficiency tests which can shorten the main sequence and get you to electives quicker.
 
 In the past, prereqs weren't as strictly enforced so some of the older advice you will get may not apply, but often it's still possible if you ask nicely and acknowledge to the advisors, professors, and department that this might blow up in your face. Usually this is also easier after your first semester since you can point to your strong academic record so far. I had a friend who took CS 233, 374, and 421 at the same time for their third semester, and did CS 225 alongside 126 (precursor to 128) during the second semester. I don't reccomend relying on this, but it can certainly help. Having overrides on pre reqs worked well for me when I was signing up for grad classes since their enforcement is less strict and professors have far more leeway.  
  
@@ -40,7 +40,7 @@ If you're not really sure what you want, just frontload as many core classes ear
 
 ### Keep the main math sequence in mind
 
-The Math sequence is more linear: MATH 221 -> MATH 231 -> MATH 241 -> MATH 415/CS 257 -> CS 357
+The Math sequence is more linear: MATH 220/221 -> MATH 231 -> MATH 241 -> MATH 415/CS 257 -> CS 357
 
 Quite a lot of people do come in with credit for Calc 1 (such as IB) and even credit for Calc 2 (APs, College courses) so they will start further in the seqence. Though unless you went to the narrow slice of elite american and international schools, it will start you around the beginning.  
 
@@ -126,6 +126,7 @@ I definitely don't reccomend overloading your very first semester since universi
 Quite a lot of people have a large amount of pre-existing college credit coming into college, to the point of sophomore/junior by credit hours being a running [joke](https://www.reddit.com/r/UIUC/comments/9fclw7/when_a_freshman_tells_you_that_theyre_a_sophomore/). While many of these credits are quite useless in terms of getting to advanced classes earlier, it does save the effort of having to fluff up credit hours to graduate in 3. Not having this means taking 21.33 credits each semester which is quite a lot, and assuming you don't overload the first semester and take 18, this leaves 22 credits overload for every single remaining semester. Actually having that kind of load with a realistic class schedule is going to be too much for most people, so you should strongly consider taking credit hours that require virtually no work just to check this box. 
 
 There's many options here:
+* at the start of your degree there might be some orientation/job training classes that take little work. For example, I had optional [LAS 100 - College Success for International Students](https://las.illinois.edu/resources/classes/las100) that gave 2 credit hours and [CS 199 - Course Assistant Training](https://siebelschool.illinois.edu/academics/courses/cs199) for 1 hour. 
 * many electives have a 4 credit grad version, and 3 credit undergrad version. The difference in amount of work required isn't too large for _most_ classes, so I suggest doing the grad version in those scenarios. While it's only one extra credit at a time, these do add up. As a side bonus you do learn more and can even double count it for your UIUC Masters. 
 * 8 week online-only classes where it's practically just writing short discussion posts. I ended up learning a bit more than I anticipated and some of the readings were great, but these are definitely not at the level of a standard college class.
 * trying some activity based easy classes like walking or vegetable gardening. Some can be deceptive though, 1 credit Ice Skating was my hardest class I've ever tried in my life, I regularly went to so many office hours and extra skate sessions and still ended up dropping out because I was so _behind_.
@@ -186,28 +187,19 @@ My own highschool credit started me at Calc II so I wasn't too worried about it,
 ### ALEKS Placement Test
 
 UIUC has students take the [ALEKS PPL Mathematics Assessment Exam](https://math.illinois.edu/academics/undergraduate/ALEKS) when starting out to figure out if a student should start with Calc I or go earlier. While I didn't prep at all for this, since calc was very fresh for me, I suggest taking a bit of review before you do so. If you don't get placed into Calc I, I highly suggest taking the time to build up the right math foundation into your coursework and not really doing any proficiency tests. 
-<!--
 
+## During the Degree
 
+Past the detailed planning and getting a good starting point through tests, now comes actually following through. How to do your degree well is a huge topic and out of scope for this post, and I'll leave some helpful links at the end. More specific to the three year plan, every semester make sure to
 
-inevitably a lot of people will not actually end up doing it, or they'll do 7 sem, or they'll do some combined bs+Ms
-some of your friends will finish in 3, but plenty will stick around for 4
-
-the general idea is:
-
--->
-<!-- talk about stress, mental health resources, DRES... just link Drshi's site for now and a brief mention -->
-
-<!-- I'm also wondering where would be a good place to put general productivity, guides on debugging, writing code quick, how to study math well etc, these should just be links since it's largely out of scope for this already long post -->
-
+* track your degree progress against your overall plan - I did this with google sheets but use whatever tool fits the best for you. With every semester things will become more solidified and you can reshuffle things as needed as long as you're good with the overall plan and following the main sequence. I also kept a 3 and 4 year variant of my plan and you should plan branches accordingly.
+* right before and after you register for classes, run a [DARS Audit](https://registrar.illinois.edu/academic-records/dars-audit/) to ensure your academic plan is actually working
+* go to your advisor every single semester with your plan and audit so far and the classes for the remaining semesters to get their thoughts
+* do really well in your classes, learn, and have fun! 
 
 ## Reasons
 
-Only do this plan if you have a good reason to. College is designed around the 4 year cycle for a reason and the minimum degree requirements are intentionally light. If you can get the full college expereince, I highly reccomend it, but circumstances really vary and priviledge absolutely applies. Having a good motivation driving you here will be key to being successful. Here are my thoughts on some common reasons I've heard:
-
-<!--
-warn that 3+1 could lose h1 tries but it is true that having a master's is generally better while graduating with your friends and I've known many who were able to TA/RA tuition waiver through the last year. In general, good grad programs in CS will allow you to have funding so getting there sooner is a good idea  
--->
+Only do this plan if you have a good reason to. College is designed around the 4 year cycle for a reason and the minimum degree requirements are intentionally light. If you can get the full college expereince, I highly reccomend it, but circumstances really vary and priviledge absolutely applies. Having a good motivation driving you here will be key to being successful. Besides this [nice r/uiuc thread](https://www.reddit.com/r/UIUC/comments/17g87he/benefits_and_detriments_of_graduating_in_335_years/), here are my thoughts on some common reasons I've heard:
 
 ## Bad Reasons
 
@@ -215,21 +207,17 @@ I think almost all reasons to graduate early are good ones, but here are a few I
 
 ### Peer group 
 
-If your main motivation is seeing that your friends are doing three and you also want to, I suggest not to since their circumstances might not really yours and it might even be driven by pointless competitiveness. As time goes on, a lot of the peer group might just end up doing 7 or 8 semesters, which is far more doable but then you took on more stress for nothing. It is nice to take classes in sync with your peer group, so I suggest just doing that and piling on extra things to do once they wrap up.
+If your main motivation is seeing that your friends are doing three and you also want to, I suggest not to since their circumstances might not really yours and it might even be driven by pointless competitiveness. As time goes on, a lot of the peer group might just end up doing 7 or 8 semesters, which is far more doable but then you took on more stress for nothing. It is nice to take classes in sync with your peer group, so I suggest just doing that and piling on extra things to do once they wrap up. Many people who did three ended up living on campus for a fourth year as well, so many friends might still be around.
 
 ### Personal Challenge
 
 I am always in support of people taking on a harder pathway to grow, but I'd suggest that a 4 year plan with more challenging classes, research, internships, and teaching is a far better personal challenge to grow. You can follow pretty much all of the above advice and just use the extra breathing room to go further in your interests. It's really hard to get this kind of environment after undergrad.
 
-<!-- 
-
-also talk really hard about reflecting what the degree means to you
-
--->
-
 ## Good Reasons
 
-### Price Tag 
+I think the primary reason to think about this is cost, but there's many great reasons I saw:
+
+### Sticker Price
 
 Despite being a state university, UIUC isn't [cheap](https://www.admissions.illinois.edu/invest/tuition), especially if you're out of state and international. Besides tuition, UIUC mandates almost all first year students overspend on housing for their first two semesters through either Dorms or Private Certified Housing in a relatively affordable college town. There is a patchwork of scholarships, aid, and student jobs that can offset some of this, but that doesn't work for most students. 
 
@@ -237,11 +225,11 @@ Note: Despite aid/scholarship often not being adequate, most instate and some ou
 
 If you are fortunate enough to afford the full four years I highly reccomend it, I was extremely fortunate to be able to and that is what enabled me to take four years in college. Doing so much HCI research, taking several grad level classes, having a very broad general education, near daily social plans, getting to be part of teaching almost every semester and summer, going on endless sidequests and meeting my long term life partner happened because I had the luxury to fill it out. These were the best years of my life till that point, and I am so sentimental about my time at UIUC. 
 
-I think it's wild that tax funded universities with [free land](https://en.wikipedia.org/wiki/Land-grant_university) in a dedicated college town that doesn't even pay the staff that well can still cost so much, but that's the reality of today and college debt is a burden that can really drag, even in a field with very high salaries like Computer Science.
+I think it's wild that tax funded universities with [free land](https://www.admissions.illinois.edu/discover/history) in a dedicated college town that doesn't even pay the staff that well can still cost so much. Unfortunately, that is the reality of today and college debt is a burden that can really drag, even in a field with very high salaries like Computer Science.
 
 ### Industry Opportunity Cost
 
-Related to the idea of a price tag, the finanical opportunity cost of an entire year of working is an expense people should acknowledge as the cost of getting the full degree experience. For many people who are doing a three year plan, their new grad salaries can be $150k-$250k and I've seen many get offers like $500k. I don't know if these will last long term, but at present there is a sizable sum of money that people are walking away from. In a long career of 40-50 years and compounded growth, it might not amount to a large portion of overall net worth, but it is a _lot_ of money nevertheless. This one year's pay can become a large part of adequate retirement savings depending on the circumstances of retirement.
+Related to the idea of a price tag, the finanical opportunity cost of an entire year of working is an expense people should acknowledge as the cost of getting the full degree experience. For many people who are doing a three year plan, their new grad salaries can be $150k-$250k and I've seen few offers like $500k. I don't know if these kinds of offers will last long term, but at present there is a sizable sum of money that people are walking away from. In a long career of 40-50 years and compounded growth, it might not amount to a large portion of overall net worth, but it is a _lot_ of money nevertheless. This one year's pay can become a large part of adequate retirement savings depending on the circumstances of retirement.
 
 ### Doing A Combined Masters  
 
@@ -249,4 +237,41 @@ I knew many people do a 3+1 BS+MS program which let them graduate at the same ti
 
 This can actually work out cheaper than a normal 4 year degree too, because the grad school teaching and research positions actually come with tuition waivers and stipends, compared to the undergrad equivalents barely hitting minimum wage and not offering as many hours. Many people I know got to experience their 4 years at UIUC cheaper because of this, though it'd be nice if undergrads were given the same level of waivers like some [universities do](https://eecsdsstaff.org/know-your-rights/fee-remission/).
 
-<!-- PhD earlier, study abroad, internships, being far from home/family, just not liking college, -->
+Note for F1 Visa: keep in mind doing a combined program for 4 years will skip the 3 years of OPT (1 year normal + 2 years STEM), which means less time in industry and lottery attempts if that is your goal. If you're targeting academia this is fine, but just keep this caveat in mind.
+
+### Starting Grad School Earlier 
+
+As an undergrad, UIUC enables you to get a grad student-like experience with teaching, research, grants, publishing and upper div classes, but why not just become a graduate student earlier if you're really sure about your path. Being a grad student explicitly makes it easier, and having an extra year to focus on research can really produce better outcomes for many students. I still reccomend spending the full time in undergrad to explore if being a grad student is a right move and not getting locked into the wrong research area, but getting there a year earlier can be nice. If you also intended to do a PhD at UIUC, this can be quite streamlined since you can double dip the initial breadth requirements from undergrad too.
+
+### Study Abroad
+
+Studying in a different country is an extremely worthwhile experience and it really forces you to grow in all sorts of great ways. It's also just fascinating seeing how different cultures approach the same topics, even a relatively standardizied field like Computer Science. Having fewer semesters at UIUC means you could do a 8 or even 12 month study abroad if you wanted. A funny side effect is that you can even save money doing this because universities in other developed countries are much cheaper than American ones. For most people, this is a great chance in life to just spend a few months living in another country that won't naturally come up again in life. 
+
+I didn't do this personally because my entire UIUC experience was already _study abroad_, but I knew international students who used it to try even more countries.
+
+### Industry Internships
+
+While doing part time semester internships and full time 3-5 summer internships in a normal 4 year-8 semester is already quite a lot of room for internships, doing this can let you do even more. Especially towards the end of a degree. Typically there's a lot of burden on the summer after junior year's internship to net a return offer, but having a spring or fall co-op/full time internship right before graduation can increase the odds of a full time return offer quite drastically. Interning is also just a fantastic learning experience: mentorship, sampling different industries, relatively lower stakes for career mistakes, trying different tech stacks. This can also help on the money front, I knew someone who covered the gap between scholarships and tuition with savings from numerous internships.
+
+### Not Liking University or Wanting to Spend Less Time Here
+
+Some people don't like life in academia, others miss family that's often in a different city/state/country, don't find the right social crowd or perhaps simply just want to get their education and resume life back home. Whatever someone's reason, I think it's valid even though I'd love if everyone really wanted to spend very long at UIUC to experience what I did. Time is a very precious resource, and if less time at UIUC aligns with your goals, I think that is absolutely worth it.
+
+## Middle ground: 7 semesters
+
+While the 6 semesters is a little tight, 7 is actually gives far more breathing room in the degree plan and it can still be saving money. Your 7th semester can also be a part time semester which is cheaper to do, and this allows a longer college experience, one more summer break and often a longer break between a job start and the end of college. UIUC will still let you do the May graduation ceremony even if you graduate in December. UIUC's typical degree plans also account for 7 to allow for some slack in case of life circumstances, co-op/internships, and study abroad so it feels quite manageable.
+
+Note for F1 Visa: If you graduate in December keep in mind it reduces the lottery attempts from 4 to 3 for the duration of an OPT. It might seem small from afar, but I've seen people _really_ regret this.
+
+## Links 
+
+These are largely out of scope for this page, but I think you should also check these out
+
+* My guide on [Staying Productive](/productive) - a lot of different strategies you should A/B test on to be highly effective
+* [Drshika Asher](https://www.drshika.com/)'s [UIUC Mental Health Sources Links Collection](https://uiuc-mh-resources.netlify.app/)
+* Drshika and I also wrote a SWE interview [prep guide](https://tinyurl.com/cs-interview-prep) which is about prepping for DS&A style algorithms effectively while using time well from when we were CS 225 CAs
+* [How to Be a Study Ninja](https://www.grahamallcott.com/books/study-ninja) by Graham Allcott is one of the rare self-help advice books on doing really well as a student that I suggest. Most of this field has very vague advice that doesn't work, but this book is really actionable and chances are you're already doing some of it
+* Drshika, [Monika Para](https://www.linkedin.com/in/monicapara/), and I also ran a summer series of follow along workshops focused on a fun and friendly start to side projects called [Summer of Side Projects](https://sosp22.com/). Go through these tutorials and then use it as a fun launching point to quicky explore your interests and build up a nice portfolio.
+* [Testing 101](https://sosp22.com/testing101) is a small guide I wrote on the red-green-refactor mindset on having clear failing tests, working in small increments till each piece works, and then using that as a way to prevent regressions while building more code on top. The topic of programming productivity is a really complex one, but the main trend I noticed among successful students as a course assistant was the ones who worked in small increments, tested those increments, and debugged very quickly because there was only a small portion of unconfirmed code in most cases. Doing a 3 year plan does mean learning to work effectively and I think this is a good starter point.
+
+Good luck!
