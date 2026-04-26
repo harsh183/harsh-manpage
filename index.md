@@ -141,7 +141,7 @@ An experimental data structure that uses Fibonacci numbers like 0, 1, 2, 3, 5, 8
 \--github_link=[harsh183/hackyTestWithScores.kt](https://gist.github.com/harsh183/fb32427bb283b5b546bab7974859060b)
 {: .sub-header}
 
-A simple hacky test framework that creates a DSL for writing test cases where there can be custom weights for scoring. The goal was to have a single file with no imports or frameworks required to run in a very fast kotlin environment.
+A simple hacky test framework that creates a DSL for writing test cases where there can be custom weights for scoring. The goal was to have a single file with no imports or frameworks required to run in a very fast kotlin environment. It became the basis of Kotlin grading in open source homework platform [KTeach](https://github.com/daviskeene/KTeach) developed by [Davis Keene](https://daviskeene.com/)
 {: .section-content}
 
 **Fancy Git Client**
