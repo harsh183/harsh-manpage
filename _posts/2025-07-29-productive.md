@@ -15,15 +15,15 @@ Advice on this is complicated to give:
 * Everyone is different
 * When some things are _optional_, like side projects or life improvements, all the usual barriers can become even more daunting.
 
-There's no single good approach. The only thing that works is experimenting with lots of good approaches and finding the few that work for you. I'm going to list many of them briefly here, and it will take some time to figure out what works for you.
+There's no single good approach. What works is experimenting with lots of good approaches and finding the few that work for you. I'm going to list many of them briefly here, and it will take some time to figure out what works for you.
 
 Before trying any of these, start by disregarding one-size-fits-all models of productivity. Most self-help advice takes simplistic, standardized ideas of getting work done and often tangles them with shame. Not all of it is bad, and a few excellent resources do have nuanced advice. I've linked some at the end of this page, but only a small fraction of advice out there is actually worth reading. Hopefully this is one of them.
 
 With any of these sections, try it for some time before writing it off. Two weeks is a good rule of thumb, but feel free to adjust based on your best judgment. There will be an adjustment period when you try anything new, but you should be able to tell fairly quickly after that if something actually works. 
 
-It's also important to realize there's no shame if a section doesn't work for you. As you try and drop things, you might feel quite negatively at first, but it'll fade as you experiment more and start seeing these as just a box of tools you're filtering through. 
+It's also important to realize there's no shame if a section doesn't work for you. As you try and drop things, you might feel pretty negative at first, but it'll fade as you experiment more and start seeing these as a box of tools you're filtering through. 
 
-You'll likely need a combo of many strategies that's unique to you, so keep experimenting with strategies and their combinations. It might take a while until you're fully at your peak, but even the journey there will start improving things quite early. You might read this list (and others out there) and realize you're already doing some of these well; start with that.
+You'll likely need a combo of many strategies that's unique to you, so keep experimenting with strategies and their combinations. It might take a while until you're fully at your peak, but even the journey there will start improving things early. You might read this list (and others out there) and realize you're already doing some of these well; start with that.
 
 Never forget: always be kind to yourself. It's an introspective process and many parts can get uncomfortable.
 
@@ -78,7 +78,7 @@ Sometimes doing things alone is enough (and for some people, it works better), s
 * virtually (especially with the pandemic), websites like [focusmate](https://focusmate.com/) (stranger pair-ups for 50-minute sessions)
 * pair up with friends and see each other's to-do lists with timers using a website or chats
 
-In the end, many still work best alone, but this is quite effective for most people. It's often part of why workplaces exist and colleges have so many study spaces, even when people aren't collaborating 100% of the time.
+In the end, many still work best alone, but this is effective for most people. It's often part of why workplaces exist and colleges have so many study spaces, even when people aren't collaborating 100% of the time.
 
 ## Social Encouragement
 
@@ -98,11 +98,11 @@ For example, if I don't feel like programming right now, I can quickly open up `
 
 ## 2 Minute Rule
 
-Instead of aiming to do the whole task at once, your goal is just to do two minutes of work. You can even count 1 to 120 in your head if you need to. After 2 minutes, you might realize it's not that bad and keep going, or decide it's too overwhelming right now and try another 2 minutes later. 
+Instead of aiming to do the whole task at once, your goal is to do two minutes of work. You can even count 1 to 120 in your head if you need to. After 2 minutes, you might realize it's not that bad and keep going, or decide it's too overwhelming right now and try another 2 minutes later. 
 
 For me, I end up continuing about 80% of the time, but your results may vary. The most important thing is that even a low success rate is worth it because either outcome is fine, and odds are you'll keep doing the task. The underlying principle is that starting is the hardest part, and continuing gets easier. It's like jumping into a seemingly cold swimming pool and realizing after a minute or two that it's pretty alright. 
 
-This strategy pairs well with the setup idea above because your 2 minutes can just be setup. Even if you walk away, the work you did in those 2 minutes makes it easier to come back.
+This strategy pairs well with the setup idea above because your 2 minutes can be setup. Even if you walk away, the work you did in those 2 minutes makes it easier to come back.
 
 ## Have High-Quality Breaks
 
@@ -122,7 +122,7 @@ There's no clear agreement on how long that time slot should be, and it often va
 
 Some people find it overwhelming just to keep track of what needs to be done, and keeping it all in their head can get exhausting. Having an external to-do list is helpful since the cognitive load is pushed onto technology or paper. You can use this to split big intimidating tasks into smaller, friendlier tasks as well. Some people like the motivation from sharing these or checking off items. Many sites have gamified to-do lists like Habitica.
 
-This combines with SMART goals quite well too.
+This combines with SMART goals well too.
 
 ## Additional Deadlines
 
@@ -174,7 +174,7 @@ The past is gone, and forgiving yourself pushes you towards creating a better to
 
 ## Motivation
 
-And finally, motivation. This one is tricky because it's often what people blame first when they're not able to work, but usually a large variety of factors are the real problem. Motivation is also a complex emotion with many types and many ways to build it. It certainly helps to have something pulling you forward, figure out your style, identify what is blocking you, and work specifically to remove blockers.
+And finally, motivation. This one is tricky because it's often what people blame first when they're not able to work, but usually a large variety of factors are the real problem. Motivation is also a complex emotion with many types and ways to build it. It certainly helps to have something pulling you forward, figure out your style, identify what is blocking you, and work specifically to remove blockers.
 
 ## Good luck
 
