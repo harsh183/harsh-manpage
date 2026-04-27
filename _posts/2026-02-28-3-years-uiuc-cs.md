@@ -253,13 +253,15 @@ I didn't do this personally because my entire UIUC experience was already _study
 
 While doing part-time semester internships and full-time 3-5 summer internships in a normal 4-year/8-semester plan is already quite a lot of room for internships, doing this can let you do even more. Especially towards the end of a degree. Typically there's a lot of burden on the summer after junior year's internship to net a return offer, but having a spring or fall co-op/full-time internship right before graduation can increase the odds of a full-time return offer quite drastically. Interning is also just a fantastic learning experience: mentorship, sampling different industries, relatively lower stakes for career mistakes, trying different tech stacks. This can also help on the money front, I knew someone who covered the gap between scholarships and tuition with savings from numerous internships.
 
+Also keep in mind that UIUC's [Research Park](https://researchpark.illinois.edu/), Champaign county tech offices, and Chicago [City Scholars](https://cityscholars.grainger.illinois.edu/) can let you intern around while taking proper semesters too, though it can be a little tough to balance both so I suggest lighter loads. 
+
 ### Not Liking University or Wanting to Spend Less Time Here
 
 Some people don't like life in academia. Others miss family that's often in a different city, state, or country, don't find the right social crowd, or simply want to get their education and resume life back home. Whatever someone's reason, I think it's valid, even though I'd love it if everyone wanted to spend a long time at UIUC and experience what I did. Time is a very precious resource, and if less time at UIUC aligns with your goals, I think that is absolutely worth it.
 
 ## Middle ground: 7 semesters
 
-While 6 semesters is a little tight, 7 actually gives far more breathing room in the degree plan and it can still save money. Your 7th semester can also be a part-time semester, which is cheaper to do, and this allows a longer college experience, one more summer break, and often a longer break between a job start and the end of college. UIUC will still let you do the May graduation ceremony even if you graduate in December. UIUC's typical degree plans also account for 7 semesters to allow for some slack in case of life circumstances, co-op/internships, and study abroad so it feels quite manageable.
+While 6 semesters is a little tight, 7 actually gives far more breathing room in the degree plan and it can still save money. Your 7th semester can also be a part-time semester, which is cheaper to do, and this allows a longer college experience, one more summer break, and often a longer break between a job start and the end of college. UIUC will still let you do the May graduation ceremony even if you [graduate in December](https://commencement.illinois.edu/eligibility/). UIUC's typical degree plans also account for 7 semesters to allow for some slack in case of life circumstances, co-op/internships, and study abroad so it feels quite manageable.
 
 Note for F1 Visa: If you graduate in December keep in mind it reduces the lottery attempts from 4 to 3 for the duration of an OPT. It might seem small from afar, but I've seen people _really_ regret this.
 
@@ -275,3 +277,5 @@ These are largely out of scope for this page, but I think they're also worth che
 * [Testing 101](https://sosp22.com/testing101) is a small guide I wrote on the red-green-refactor mindset on having clear failing tests, working in small increments till each piece works, and then using that as a way to prevent regressions while building more code on top. The topic of programming productivity is a really complex one, but the main trend I noticed among successful students as a course assistant was the ones who worked in small increments, tested those increments, and debugged very quickly because there was only a small portion of unconfirmed code in most cases. Doing a 3 year plan does mean learning to work effectively and I think this is a good starter point.
 
 Good luck!
+
+Thanks to Monika Para, Drshika Asher, Divvyam Arora, and Davis Keene for taking an early look at this post.
