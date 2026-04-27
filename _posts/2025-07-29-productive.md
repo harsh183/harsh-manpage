@@ -10,44 +10,44 @@ toc: true
 
 <!-- markdownlint-disable MD004 MD009 MD014 MD024 MD031 MD040 -->
 
-Advice about this is complicated to give: 
+Advice on this is complicated to give:
 * Productivity is hard
 * Everyone is different
 * When some things are _optional_, like side projects or life improvements, all the usual barriers can become even more daunting.
 
-There's no one good approach, the only thing that works is experimenting with a lot of different good approaches and finding the few that work for you. I'm going to list a lot of them briefly here and it's going to take some time to figure out what works for you.
+There's no single good approach. The only thing that works is experimenting with lots of good approaches and finding the few that work for you. I'm going to list many of them briefly here, and it will take some time to figure out what works for you.
 
-Before trying any of these, you have to begin with disregarding one size fits all models of productivity. Most self-help advice takes very simplistic or standard ideas of getting work done but the reality, and often tangle this with shame. Not all of it is bad, and there are a few excellent resources have nuanced advice. I've linked a few at the end of this page that I've found, but there is a small fraction of actually good advice out there that's worth reading. Hopefully this is one of them.
+Before trying any of these, start by disregarding one-size-fits-all models of productivity. Most self-help advice takes simplistic, standardized ideas of getting work done and often tangles them with shame. Not all of it is bad, and a few excellent resources do have nuanced advice. I've linked some at the end of this page, but only a small fraction of advice out there is actually worth reading. Hopefully this is one of them.
 
-With any of these sections, try it for some time before writing it off. Two weeks is a good rule of thumb, but feel free to adjust with your best judgement. There will be an adjustment period when you try anything new, but you should be able to tell if something actually works quite quickly after that. 
+With any of these sections, try it for some time before writing it off. Two weeks is a good rule of thumb, but feel free to adjust based on your best judgment. There will be an adjustment period when you try anything new, but you should be able to tell fairly quickly after that if something actually works. 
 
 It's also important to realize there's no shame if a section doesn't work for you. As you try and drop things, you might feel quite negatively at first, but it'll fade as you experiment more and start seeing these as just a box of tools you're filtering through. 
 
-You'll likely need a combo of many strategies that's likely unique to you, so keep experimenting with strategies and their combinations. It might take a while till you're fully at your peak, but even the journey there will start making things better quite early along the way. You might read this list (and others out there) and realize you're already doing some of these that work well for you, start with that.
+You'll likely need a combo of many strategies that's unique to you, so keep experimenting with strategies and their combinations. It might take a while until you're fully at your peak, but even the journey there will start improving things quite early. You might read this list (and others out there) and realize you're already doing some of these well; start with that.
 
 Never forget: always be kind to yourself. It's an introspective process and many parts can get uncomfortable.
 
 ## Time of the Day
 
-Some people work better in the morning people, some in the evening, and some are exclusively night owls. Try times work for you and start scheduling productivity around that. Sometimes you'll have different tasks that also work well at different times of the day, and as you figure it out, you can broadly set up daily schedules.
+Some people work better in the morning, some in the evening, and some are exclusively night owls. Try different times and schedule productivity around what works for you. Sometimes different tasks also work better at different times of day, and as you figure that out, you can broadly set up daily schedules.
 
 ## Days of the Week
 
-Some people work better on weekends, and some on weekends. Some work better with the week's deadlines nearby, and others like it away from their deadline schedule. What works for you might vary, but experimenting with days of the week is worth it.
+Some people work better on weekdays, and some on weekends. Some work better with the week's deadlines nearby, and others like being farther from deadline pressure. What works for you might vary, but experimenting with days of the week is worth it.
 
 ## Together or Spread
 
-Some people are far more productive doing large chunks of work in one go—others like interleaving with other tasks or doing a bit a day. There isn't a fixed answer of what works and a lot of variation between these two, but try to figure out intervals that work. You can also have a hybrid approach where you have maybe 6, 50-minute work - 10-minute break, and you do this twice a week—getting the best of both worlds.
+Some people are far more productive doing large chunks of work in one go; others like interleaving with other tasks or doing a bit each day. There isn't a fixed answer, and there's lots of variation between these two, but try to figure out intervals that work for you. You can also have a hybrid approach where you do maybe six 50-minute work blocks with 10-minute breaks, twice a week, getting the best of both worlds.
 
 ## Pomodoros
 
-The idea is that you have 25-minute timers with 5-15 minute breaks in between. It's named after kitchen tomato clock timers. People like the structure and clear time blocks, but others find it limiting or the pauses quite unnatural. 
+The idea is that you use 25-minute timers with 5-15 minute breaks in between. It's named after tomato-shaped kitchen timers. People like the structure and clear time blocks, but others find it limiting or the pauses unnatural. 
 
-Some people only use it to gain momentum, with the only the initial stages on the pomodoro clock and then let the task go with momentum. Many others use it to prevent burnout as they want to be productive throughout the day.
+Some people only use it to gain momentum, using the Pomodoro clock for the initial stages and then continuing once they have momentum. Many others use it to prevent burnout because they want to stay productive throughout the day.
 
 Some people even like getting a real kitchen clock that could even have a ticking noise. The tomato look is a classic but finding another cute one can be pretty helpful.
 
-There are variations in the timings too. Some people like short burst times while others want longer, here are some of the other popular ones
+There are timing variations too. Some people like short bursts while others prefer longer blocks. Here are some popular ones:
 * 45 minutes of work - 15 minutes of break
 * 50 minutes of work - 10 minutes of break (my personal favorite)
 * 60 minutes of work - 15 minutes of break
@@ -61,48 +61,48 @@ The idea is that you set fixed goals for specific time bounds that help you get 
 * Measurable - you can tell if you achieved it. If you can't measure, it will be more intimidating and would lower your productivity.
 * Achievable - don't set yourself up for failure or aim too high. Some goals you can do within the constraints of today (not what future you can do after years of learning). Sometimes you can set a stretch goal and make sure your main goal is reasonably achievable, and the stretch goal is nice to have. Having achievable goals helps you get started and retain momentum.
 * Relevant - what you're aiming to do is something that actively helps towards the overall task you're trying to do. Treat your productivity as a scarce resource that you will value, so you should ask if a task is worth your time. If you have an MVP already in place, it will help you figure out what is relevant and what is not.
-* Timely - this is probably the most important. You have to have a finite and _fixed_ time bound on a task. Software can be hard to estimate at times, but we still have to learn how to give reasonable estimates to people despite that, and developing this skill will help both you and others. 
+* Timely - this is probably the most important. You need a finite and _fixed_ time bound on a task. Software can be hard to estimate at times, but we still have to learn to give reasonable estimates despite that, and developing this skill helps both you and others. 
 
 Here is an example: "I will create a sign up button (measurable) that links to my backend `register` function (specific and achievable) which I need for creating user accounts (relevant and possibly linked to an MVP) within the next 50 minutes (timely)." 
 
-Over time you'll figure out your form of goal setting, but I suspect you might have a few core ideas in common with this. I don't think it's effective if someone else does them for you like [corporate upper management](https://softwareengineering.stackexchange.com/questions/28927/are-smart-goals-useful-for-programmers) but only if you set them up. It's a rule of thumb, and you'll figure out when it works and when it doesn't over time.
+Over time you'll figure out your own form of goal setting, but I suspect you'll share a few core ideas with this. I don't think it's effective when someone else does this for you, like [corporate upper management](https://softwareengineering.stackexchange.com/questions/28927/are-smart-goals-useful-for-programmers); it works best when you set them up yourself. It's a rule of thumb, and you'll learn when it works and when it doesn't.
 
 This often pairs well with Pomodoro-style working due to the time bound nature of this strategy.
 
 ## Social Productivity/Body Doubling
 
-Sometimes doing things alone might be enough for some people (and for some people, it actually works better), so it's also worth experimenting with some crowd you like working around:
+Sometimes doing things alone is enough (and for some people, it works better), so it's also worth experimenting with a crowd you like working around:
 
 * public places like coffee shops and campus hang out areas
 * quiet sections of a library without ambient noise 
 * virtually (especially with the pandemic), websites like [focusmate](https://focusmate.com/) (stranger pair-ups for 50-minute sessions)
 * pair up with friends and see each other's to-do lists with timers using a website or chats
 
-At the end many still work best alone, but it's proven to be quite effective for most. It's often part of the reason workplaces exist and colleges have so many study spaces, even when people aren't collaborating 100% of the time.
+In the end, many still work best alone, but this is quite effective for most people. It's often part of why workplaces exist and colleges have so many study spaces, even when people aren't collaborating 100% of the time.
 
 ## Social Encouragement
 
-It's sometimes helpful to have people comparing progress and giving each other encouragement, and it can take many forms with both at the goal setting and achievement stages:
-* broad lists that cover something like a day, week, or month broad that lists of summary of goals
+It's sometimes helpful to have people compare progress and encourage each other, and this can take many forms at both the goal-setting and achievement stages:
+* broad lists that cover something like a day, week, or month as a summary of goals
 * short lists of what can happen over a small time block like a pomodoro
 
 There is a lot of variation on this end, but this can have some pretty strong gains.
 
 ## Small Setup Time Followed By a Fixed Break
 
-Sometimes, when you don't feel like starting a task right away, do a quick 2-5 minute setup step and then start after a fixed time. This works surprisingly well in practice because the worst part is inertia of starting instead of actually doing the task. 
+Sometimes, when you don't feel like starting a task right away, do a quick 2-5 minute setup step and then start after a fixed break. This works surprisingly well in practice because the hardest part is often the inertia of starting, not doing the task itself. 
 
-Having a little work started and reduced friction of getting back to work counteracts the inertia to a large extent. Procrastination is often a result of having an unclear starting point to a task, but just having setup done as a seperate thing can break that while only taking a few minutes.
+Having a little work started and reducing the friction of getting back to work counteracts that inertia to a large extent. Procrastination is often a result of having an unclear starting point, but doing setup separately can break that while only taking a few minutes.
 
-For example, if I don't feel like programming right now, I can quickly open up `VSCode` with my terminal and project open. Then set a timer for 15 minutes where I can still chill and then get started.
+For example, if I don't feel like programming right now, I can quickly open up `VSCode` with my terminal and project ready. Then I set a 15-minute timer where I can still chill, and then get started.
 
 ## 2 Minute Rule
 
-Istead of aiming to do the whole task at once, your goal is just to do two minutes of work. You can even count 1 to 120 in your head if you need to. After 2 minutes, you might realize it's not that bad, and you can decide to keep going, or you can decide it's too overwhelming right now and try the 2 minutes again later. 
+Instead of aiming to do the whole task at once, your goal is just to do two minutes of work. You can even count 1 to 120 in your head if you need to. After 2 minutes, you might realize it's not that bad and keep going, or decide it's too overwhelming right now and try another 2 minutes later. 
 
-For me, I end up continuing about 80% of the time but your results may vary. The most important thing is that even a low success rate is worth it because either outcome is perfectly fine, but odds are you'll keep doing the task. The underlying principle is that starting a task is the hardest but keeping at it gets easier. It sort of like jumping into a seemingly cold swimming pool and then realizing after a minute or two that it's pretty alright. 
+For me, I end up continuing about 80% of the time, but your results may vary. The most important thing is that even a low success rate is worth it because either outcome is fine, and odds are you'll keep doing the task. The underlying principle is that starting is the hardest part, and continuing gets easier. It's like jumping into a seemingly cold swimming pool and realizing after a minute or two that it's pretty alright. 
 
-This strategy pairs well with setup pomo from above because you can have the 2 minutes be set up. Even if you walk away, the work you did in the 2 minutes makes it easier for you to come back.
+This strategy pairs well with the setup idea above because your 2 minutes can just be setup. Even if you walk away, the work you did in those 2 minutes makes it easier to come back.
 
 ## Have High-Quality Breaks
 
@@ -112,33 +112,33 @@ For instance, I might find a 15-minute call with a friend far more likable than 
 
 ## Schedule Recurring No Work Times
 
-Like the previous piece, I find it nice to actively block out periods of time where you will not be doing any work. It could be a day, a few hours, or even a few minutes spread over the day. In this slot, you have to take a break and not work at all. Regardless of how the day is going, you will have guilt-free no work during that time. 
+Like the previous point, I find it useful to actively block out periods of time where you will not be doing any work. It could be a day, a few hours, or even a few minutes spread over the day. In this slot, you have to take a break and not work at all. Regardless of how the day is going, you get guilt-free no-work time. 
 
-If you treat your non-work time as sacred, you could start finding it easier keep your work time sacred. It sounds counterintutive to write off large blocks of time as unproductive, but doing this ensures the productive time left is of far greater quality. On average, this greater quality can leave things better overall, especially for long term productivity as you reduce burn out.
+If you treat your non-work time as sacred, you may find it easier to keep your work time sacred too. It sounds counterintuitive to write off large blocks of time as unproductive, but doing this ensures the productive time left is far higher quality. On average, this can leave things better overall, especially for long-term productivity as you reduce burnout.
 
-There's no clear agreement on how long time slot should be, and it often varies by person. Some like having a fixed set of hours in the day that's clearly blocked off, others like having a day or so. As a starting point, try at least one clear day a week, and if you'd prefer a daily thing, at least an hour a day. 
+There's no clear agreement on how long that time slot should be, and it often varies by person. Some like having a fixed set of hours in the day clearly blocked off; others like blocking off a full day or so. As a starting point, try at least one clear day a week, and if you'd prefer a daily version, at least an hour a day. 
 
 ## Todo Lists
 
-Some people find it overwhelming just to keep track of what needs to be done, and keeping it all in their head can get overwhelming. Having an external to-do list is quite helpful since the cognitive load is pushed onto technology/paper. You can use this to split up big intimidating tasks into smaller and nicer tasks as well. Some people like the motivation from sharing these or from checking off items. Many sites online have gamified to-do lists like Habitca.
+Some people find it overwhelming just to keep track of what needs to be done, and keeping it all in their head can get exhausting. Having an external to-do list is helpful since the cognitive load is pushed onto technology or paper. You can use this to split big intimidating tasks into smaller, friendlier tasks as well. Some people like the motivation from sharing these or checking off items. Many sites have gamified to-do lists like Habitica.
 
-This combines with SMART goals quite well too
+This combines with SMART goals quite well too.
 
 ## Additional Deadlines
 
 Deadlines are great, and it's perfectly fine to use them to your advantage. In general, if deadlines are what works best for you, then you can even create artificial ones. Some people can set that up for themselves, while others need external enforcers: both are perfectly fine. 
 
-For example, if you have a big project due at the end of a month, schedule a weekly call with a professor or manager where you tell them you'll show them stages of your progress. You might think you're an inconvenience, but most people are glad to support efforts like this. Many people never take the initiative to ask this, and it's nothing to lose almost all the time. Sometimes you'll even get pointers.
+For example, if you have a big project due at the end of a month, schedule a weekly call with a professor or manager where you'll show stages of your progress. You might think you're an inconvenience, but most people are glad to support efforts like this. Many people never take the initiative to ask, and there's almost nothing to lose. Sometimes you'll even get pointers.
 
 ## Additional Consequences 
 
-Hitting productive goals can even come with a reward depending on the size of goal and the effort you took. Most of these you can arrange for yourself, though you might find your peers are happy to also help out here in lots of small ways. 
+Hitting productive goals can come with a reward depending on the goal size and the effort you took. Most of these you can arrange for yourself, though you might find your peers are happy to help in lots of small ways. 
 
-Some people prefer a slight negative consequence like money on the line that will be lost or donated to charity. Negative loops can be a slipperly slope, but used in a light hearted way can be quite effective.
+Some people prefer a slight negative consequence, like money on the line that will be lost or donated to charity. Negative loops can be a slippery slope, but used in a light-hearted way they can be effective.
 
 ## Mental Health and Undiagnosed Issues
 
-I am not qualified to give specific advice on this, but this is something that trips up surprisngly many people over a lot while just some attention and specific help can go a long way. If you suspect something or have an untreated issue, definitely do consult with qualified experts who can help you a long way with improving aspects of your life, including productivity.
+I am not qualified to give specific advice on this, but this is something that trips up surprisingly many people, and some attention plus specific help can go a long way. If you suspect something or have an untreated issue, definitely consult qualified experts who can help you improve many aspects of life, including productivity.
 
 ## Sleep, Food, and Quality of Life
 
@@ -148,7 +148,7 @@ In general, try to keep your quality of life and health factors as good as pract
 
 "Perfect is the enemy of done" [(origin disputed)](https://en.wikiquote.org/wiki/Perfection).
 
-When things are not going well, your brain will often try to sit really high and often unrealistic starting goals. It will not even allow you to get started since you'll aim for perfection right away instead of getting there with eventual iterations. People might think this kind of thought process will lead them to good results, but it rarely does. Instead, you just get started less than perfectly, feel confused a lot, go back and forth, erase some work, experiment, and keep refining what you're doing. This type of workflow will get you far closer to perfect than perfectionism at the start will get you.
+When things are not going well, your brain will often set very high and unrealistic starting goals. It may not even let you get started, since you'll aim for perfection right away instead of getting there through iterations. People might think this thought process leads to good results, but it rarely does. Instead, you start imperfectly, feel confused sometimes, go back and forth, erase some work, experiment, and keep refining what you're doing. This workflow will get you far closer to great outcomes than perfectionism at the start.
 
 To quote [Paul Graham's Hackers and Painters](http://www.paulgraham.com/hp.html),
 
@@ -158,11 +158,11 @@ To quote [Paul Graham's Hackers and Painters](http://www.paulgraham.com/hp.html)
 
 ## Non-Zero Days
 
-This point and the next point are inspired by this [famous reddit comment](https://www.reddit.com/r/getdisciplined/comments/1q96b5/i_just_dont_care_about_myself/cdah4af/). 
+This point and the next one are inspired by this [famous Reddit comment](https://www.reddit.com/r/getdisciplined/comments/1q96b5/i_just_dont_care_about_myself/cdah4af/). 
 
-The idea is that you will have days where things go wrong, days where nothing happened and your entire to-do list is a reminder of how worthless you are.
+The idea is that you'll have days where things go wrong, days where nothing happens, and your entire to-do list feels like a reminder of how worthless you are.
 
-On those days, before it's over, do a _tiny_ amount of non-zero work. You read a _single_ page of a book, write a _single_ line of code, add a _single_ test case, a _single_ push up, or whatever. Anything that is not zero. Your perfect, ideal productive self won't happen right away (while we do wish) but rather from a series of non-zero days that slowly add up. If you're not doing well then at least you can break the negative streak and it gives you a fresh start all over again.
+On those days, before the day is over, do a _tiny_ amount of non-zero work. Read a _single_ page of a book, write a _single_ line of code, add a _single_ test case, do a _single_ push up, or whatever. Anything that is not zero. Your ideal productive self won't appear right away (as much as we wish), but from a series of non-zero days that slowly add up. Even if you're not doing well, at least you can break the negative streak and give yourself a fresh start.
 
 ## Forgiveness
 
@@ -174,11 +174,11 @@ The past is gone, and forgiving yourself pushes you towards creating a better to
 
 ## Motivation
 
-And finally, motivation. This one is tricky because this is what people blame first when they're not able to work, but there is honestly such a large variety of factors that are usually the problem. Motivation is also a complex emotion with many different types and ways to gain it. It does certainly help if you have something motivating you forward, figure out your style, see what is blocking you, and work specifically to remove blockers.
+And finally, motivation. This one is tricky because it's often what people blame first when they're not able to work, but usually a large variety of factors are the real problem. Motivation is also a complex emotion with many types and many ways to build it. It certainly helps to have something pulling you forward, figure out your style, identify what is blocking you, and work specifically to remove blockers.
 
 ## Good luck
 
-Productivity is complicated, and quite honestly, no one has completely figured it out yet. Over time you will arrive at what works for you, but don't beat yourself over it too much or try to be a perfectionist about it—as always, having a good starting [idea](/ideas) and proper [workflow](/workflow) will go a far way. 
+Productivity is complicated, and honestly, no one has completely figured it out yet. Over time you will arrive at what works for you, but don't beat yourself up over it or try to be a perfectionist about it.
 
 You got this!
 
@@ -186,6 +186,6 @@ You got this!
 
 * [7 Ways to Maximize Misery 😞](https://www.youtube.com/watch?v=LO1mTELoj6o) - good call outs with specific advice
 
-* [How to be a Study Ninja: Study smarter. Focus better. Achieve more.](https://www.goodreads.com/book/show/36121202-how-to-be-a-study-ninja) - I was _extremely_ skeptical about this book (and the entire genre) but this book has a lot of specific, realistic and practical advice that's a box of tools approach to productivitiy. Some approaches might work, some might not - but it's worth experimenting and getting huge gains in results.
+* [How to be a Study Ninja: Study smarter. Focus better. Achieve more.](https://www.goodreads.com/book/show/36121202-how-to-be-a-study-ninja) - I was _extremely_ skeptical about this book (and the entire genre), but it has a lot of specific, realistic, and practical advice with a toolbox approach to productivity. Some approaches might work, some might not, but it's worth experimenting and potentially getting huge gains in results.
 
-Contributors: Harsh, Nehal
+Thanks to Nehal Sai Tangudu for proof reading and providing feedback on an earlier [version](https://sosp22.com/productive) of the post. 
