@@ -8,6 +8,6 @@ tag: Info
 toc: true
 ---
 
-I wrote about six different myths about the very hyped rollout of FedNow that I saw on various social media on my company blog.
+I wrote about six myths around the highly hyped rollout of FedNow that I saw across social media, on my company blog.
 
 <https://www.moderntreasury.com/journal/social-media-myths-about-fednow>

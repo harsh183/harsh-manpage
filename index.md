@@ -29,16 +29,16 @@ ICSE at Greenwood High School [2005-2016]
 Modern Treasury [Software Engineer III][2026-] - Team: Banks Send 
 {: .section-content}
 
-Modern Treasury [Software Engineer II][2024-2026] - Team: Payment Rails and later Banks Send - More on global payments and systemic fixes so we can scale adding lots of payments
+Modern Treasury [Software Engineer II][2024-2026] - Team: Payment Rails and later Banks Send - Worked on global payments and systemic fixes to scale payment integrations
 {: .section-content}
 
-Modern Treasury [Software Engineer I][2022-2024] - Team: Payments Rails - Focusing on Low Cost Global Payments to APAC and EMEA
+Modern Treasury [Software Engineer I][2022-2024] - Team: Payment Rails - Focused on low-cost global payments to APAC and EMEA
 {: .section-content}
 
 University of Illinois [Mix of Research and Course Assistant Roles][2018-2022]   
 {: .section-content}
 
-Treniq [Intern][Summer 2017] - Worked on lots of data ingestion and web bot automation for use cases in the high end furniture industry
+Treniq [Intern][Summer 2017] - Worked on data ingestion and web bot automation for use cases in the high-end furniture industry
 {: .section-content}
 
 imr.sv Media Group [Intern][2017] - Worked on a funky portfolio site of interesting 360-degree interactive photos, videos, and house tours. 
@@ -48,7 +48,7 @@ imr.sv Media Group [Intern][2017] - Worked on a funky portfolio site of interest
 UIUC Universal Design for Learning Group [Writing Code And Field Testing][2020-2022]
 {: .section-content}
 
-UIUC HCI Group under Alex Kirlik [Experiment Design, Writing Papers, Visualizing Complex Data and Running User Studies][2019-2022]
+UIUC HCI Group under Alex Kirlik [Experiment Design, Writing Papers, Visualizing Complex Data, and Running User Studies][2019-2022]
 {: .section-content}
 
 ## DESCRIPTION
@@ -62,13 +62,13 @@ UIUC HCI Group under Alex Kirlik [Experiment Design, Writing Papers, Visualizing
 [August, 2025]
 
 {: .news}
-I wrote my first technical post on my company's Engineering Blog that I'm now running: [Floats Don’t Work For Storing Cents: Why Modern Treasury Uses Integers Instead](https://www.moderntreasury.com/journal/floats-dont-work-for-storing-cents)
+I wrote my first technical post on my company's Engineering Blog, which I now run: [Floats Don’t Work For Storing Cents: Why Modern Treasury Uses Integers Instead](https://www.moderntreasury.com/journal/floats-dont-work-for-storing-cents)
 
 {: .news-header}
 [March, 2025]
 
 {: .news}
-I got to come back to UIUC to judge at HackIllinois 2025. I saw lots of cool projects and a shark-tank like final round presentation competition. 
+I got to come back to UIUC to judge at HackIllinois 2025. I saw lots of cool projects and a shark-tank-like final-round presentation competition.
 
 [→ Read older news](/news-archive)
 {: .section-content}
@@ -87,7 +87,7 @@ Tried having participants vary based on doing a virtual warehouse task with 2D s
 **What’s This? A Voice and Touch Multimodal Approach for Ambiguity Resolution in Voice Assistants**, Jaewook Lee, Sebastian S Rodriguez, Raahul Natarrajan, Jacqueline Chen, **Harsh Deep**, Alex Kirlik [2021]
 {: .sub-header}
 
-We had a voice assistant where a participant could point their phone at a set of items and ask actions like "Find me a recipe that includes these" or "How to assemble this?" and that would include that as context for the AI. Users generally liked it based on the NASA-TLX scale and preferred it over not having the feature in the study
+We had a voice assistant where a participant could point their phone at a set of items and ask things like "Find me a recipe that includes these" or "How do I assemble this?" The phone context was passed to the AI. Users generally liked it based on the NASA-TLX scale and preferred it over not having the feature in the study.
 {: .section-content}
 
 **Measuring complacency in humans interacting with autonomous agents in a multi-agent system**, SS Rodriguez, J Chen, **H Deep**, JJ Lee, DE Asher, E Zaroukian [2020]
@@ -96,11 +96,8 @@ We had a voice assistant where a participant could point their phone at a set of
 We created a group tag game where humans team up with AI to chase another AI. We varied how good the AI were to see if humans would get more complacent if the AI was really good. There was a lot of fun measurement with eye tracking to see focus, task load, and trust in automation.
 {: .section-content}
 
-<!-- put presentations as well https://github.com/rdembi2/webgazer-prep -->
 
 ## PROJECTS
-
-<!-- throw in my abandonware from the ages -->
 
 ### OPEN SOURCE
 
@@ -115,7 +112,7 @@ StompJS is a library that lets browsers and other JS environments talk to AMQP Q
 \--github_link=[ClassTranscribe](https://github.com/classtranscribe)
 {: .sub-header}
 
-ClassTranscribe is an accessibility focused video website for educational lectures. I added support for live streams, modernized to recent Node [after a lot of pain](https://www.freecodecamp.org/news/how-to-upgrade-node-and-jest-while-on-react-scripts-v4/) and added the first test cases to the project.
+ClassTranscribe is an accessibility-focused video website for educational lectures. I added support for live streams, modernized to a recent Node version [after a lot of pain](https://www.freecodecamp.org/news/how-to-upgrade-node-and-jest-while-on-react-scripts-v4/), and added the first test cases to the project.
 
 (Used by thousands of students across several universities)
 {: .section-content}
@@ -127,7 +124,7 @@ ClassTranscribe is an accessibility focused video website for educational lectur
 \--github_link=[harsh183/uiuc-course-explorer-plus-plus/](https://github.com/harsh183/uiuc-course-explorer-plus-plus/)
 {: .sub-header}
 
-A browser extension that improves the UIUC Course Explorer website to allow directly jumping to a course page, google map links for all locations on campus, and links to GPA [statistics](https://1010labs.org/gpa) and Reddit gossip about the class. 
+A browser extension that improves the UIUC Course Explorer website by allowing direct jumps to course pages, Google Maps links for campus locations, and links to GPA [statistics](https://1010labs.org/gpa) and Reddit discussion about classes.
 {: .section-content}
 
 **Fibonacci Array**
@@ -141,19 +138,19 @@ An experimental data structure that uses Fibonacci numbers like 0, 1, 2, 3, 5, 8
 \--github_link=[harsh183/hackyTestWithScores.kt](https://gist.github.com/harsh183/fb32427bb283b5b546bab7974859060b)
 {: .sub-header}
 
-A simple hacky test framework that creates a DSL for writing test cases where there can be custom weights for scoring. The goal was to have a single file with no imports or frameworks required to run in a very fast kotlin environment. It became the basis of Kotlin grading in open source homework platform [KTeach](https://github.com/daviskeene/KTeach) developed by [Davis Keene](https://daviskeene.com/)
+A simple hacky test framework that creates a DSL for writing test cases with custom weights for scoring. The goal was to have a single file with no imports or frameworks required to run in a fast Kotlin environment. It became the basis of Kotlin grading in the open-source homework platform [KTeach](https://github.com/daviskeene/KTeach), developed by [Davis Keene](https://daviskeene.com/)
 {: .section-content}
 
 **Fancy Git Client**
 \--github_link=[harsh183/fgit](https://github.com/harsh183/fgit)
 {: .sub-header}
 
-A sleek command line git client that has interactive menus, colors, status sliders, nicer displays for a single command invocation to add, commit, and push.
+A sleek command-line git client with interactive menus, colors, status sliders, and nicer displays for single-command add/commit/push flows.
 {: .section-content}
 
 ## TEACHING
 
-I've spent multiple semesters having pivotal roles teaching various introductory computer science resources at UIUC like:
+I've spent multiple semesters in pivotal roles teaching various introductory computer science resources at UIUC, like:
 {: .section-content}
 
 * [CS 125](https://cs125.cs.illinois.edu/) - Introduction to Computer Science (Java)
@@ -161,7 +158,7 @@ I've spent multiple semesters having pivotal roles teaching various introductory
 * [CS 199: EMP](https://cs199emp.netlify.app/) - Even More Practice (Java)
 * [CS 225](https://courses.engr.illinois.edu/cs225/sp2022/) - Introduction to Data Structures and Algorithms with C++ 
 * [CS 277](https://courses.grainger.illinois.edu/cs277/fa2021/) - Algorithms and Data Structures for Data Science (Python)
-* [Summer of Side Projects](https://sosp22.com) - Summer 2021 and 2022 I led a series of workshops and guided projects with Python and JavaScript with over 65+ projects by 40+ participants. (Python, JavaScript)
+* [Summer of Side Projects](https://sosp22.com) - In Summer 2021 and 2022, I led a series of workshops and guided projects in Python and JavaScript, with 65+ projects by 40+ participants. (Python, JavaScript)
 {: .section-content}
 
 ## EXTRAS
