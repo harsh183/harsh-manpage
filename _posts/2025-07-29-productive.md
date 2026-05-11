@@ -53,6 +53,8 @@ There are timing variations too. Some people like short bursts while others pref
 * 60 minutes of work - 15 minutes of break
 * 75 minutes of work - 15 minutes of break
 
+These are all roughly in the 5:1 work to break ratio but that's just a convention that works for many people and aligns with our 60 minute hours, but definitely think about experimenting on what works for you. If 60 minutes of work and 30 minutes of break works better, go for it. Check this post on [pomodoro leverage ratios](https://til.andrew-quinn.me/posts/pomodoros-and-leverage-ratios/) which thinks about this aspect more. 
+
 ## Goal Setting 
 
 The idea is that you set fixed goals for specific time bounds that help you get things done. A popular convention is SMART goals. 
