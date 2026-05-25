@@ -14,6 +14,14 @@ To be clear, I'm not your advisor and not a replacement for one. Please meet wit
 
 Note: The info here is based on what is true at the time of writing. The CS requirements will keep changing slowly as the years go by, but the mindset will stay largely the same. Feel free to reach out or make a [pull request](https://github.com/harsh183/harsh-manpage/pulls) if you'd like to update any information.
 
+## Think about 3 Calendar years or 6 semesters
+
+Typically people will mean a 6 semester college plan over the typical 8, but the first thing to think about is what you are trying to optimize for
+* money -> 6 semesters with as many credits possible
+* time -> 3 calendar years of 6 normal semesters and consider Summer classes at discount rates (see the later Summer classes section more)
+* class time -> 6 semesters with as many credits possible
+* internship/research time -> 6 semesters, with more breaks between semesters to intern more <!-- I want to expand more on the tradeoff of having less intern time, maybe I can split this out into sections, basically one less internship is one less return offer chance -->
+
 ## Plan
 
 Start planning early, ideally before your first semester. This needs coordination around proficiency tests, degree requirements, and paperwork. It is still possible to do this later in your degree, but the later you start, the more stressful it gets. Make a worksheet of what every semester will include, with clearly defined classes or class groups, to ensure the whole plan works.
