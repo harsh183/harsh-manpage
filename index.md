@@ -25,6 +25,7 @@ ICSE at Greenwood High School [2005-2016]
 {: .section-content}
 
 **Industry:**
+{: #industry}
 
 Modern Treasury [Software Engineer III][2026-] - Team: Banks Send 
 {: .section-content}
