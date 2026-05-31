@@ -1,7 +1,6 @@
 ---
 layout: post
 title: My Recommendation Links For Anyone Starting with Ruby on Rails
-date: 2025-11-26
 comments: true
 external-url:
 tag: Recommendations

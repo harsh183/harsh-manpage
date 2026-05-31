@@ -1,7 +1,6 @@
 ---
 layout: post
 title: Advice on UIUC BS CS in 3 years
-date: 2026-02-28
 comments: true
 external-url:
 tag: Advice

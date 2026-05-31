@@ -1,7 +1,6 @@
 ---
 layout: post
 title: Staying Productive
-date: 2021-05-28
 comments: true
 external-url:
 tag: Advice

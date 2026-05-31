@@ -1,7 +1,6 @@
 ---
 layout: post
 title: Social Media Myths About Fednow
-date: 2023-07-11
 comments: true
 external-url:
 tag: Mythbusting
