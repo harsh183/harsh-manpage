@@ -4,7 +4,7 @@ title: How to Upgrade from Node 16 and Jest 26 While Staying on React Scripts 4
 date: 2024-07-10
 comments: true
 external-url:
-tag: Info
+tag: Tutorial
 toc: false
 ---
 

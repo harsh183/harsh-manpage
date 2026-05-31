@@ -1,10 +1,10 @@
 ---
 layout: post
 title: Staying Productive
-date: 2020-05-28
+date: 2021-05-28
 comments: true
 external-url:
-tag: Info
+tag: Advice
 toc: true
 ---
 

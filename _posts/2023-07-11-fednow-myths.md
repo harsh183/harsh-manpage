@@ -4,7 +4,7 @@ title: Social Media Myths About Fednow
 date: 2023-07-11
 comments: true
 external-url:
-tag: Info
+tag: Mythbusting
 toc: false
 ---
 

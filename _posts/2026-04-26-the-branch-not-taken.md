@@ -4,7 +4,7 @@ title: The Branch Not Taken
 date: 2026-04-26
 comments: true
 external-url:
-tag: Info
+tag: Poetry
 ---
 
 ---

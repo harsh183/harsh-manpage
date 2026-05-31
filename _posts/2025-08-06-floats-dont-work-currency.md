@@ -4,7 +4,7 @@ title: Floats Don’t Work For Storing Cents Why Modern Treasury Uses Integers I
 date: 2025-08-06
 comments: true
 external-url:
-tag: Info
+tag: Exploration
 toc: false
 ---
 

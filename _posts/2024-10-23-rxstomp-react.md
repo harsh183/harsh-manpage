@@ -4,7 +4,7 @@ title: How to Use RxStomp with React Build A Chat App
 date: 2024-10-23
 comments: true
 external-url:
-tag: Info
+tag: Tutorial
 toc: false
 ---
 
