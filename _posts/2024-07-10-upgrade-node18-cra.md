@@ -5,7 +5,7 @@ date: 2024-07-10
 comments: true
 external-url:
 tag: Info
-toc: true
+toc: false
 ---
 
 I once had an incredibly frustrating experience trying to upgrade major dependencies due to poorly maintained Create React App v4 template code which hid away important details that had OpenSSL security issues in the current version, while v5 had an enormous amount of backwards compatibility breaking.  

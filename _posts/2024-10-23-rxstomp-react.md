@@ -5,7 +5,7 @@ date: 2024-10-23
 comments: true
 external-url:
 tag: Info
-toc: true
+toc: false
 ---
 
 A library I contribute to had lots of questions from people asking how to use it with React the right way, including correct Observable cleanup and unsubscribe behavior. There was already something similar for Angular, so I decided to write one for React.

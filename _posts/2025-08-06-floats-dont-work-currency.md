@@ -5,7 +5,7 @@ date: 2025-08-06
 comments: true
 external-url:
 tag: Info
-toc: true
+toc: false
 ---
 
 Pretty much everywhere in my field of finance uses some kind of fixed-point representation for good reason. I was wondering about that one day and decided to explore all the things you need to account for when trying to store money in floats.

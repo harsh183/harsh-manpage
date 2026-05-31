@@ -5,7 +5,7 @@ date: 2023-07-11
 comments: true
 external-url:
 tag: Info
-toc: true
+toc: false
 ---
 
 I wrote about six myths around the highly hyped rollout of FedNow that I saw across social media, on my company blog.
