@@ -114,9 +114,7 @@ StompJS is a library that lets browsers and other JS environments talk to AMQP Q
 \--github_link=[ClassTranscribe](https://github.com/classtranscribe)
 {: .sub-header}
 
-ClassTranscribe is an accessibility-focused video website for educational lectures. I added support for live streams, modernized to a recent Node version [after a lot of pain](https://www.freecodecamp.org/news/how-to-upgrade-node-and-jest-while-on-react-scripts-v4/), and added the first test cases to the project.
-
-(Used by thousands of students across several universities)
+ClassTranscribe is an accessibility-focused video website for educational lectures. I added support for live streams, modernized to a recent Node version [after a lot of pain](https://www.freecodecamp.org/news/how-to-upgrade-node-and-jest-while-on-react-scripts-v4/), and added the first test cases to the project. (Used by thousands of students across several universities)
 {: .section-content}
 
 
