@@ -164,11 +164,6 @@ There are many options here:
 
 If someone doesn't have a strong starting point in terms of the CS or Math sequence, it makes sense to be hesitant about a three year plan, but I don't think anyone should decide against the three year plan because of the overall credit hour requirement.
 
-### Think about Summer Classes [Optional]
-
-
-
-
 ## Proficiency & Placement Tests
 
 The chain length of 5 is the main thing to tackle, and the best way to do that is starting at an earlier point. Many of you will have Math already at the earlier point, but UIUC doesn't recognize high school level AP/IP Computer Science counting for intro so you'll likely have to consider that to begin with, and then see whatever else you can do. Try to start out with MATH 220/221 and CS 124 out of the way so that you have chain length 4 to cover in 3 years which is far more doable.
@@ -201,7 +196,7 @@ If you find yourself not sailing through all of it, like I did, just take the cl
 
 I suggest only doing tests at a level of math you've already learned, but for review, check out [Paul's Online Notes](https://tutorial.math.lamar.edu/) for Calc I+II+III. I used them a lot as a student, and they're very well written. I also liked the videos by [Khan Academy](https://www.khanacademy.org/math/calculus-1), and I think they have many practice problems too. Often when I was stuck, I used [Wolfram Alpha's Solver](https://www.wolframalpha.com/) (made by UIUC CS Professor [Stephen Wolfram](https://math.illinois.edu/directory/profile/wolfram)) to cross-check while practicing.
 
-My own high school credit started me at Calc II so I wasn't too worried about it, but in hindsight I should have been starting in Calc III.
+My own high school credit started me at Calc II so I wasn't too worried about it, but in hindsight I should have been starting in Calc III just to be faster.
 
 ### ALEKS Placement Test
 
@@ -215,10 +210,12 @@ The main reason I saw people do a shorter time is cost, and it's very important 
 
 * There's a three tier structure for [tuition](https://www.admissions.illinois.edu/invest/tuition), with in state students at the cheapest rate, around double for out of state and slightly higher for international students.
 * UIUC has a [fixed tuition cost](https://www.uaps.uillinois.edu/student_programs/guaranteed_tuition) for four years of your degree. This eliminates the biggest source of variance worry about.
-* Fall and Spring Semesters don't charge by [credit hour](https://registrar.illinois.edu/tuition-fees/tuition-info/). The best price ratio is still with overloaded semesters, but if you can make your last semester part time, that will also save a lot.
+* Fall and Spring Semesters don't charge by [credit hour](https://registrar.illinois.edu/tuition-fees/tuition-info/). 
   - 12 >= credits - minimum of full time and no price increase for going beyond.  
   - 6-11.99 credits - 2-3 typical classes
   - 1-5.99 credits - 1-2 classes
+
+ The best price ratio is still with overloaded semesters, but if you can make your last semester part time, that will also save thousands of dollars. However, also consider replacing that partial semester with cheaper rates in the Summer or Winters.
 
 ### Summer Tuition
 
@@ -234,9 +231,11 @@ The other large cost in UIUC is housing, especially with the mandatory overprice
 
 In the past, I've not seen the university grant exceptions due to financial hardship, medical disabilities, and even people who spent the first year doing remote university were forced into the sophmore year dorms. There are [exceptions](https://studentcode.illinois.edu/article2/part2/2-201) for a few rare cases, but don't count on it. 
 
-First read the pricing pages for the [dorms](https://housing.illinois.edu/cost), even the cheapest quad sharing room cost twice what having my own room in a market rate apartment literally next to campus near the CS building cost. I suggest taking the cheapest meal plan (12+15), and at least a triple since it's barely more expensive than a quad. If you get lucky, there's another UIUC scheme called [Private Certified Housing](https://certified.housing.illinois.edu/pch-resources/rates/) which has some cheaper rates, but these have limited capacity and go out very quickly. Some are religiously affiliated so keep that in mind.
+First read the pricing pages for the [dorms](https://housing.illinois.edu/cost), even the cheapest quad sharing room cost twice what having my own room in a market rate apartment literally next to campus near the CS building cost. I suggest taking the cheapest meal plan (12+15), and a double or triple since it's barely more expensive than a quad. If you get lucky, there's another UIUC scheme called [Private Certified Housing](https://certified.housing.illinois.edu/pch-resources/rates/) which has some cheaper rates, but these have limited capacity and go out very quickly. Some are religiously affiliated so keep that in mind.
 
-The general tradeoff you need to keep in mind is that almost all market leases will include the summer and winter, so having one less calendar year on campus will literally save quite a bit on campus cost of living.
+The general tradeoff you need to keep in mind is that almost all market leases will include the summer and winter, you can avoid this problem slightly by doing a combination of sublets but that can mean a constantly shifting living situation through a combination of sublets. Even if you 
+
+so having one less calendar year on campus will literally save quite a bit on campus cost of living.
 
 ### Aid And Scholarships
 
@@ -246,12 +245,13 @@ Despite aid/scholarship often not being adequate, most instate and some out of s
 * [Office Of Financial Aid](https://www.osfa.illinois.edu/) - If you can submit FAFSA in time, there's more than many expect. 
 * [Illinois Scholarships Main Page](https://www.admissions.illinois.edu/invest/scholarships) - Listing many scholarships at university and college levels
 * [UIUC Merit-Based Scholarships](https://www.osfa.illinois.edu/types-of-aid/scholarships/merit-based-scholarships/) - List of many scholarships. The university also automatically considers many people when applying
-
+* [UIUC CS Awards](https://siebelschool.illinois.edu/about/awards/undergraduate-scholarships-awards) - Many CS department specific ones that are smaller but still worthwhile, including the [Scott Fisher Outstanding Course Assistant](https://siebelschool.illinois.edu/about/awards/undergraduate-scholarships-awards/outstanding-course-assistants) award I got. Funnily, at the time of writing the [course assistant](https://siebelschool.illinois.edu/student-life/course-assistants) CS page still has a picture of it.
 
 ### Winter Classes
 
-There are also winter classes, but it's a very short break and these typically just get gen eds out of the way, which I don't think is better than doing it in a normal semester, especially with the double/triple and 8-week classes that exist. I honestly liked using winters as a true guilt-free break of doing nothing and spending time with family to recharge for the next year. I also came from a part of the world with very standard daylight duration, so this helped me recover from the seasonal depression a bit.
+There are also winter classes, but it's a very short break and these typically just get gen eds out of the way, which I don't think is better than doing it in a normal semester, especially with the double/triple and 8-week classes that exist. Still, it can work well for you if there wasn't much opportunity to overload on gen eds so far, like after your very first semester.
 
+That being said, a student schedule can be intense and having high quality break of a few weeks go a long way. I honestly liked using winters as a true guilt-free break of doing nothing and spending time with family to recharge for the next year. I also came from a part of the world with very standard daylight duration, so this helped me recover from the seasonal depression a bit.
 
 ## During the Degree
 
@@ -275,7 +275,7 @@ There are some important caveats of following the 3 year plan you should keep in
 
 Many students arrive at college with a scarcity mindset when it comes to interesting things to do, since school was often a far more limited environment compared to the sheer abundance of what's available in terms of classes, clubs, research. 3 years is still perfectly doable while having a lot of fun side questing, but keep in mind you'll get to do a lot less than most of your peers who are spending 4 years. While there's an abundance of opportunity, your true scarcity is having a shorter timeframe and you should take extra care in what you take on. 
 
-If you start taking on too much, the opportunity cost can be your three-year plan. I actually ended up in that situation: I wanted to do lots of fun extra classes, do research and teaching almost every semester, have a really busy social life, and go deeper into an area of study that has excited me almost all my life, so I abandoned my plan toward the end of my second year. Part of my motivation was also COVID-19 taking away the in-person campus experience I enjoyed so much, so ironically I ended up spending 3 years on campus anyway.
+If you start taking on too much, the opportunity cost can be your three-year plan. I actually ended up in that situation: I wanted to do lots of fun extra classes, do research and teaching almost every semester, have a really busy social life, and go deeper into an area of study that has excited me almost all my life, so I abandoned my plan toward the end of my second year. Part of my motivation towards four was also COVID-19 taking away the in-person campus experience I enjoyed so much, so ironically I ended up spending 3 years on campus anyway.
 
 ### Less Internship Time 
 
@@ -283,9 +283,9 @@ Besides being fantastic learning opportunities, internships are also a prime hir
 
 ### Shorter Rose Colored College Campus Life
 
-Besides just the educational and career 
+College just isn't classes and career, but it's an incredible and unique time for fun, friends, parties, events, exploring whimsies, clubs, growing up, greek life, geek life, learning new skills, trying the great food scene, or even just spending time between classes doing nothing. With such a large student body, incredibly vibrant college towns, and so many things to do, there's something about this life that will never come back again. A busier and shorter life on campus will take away from this and it is something that can weigh quite a lot as the years go by. I really wish everyone can experience this, but it is really unfortunate that the financial reality is that this experience is a luxury for most people, besides other reasons of not liking this college life. Three years is still plenty though, and if you play things right around the start of your degree, you will still get quite a lot of the fun parts of college. It might also force you to be decisive about not wasting your time on things that don't spark joy or bring you anything. 
 
-<!-- shorter student life -->
+ Spend a while reflecting on feelings around this, and having a clear understanding of what this means for you. I really liked the TV miniseries [Tatami Galaxy](https://www.imdb.com/title/tt1847445/), which explores a student in 10 different parallel timelines all starting from a different club picked during an equivalent of quad day and the joy, sorrow, anguish, and growth that represents in his goal to achieve a _Rose Colored College Campus Life_.
 
 ## Reasons
 
@@ -341,7 +341,7 @@ I didn't do this personally because my entire UIUC experience was already _study
 
 While doing part-time semester internships and full-time 3-5 summer internships in a normal 4-year/8-semester plan is already quite a lot of room for internships, doing this can let you do even more. Especially towards the end of a degree. Typically there's a lot of burden on the summer after junior year's internship to net a return offer, but having a spring or fall co-op/full-time internship right before graduation can increase the odds of a full-time return offer quite drastically. Interning is also just a fantastic learning experience: mentorship, sampling different industries, relatively lower stakes for career mistakes, trying different tech stacks. This can also help on the money front, I knew someone who covered the gap between scholarships and tuition with savings from numerous internships.
 
-Also keep in mind that UIUC's [Research Park](https://researchpark.illinois.edu/), Champaign county tech offices, and Chicago [City Scholars](https://cityscholars.grainger.illinois.edu/) can let you intern around while taking proper semesters too, though it can be a little tough to balance both so I suggest lighter loads. 
+Also keep in mind that UIUC's [Research Park](https://researchpark.illinois.edu/), Champaign county tech offices (e.g. [Cloudflare](https://www.cloudflare.com/about-overview/), [Wolfram](https://www.wolfram.com/)), and Chicago [City Scholars](https://cityscholars.grainger.illinois.edu/) can let you intern around while taking proper semesters too, though it can be a little tough to balance both so I suggest lighter loads. 
 
 ### Not Liking University or Wanting to Spend Less Time Here
 
