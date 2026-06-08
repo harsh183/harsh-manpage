@@ -7,19 +7,38 @@ tag: Advice
 toc: true
 ---
 
-Despite having graduated from UIUC a couple of years ago, I still answer lots of questions about graduating from UIUC CS in 3 years. While it sounds very accelerated, it's totally possible for most people in the degree with the right planning. I also don't think it's the right idea for most people, though there are good reasons to do it. I'll try to address both of these seemingly contradictory ideas in this post, since it's better to make informed choices about your degree path. At a deep level, you have to be clear on what this degree means to you and how it plays into your life goals.
+Despite having graduated from UIUC a couple of years ago, I still answer lots of questions about graduating from UIUC CS in 3 years. While it sounds very accelerated, it's totally possible for most people in this degree with the right planning. I also don't think it's the right idea for most people, though there are good reasons to do it. I'll try to address both of these seemingly contradictory ideas in this post, since it's better to make informed choices about your degree path. At a deep level, you have to be clear on what this degree means to you and how it plays into your life goals.
 
-To be clear, I'm not your advisor and not a replacement for one. Please meet with them every single semester with your plan and be upfront about this. A lot of people think advisors aren't friendly to 3-year plans, but they were actually very helpful with mine and helped me reshuffle it so it was more realistic. If you seem uncertain, they'll guide you toward a risk-averse path, which is the right answer for most people, but showing preparedness and determination can get surprising support. That being said, feel free to email/DM me with your plan and I'll try to give feedback.
+To be clear, I'm not your advisor and not a replacement for one. Please meet with them every single semester with your plan and be upfront about this. A lot of people think advisors aren't friendly to 3-year plans, but they were fantastic and very helpful with mine and helped me reshuffle it so it was more realistic. If you seem uncertain, they'll guide you toward a risk-averse path, which is the right answer for most people, but showing preparedness and determination can get you strong support. That being said, feel free to email/DM me with your plan and I'll try to give feedback.
 
 Note: The info here is based on what is true at the time of writing. The CS requirements will keep changing slowly as the years go by, but the mindset will stay largely the same. Feel free to reach out or make a [pull request](https://github.com/harsh183/harsh-manpage/pulls) if you'd like to update any information.
 
-## Think about 3 Calendar years or 6 semesters
+## Figure Out Your Overall Goal 
 
-Typically people will mean a 6 semester college plan over the typical 8, but the first thing to think about is what you are trying to optimize for
-* money -> 6 semesters with as many credits possible
-* time -> 3 calendar years of 6 normal semesters and consider Summer classes at discount rates (see the later Summer classes section more)
-* class time -> 6 semesters with as many credits possible
-* internship/research time -> 6 semesters, with more breaks between semesters to intern more <!-- I want to expand more on the tradeoff of having less intern time, maybe I can split this out into sections, basically one less internship is one less return offer chance -->
+While people talk about UIUC in 3 years, it can mean very different things. I highly suggest spending a lot of time reflecting on what matters to you.
+
+### 6 Semesters
+
+This is what most people mean, where it's 6 full priced time Fall & Spring semesters. These will typically happen over 3 calendar years but many people might pad it out with internships, study abroad, and gap semesters.
+
+I suggest this if you're optimizing on
+* money spent less on education
+* time spent in class
+* more room for internships than the 3-5 summers normally available
+
+### 3 Calendar Years with Summer Semesters
+
+Including summer classes can actually get 7-8 ish semesters but still only take 3 calendar years, while having a more spread out workload and time to focus on education like the typical 4 year plan.
+
+This has many of the same advantages of the 6 semester plan, but with more breathing room. I'd suggest this to those optimizing for
+* less years spent as a student
+* having a gap year or similar
+
+### Consider 7 semesters
+
+While 6 semesters is a little tight, 7 actually gives far more breathing room in the degree plan and it can still save money. Your 7th semester can also be a part-time semester, which is cheaper to do, and this allows a longer college experience, one more summer break/internship, and often a longer break between a job start and the end of college. UIUC will still let you do the May graduation ceremony even if you [graduate in December](https://commencement.illinois.edu/eligibility/). UIUC's typical degree plans also account for 7 semesters to allow for some slack in case of life circumstances, co-op/internships, and study abroad so it feels quite manageable.
+
+Note for OPT: If you graduate in December keep in mind it reduces the lottery attempts from 4 to 3 for the duration of an OPT. It might seem small from afar, but I've seen people _really_ regret this.
 
 ## Plan
 
@@ -63,14 +82,14 @@ Not all electives are equal in difficulty, so definitely keep this in mind as yo
 
 ### CS (+|&) X - Frontload your X Classes
 
-There are quite a few of these majors, so I'm generalizing here, but almost all of them function kind of like a minor and don't require too many electives beyond fulfilling a handful of groups. The X portion of your major likely also has a main sequence that's 4-5 classes long, so you should be moving that along almost every semester too. For example, I was in CS and Statistics, so I was also pushing along my Statistics main sequence, which definitely made the earlier parts of college harder.
+There are quite a few of these majors, so I'm generalizing here, but almost all of them function kind of like a minor and don't require too many electives beyond fulfilling a handful of groups. The X portion of your major likely also has a main sequence that's 4-5 classes long, so you should be moving that along almost every semester too. For example, I was in CS and Statistics, so I was also pushing along my Statistics main sequence, which definitely made the earlier parts of college harder. If you need to, move more of the general education requirements towards the end of the degree.
 
 ### CS (+|&) X - Consider CS 233 + CS 341 over CS 340 + Two electives
 
 Not all, but many of these majors offer a choice to opt out of the harder CS 233 (Computer Architecture) and CS 341 (Systems Programming), for taking CS 340 (Introduction to Computer Systems) alongside two 400 level electives. I strongly reccomend everyone do CS 233+CS 341 despite this, and let me address a few common reasons:
 
 * Past GPA trap: The lower GPA averages of [241](https://1010labs.org/gpa?course=CS+241&semester=All) of the last decade have largely disppeared in today's [CS 341](https://1010labs.org/gpa?course=CS+341&semester=All), and CS [233](https://1010labs.org/gpa?course=CS+233&semester=All) has much higher averages than [231](https://1010labs.org/gpa?course=CS+231&semester=All). While there's still a GPA risk of a lower grade in a class with a lot of homework and content, I don't think the risk is very significant provided your schedule has enough room to actually study and understand the material, like _any_ class. 
-* Faster Graduation: If you follow the CS 225+CS233 concurrent combo, then CS 341 is only one more semester anyway, so it won't help the 3 year plan by too much. If CS225+CS340 was concurrently possible, it could be an interesting strategy to consider. In terms of saving overall time, having to take an entire additional class to make up for not taking CS 341 is definitely more work, unless the two electives selected are really easy ones. It is possible to do some of the electives before CS 340, but most are unlocked by CS 225 you'll be taking right before anyway. However, it's quite likely that most CS (+|&) X majors will take at least two electives anyway, so then it can represent less academic work to take the CS 340 pathway. 
+* Faster Graduation: If you follow the CS 225+CS233 concurrent combo, then CS 341 is only one more semester anyway, so it won't help the 3 year plan by too much. If CS225+CS340 was concurrently possible, it could be an interesting strategy to consider. In terms of saving overall time, having to take an entire additional class to make up for not taking CS 341 is definitely more work, unless the two electives selected are really easy ones. It is possible to do some of the electives before CS 340, but most are unlocked by CS 225 you'll be taking right before anyway. However, it's quite likely that most  will take at least two electives anyway, so then it can represent less academic work to take the CS 340 pathway. 
 * Easier Pathway: It is true that CS 340 spends less time on the rigourous parts of CS 233 and CS 341, and if that's your goal this pathway is indeed easier. Personally I think things like understanding basic processor internals, assembly, systems programming, network primitives, latency/throughput tradeoffs and relatively lower level programming is quite a critical part of a great CS education, and they're in the core sequence for the reason. I've found this knowledge to come to use in so many different places in my later classes, professional work, and personal interests. Depending on your own goals and interests, this might still make sense for you so spend some time understanding the differences between material. I'd start with the [2020 document](https://courses.grainger.illinois.edu/cs240/fa2020/static/lectures/cs240-topics.pdf) detailing topic by topic comparisions of the pathway, then looking at a recent syllabus for [CS 340](https://cs340-schatz.com/syllabus), then compare to [CS 341 Syllabus](https://cs341.cs.illinois.edu/syllabus.html) and [CS 233 Learning Goals](https://siebelschool.illinois.edu/academics/courses/cs233). The 340 syllabus page also explains the difference quite well.
 > This course has significant overlap with CS 233 and CS 341. CS 233 and CS 341 invest 8 credit hours in going into detail on topics that CS 340 covers in 2 credit hours. Our briefer overview is sufficient for many purposes, but leaves out details needed for hardware-aware application domains such as embedded systems and cybersecurity. The remaining credit hour in 340 explores how to use containers and service architectures to create internet applications.
 
@@ -125,21 +144,15 @@ UIUC also collects internal teacher evaluations called ICES, with far better com
 
 UIUC CS has a great culture of just publishing teaching material on the open internet, which is great for learners outside UIUC, but also students who aren't in the class yet. In breaks before term started, I'd often just watch lectures from a past semester or read their textbooks and slide materials as a broad first pass. Depending on your experience learning the material, it is a great way to get some understanding of how hard a class might be, but I'm putting it lower in my recommendations because it's really hard to judge without having access to the homework and exams. As a side bonus, doing this will often make the classes easier since we learn better with multiple passes.
 
-### Internalize Opportunity Costs From A Shorter Timeframe
+### Overloaded Semesters Due To Fixed Cost
 
-Many students arrive at college with a scarcity mindset when it comes to interesting things to do, since school was often a far more limited environment compared to the sheer abundance of what's available in terms of classes, clubs, teaching, research, events, food, travel and more. 3 years is still perfectly doable while having a lot of fun side questing, but keep in mind you'll get to do a lot less than most of your peers who are spending 4 years. While there's an abundance of opportunity, your true scarcity is having a shorter timeframe and you should take extra care in what you take on. 
+Unlike many other universities, UIUC is a fixed cost once you cross 12 credits (full-time semester), which means that you should think about sustainably overloading (>18 credits) when possible because there's no extra cost here. I crossed it for many of my semesters for this reason since you're getting more product for the same price. If any of your semesters are part-time, the tradeoffs are really different, but for a 3-year plan you're likely taking full-time semesters. If you have lots of incoming credit as you enter UIUC, you probably won't actually need to overload.
 
-If you start taking on too much, the opportunity cost can be your three-year plan. I actually ended up in that situation: I wanted to do lots of fun extra classes, do research and teaching almost every semester, have a really busy social life, and go deeper into an area of study that has excited me almost all my life, so I abandoned my plan toward the end of my second year. Part of my motivation was also COVID-19 taking away the in-person campus experience I enjoyed so much, so ironically I ended up spending 3 years on campus anyway.
-
-### Lean Towards More Classes At Once Due to UIUC's Flat Free Structure
-
-Unlike many other universities, UIUC is a fixed cost once you cross 12 credits (full-time semester), which means that you should think about sustainably overloading (>18 credits) when possible because there's no extra cost here. I was close to 18 or crossed it for many of my semesters for this reason since you're getting more product for the same price. If any of your semesters are part-time, the tradeoffs are really different, but for a 3-year plan you're likely taking full-time semesters. 
-
-I don't recommend overloading your very first semester since university is already a huge change, and you might be living in a new city (or country) where everything is different. Advisors will usually try to stop you as well.
+I don't recommend overloading your very first semester since university is already a huge change, and living in a new setting  where everything is different. Advisors will usually try to stop you as well.
 
 ### Credit Fillers
 
-Quite a lot of people have a large amount of pre-existing college credit coming into college, to the point of sophomore/junior by credit hours being a running [joke](https://www.reddit.com/r/UIUC/comments/9fclw7/when_a_freshman_tells_you_that_theyre_a_sophomore/). While many of these credits are quite useless in terms of getting to advanced classes earlier, it does save the effort of having to fluff up credit hours to graduate in 3. Not having this means taking 21.33 credits each semester which is quite a lot, and assuming you don't overload the first semester and take 18, this leaves 22 credits overload for every single remaining semester. Actually having that kind of load with a realistic class schedule is going to be too much for most people, so you should strongly consider taking credit hours that require virtually no work just to check this box. 
+Quite a lot of people have a large amount of pre-existing college credit coming into college, to the point of sophomore/junior by credit hours is a running [joke](https://www.reddit.com/r/UIUC/comments/9fclw7/when_a_freshman_tells_you_that_theyre_a_sophomore/). While many of these credits are quite useless in terms of getting to advanced classes earlier, it does save the effort of having to fluff up credit hours to graduate in 3. Not having this means taking 21.33 credits each semester which is quite a lot, and assuming you don't overload the first semester and take 18, this leaves 22 credits overload for every single remaining semester. Actually having that kind of load with a realistic class schedule is going to be too much for most people, so you should strongly consider taking credit hours that require virtually no work just to check this box. 
 
 There are many options here:
 * at the start of your degree there might be some orientation/job training classes that take little work. For example, I had optional [LAS 100 - College Success for International Students](https://las.illinois.edu/resources/classes/las100) that gave 2 credit hours and [CS 199 - Course Assistant Training](https://siebelschool.illinois.edu/academics/courses/cs199) for 1 hour. 
@@ -153,17 +166,8 @@ If someone doesn't have a strong starting point in terms of the CS or Math seque
 
 ### Think about Summer Classes [Optional]
 
-If you're strictly optimizing for cost, I'd suggest just overloading your normal semesters since that has no marginal cost. But if you're okay with some extra cost, summer classes are worth thinking about. The cost is around half of typical tuition, so it can still win if the alternative is extra fall/spring semesters. Most students aiming to reduce costs will live in off-campus apartments, which usually run on yearly leases, so there's no extra marginal housing cost in that case, especially since the supply of summer sublets is much higher than demand. If you just finished living in the dorms, summer sublets can also be really cheap if you look carefully.
 
-Side note: I did not look carefully, trusted the wrong person, and had multiple break-ins which contributed to a [campus massmail](https://massmail.illinois.edu/massmail/28664.html), which in a way cost thousands in rent.
 
-I think it's also important here to think about whether your goal is 3 calendar years or a 6-semester fall/spring plan. Having these classes can definitely free up more of your regular semesters since your time in class gets closer to 8 traditional semesters, so your opportunity-cost tradeoffs get less severe and it's a more relaxed college experience. 
-
-That being said, a 6-semester plan with no summer classes is perfectly doable so you don't have to do this, but I do recommend it as a softer 3-year plan if that's within budget and your vacations have room. 
-
-There are also winter classes, but it's a very short break and these typically just get gen eds out of the way, which I don't think is better than doing it in a normal semester, especially with the double/triple and 8-week classes that exist. I honestly liked using winters as a true guilt-free break of doing nothing and spending time with family to recharge for the next year. I also came from a part of the world with very standard daylight duration, so this helped me recover from the seasonal depression a bit.
-
-With summer you have to remember that most courses are compressed to 8 weeks so it's actually twice as fast. If you want to recharge between semesters, are doing research, are interning somewhere I suggest only taking a single class. If you're fine with the intensity of a normal semester, take two classes. Taking more than that can be challenging so I don't suggest it.
 
 ## Proficiency & Placement Tests
 
@@ -180,7 +184,6 @@ The right time for these tests is usually before your first semester begins, whi
 If you don't prof out of these classes, your first semester will be lighter on major classes, so it's a good time to frontload gen eds and keep the 3-year plan going. 
 
 ### CS 124
-
 
 If you have done high school computer science, or self learned it growing up, this is likely the right test for you. Definitely take a moment to brush up on Java and the basics of object oriented programming. There's a public online version of the class _with the daily homework assignments_ at [learncs.online](https://www.learncs.online/) which you should complete. There's also [CS 199: Even More Practice](https://cs199emp.netlify.app/) that me and a few others wrote with review slides and 3 problems per session you can also do. 
 
@@ -202,7 +205,53 @@ My own high school credit started me at Calc II so I wasn't too worried about it
 
 ### ALEKS Placement Test
 
-UIUC has students take the [ALEKS PPL Mathematics Assessment Exam](https://math.illinois.edu/academics/undergraduate/ALEKS) when starting out to figure out whether they should start with Calc I or earlier. I didn't prep at all for this since calc was very fresh for me, but I suggest doing a bit of review beforehand. If you don't get placed into Calc I, I highly suggest taking the time to build the right math foundation in your coursework and avoiding proficiency tests for now. 
+UIUC has students take the [ALEKS PPL Mathematics Assessment Exam](https://math.illinois.edu/academics/undergraduate/ALEKS) when starting out to figure out whether they should start with Calc I or earlier. I didn't prep at all for this since calc was very fresh for me, but I suggest doing a bit of review beforehand. If you don't get placed into Calc I, I highly suggest taking the time to build the right math foundation in your coursework and avoiding calc proficiency tests for now. 
+
+## Understanding UIUC's Cost
+
+The main reason I saw people do a shorter time is cost, and it's very important to understand what your cost will be based on your choice of plan so you can make the right tradeoffs. A guide to fully optimizing your cost at UIUC is beyond the scope of this page and there's a lot written on this online, but I think it's important to understand it broadly as it relates to how your degree plan will go.
+
+### Typical Semesters
+
+* There's a three tier structure for [tuition](https://www.admissions.illinois.edu/invest/tuition), with in state students at the cheapest rate, around double for out of state and slightly higher for international students.
+* UIUC has a [fixed tuition cost](https://www.uaps.uillinois.edu/student_programs/guaranteed_tuition) for four years of your degree. This eliminates the biggest source of variance worry about.
+* Fall and Spring Semesters don't charge by [credit hour](https://registrar.illinois.edu/tuition-fees/tuition-info/). The best price ratio is still with overloaded semesters, but if you can make your last semester part time, that will also save a lot.
+  - 12 >= credits - minimum of full time and no price increase for going beyond.  
+  - 6-11.99 credits - 2-3 typical classes
+  - 1-5.99 credits - 1-2 classes
+
+### Summer Tuition
+
+While it is per cerdit hour and still followed the three tier structure, the cost is around half of typical tuition, so it can still win if the alternative is extra fall/spring semesters. Most students aiming to reduce costs will live in off-campus apartments, which usually run on yearly leases, so there's no extra marginal housing cost in that case, especially since the supply of summer sublets is much higher than demand. 
+
+With summer you have to remember that most courses are compressed to 8 weeks so it's actually twice as fast. If you want to recharge between semesters, are doing research, are interning somewhere I suggest only taking a single class. If you're fine with the intensity of a normal semester, take two classes. Taking more than that can be challenging so I don't suggest it.
+
+If you just finished living in the dorms, summer sublets can also be really cheap if you look carefully. I did not look carefully, trusted the wrong person, and had multiple break-ins which contributed to a [campus massmail](https://massmail.illinois.edu/massmail/28664.html), which accidently cost thousands in 'rent'.
+
+### Housing And Related Expenses
+
+The other large cost in UIUC is housing, especially with the mandatory overpriced one year requirement that acts as a quasi-tuition that many aid/scholarships don't adequately cover. Urbana and Champaign are relatively affordable places to live with quite a lot of midrise dense housing that's connected to public transit, so after your first year the market rate living you can get will be much cheaper and you'll likely have far more space over the dorms at a fraction of the price.
+
+In the past, I've not seen the university grant exceptions due to financial hardship, medical disabilities, and even people who spent the first year doing remote university were forced into the sophmore year dorms. There are [exceptions](https://studentcode.illinois.edu/article2/part2/2-201) for a few rare cases, but don't count on it. 
+
+First read the pricing pages for the [dorms](https://housing.illinois.edu/cost), even the cheapest quad sharing room cost twice what having my own room in a market rate apartment literally next to campus near the CS building cost. I suggest taking the cheapest meal plan (12+15), and at least a triple since it's barely more expensive than a quad. If you get lucky, there's another UIUC scheme called [Private Certified Housing](https://certified.housing.illinois.edu/pch-resources/rates/) which has some cheaper rates, but these have limited capacity and go out very quickly. Some are religiously affiliated so keep that in mind.
+
+The general tradeoff you need to keep in mind is that almost all market leases will include the summer and winter, so having one less calendar year on campus will literally save quite a bit on campus cost of living.
+
+### Aid And Scholarships
+
+Despite aid/scholarship often not being adequate, most instate and some out of state students qualify for more than they think they realize. Information on these are really scattered but it's really worthwhile to reduce the sticker shock of education. There's a large scattering of these out here, I'm listing a few that I'm aware of, but there are many more that are just very poorly documented.
+
+* [Illinois Commitment](https://www.osfa.illinois.edu/illinois-commitment/) - Families with under $75K in asserts and income (at the time of writing) get 4 years of tuition covered. Note this doesn't guaruntee dorms.
+* [Office Of Financial Aid](https://www.osfa.illinois.edu/) - If you can submit FAFSA in time, there's more than many expect. 
+* [Illinois Scholarships Main Page](https://www.admissions.illinois.edu/invest/scholarships) - Listing many scholarships at university and college levels
+* [UIUC Merit-Based Scholarships](https://www.osfa.illinois.edu/types-of-aid/scholarships/merit-based-scholarships/) - List of many scholarships. The university also automatically considers many people when applying
+
+
+### Winter Classes
+
+There are also winter classes, but it's a very short break and these typically just get gen eds out of the way, which I don't think is better than doing it in a normal semester, especially with the double/triple and 8-week classes that exist. I honestly liked using winters as a true guilt-free break of doing nothing and spending time with family to recharge for the next year. I also came from a part of the world with very standard daylight duration, so this helped me recover from the seasonal depression a bit.
+
 
 ## During the Degree
 
@@ -213,9 +262,34 @@ Past detailed planning and getting a good starting point through tests, now come
 * go to your advisor every single semester with your plan and audit so far and the classes for the remaining semesters to get their thoughts
 * do well in your classes, learn, and have fun!
 
+
+## Caveats
+
+There are some important caveats of following the 3 year plan you should keep in mind. Besides my points below, also read these:
+
+* [a great r/uiuc thread](https://www.reddit.com/r/UIUC/comments/17g87he/benefits_and_detriments_of_graduating_in_335_years/)
+* [Angela Zhang's reflection on finishing MIT CS in 3 years](https://qr.ae/pFsQdX) 
+* The Daily Pennsylvanian's [Why some Penn students decide to graduate in three years](https://www.thedp.com/article/2017/03/graduating-in-three-years-from-penn)
+
+### Opportunity Costs
+
+Many students arrive at college with a scarcity mindset when it comes to interesting things to do, since school was often a far more limited environment compared to the sheer abundance of what's available in terms of classes, clubs, research. 3 years is still perfectly doable while having a lot of fun side questing, but keep in mind you'll get to do a lot less than most of your peers who are spending 4 years. While there's an abundance of opportunity, your true scarcity is having a shorter timeframe and you should take extra care in what you take on. 
+
+If you start taking on too much, the opportunity cost can be your three-year plan. I actually ended up in that situation: I wanted to do lots of fun extra classes, do research and teaching almost every semester, have a really busy social life, and go deeper into an area of study that has excited me almost all my life, so I abandoned my plan toward the end of my second year. Part of my motivation was also COVID-19 taking away the in-person campus experience I enjoyed so much, so ironically I ended up spending 3 years on campus anyway.
+
+### Less Internship Time 
+
+Besides being fantastic learning opportunities, internships are also a prime hiring pipeline through return offers. Graduating early can mean less chances of return offers, though keep in mind internships before your final year don't give full time return offers and just return for another internship. So you can actually have the same amount of internships that are eligible for full time return offers. Due to increased flexibility from having an accelerated timespan, I saw many friends do a fall/spring co-op internship during your final year to vastly increase their odds for full-time return offers.
+
+### Shorter Rose Colored College Campus Life
+
+Besides just the educational and career 
+
+<!-- shorter student life -->
+
 ## Reasons
 
-Only do this plan if you have a good reason. College is designed around the 4-year cycle for a reason and the minimum degree requirements are intentionally light. If you can get the full college experience, I highly recommend it, but circumstances really vary and privilege absolutely applies. Having a good motivation driving you here will be key to being successful. Besides this [nice r/uiuc thread](https://www.reddit.com/r/UIUC/comments/17g87he/benefits_and_detriments_of_graduating_in_335_years/), here are my thoughts on common reasons I've heard:
+Only do this plan if you have a good reason. College is designed around the 4-year cycle for a reason and the minimum degree requirements are intentionally light. If you can get the full college experience, I highly recommend it, but circumstances really vary and privilege absolutely applies. Having a good motivation driving you here will be key to being successful. Here are my thoughts on common reasons I've heard:
 
 ## Bad Reasons
 
@@ -235,9 +309,7 @@ I think the primary reason to think about this is cost, but I saw many other goo
 
 ### Sticker Price
 
-Despite being a state university, UIUC isn't [cheap](https://www.admissions.illinois.edu/invest/tuition), especially if you're out of state and international. Besides tuition, UIUC mandates almost all first year students overspend on housing for their first two semesters through either Dorms or Private Certified Housing in a relatively affordable college town. There is a patchwork of scholarships, aid, and student jobs that can offset some of this, but that doesn't work for most students. 
-
-Note: Despite aid/scholarship often not being adequate, most instate and some out of state students qualify for more than they think they realize. Information on these are really scattered but it's really worthwhile to reduce the sticker shock of education.
+Despite being a state university, UIUC isn't cheap, especially if you're out of state and international.
 
 If you are fortunate enough to afford the full four years I highly recommend it, I was extremely fortunate to be able to and that is what enabled me to take four years in college. Doing so much HCI research, taking several grad level classes, having a very broad general education, near daily social plans, getting to be part of teaching almost every semester and summer, going on endless sidequests and meeting my long term life partner happened because I had the luxury to fill it out. These were the best years of my life till that point, and I am so sentimental about my time at UIUC. 
 
@@ -249,11 +321,11 @@ Related to the idea of a price tag, the financial opportunity cost of an entire 
 
 ### Doing A Combined Masters  
 
-I knew many people who did a 3+1 BS+MS program, which let them graduate at the same time as their typical cohort, have the same number of internships, and walk out with a nicer degree. While most CS-related jobs no longer have a _huge_ boost for doing a master's like in the past, it's still a sizable bump in many cases, and not having to take a career break for one is really nice. Access to classes is quite similar to undergrad, but getting a whole extra degree for taking a full schedule of 4 years of CS classes is nice. Many CS degrees don't have an explicit 3+1 program, but generally you can just apply for a master's like normal and get in through some combination of connections and home-field bias.
+I knew many people who did a 3+1 BS+MS program, which let them graduate at the same time as their typical cohort, have the same number of internships, and walk out with a nicer degree. While most CS-related jobs no longer have a _huge_ boost for doing a master's like in the past, it's still a sizable bump in few cases, and not having to take a career break for one is really nice. Access to classes is quite similar to undergrad, but getting a whole extra degree for taking a full schedule of 4 years of CS classes is nice. As many CS degrees don't have an explicit 3+1 program, you can just apply for a master's to start right after. Generally most good students will get in through home-field bias and internal connections.
 
 This can actually work out cheaper than a normal 4-year degree too, because grad-school teaching and research positions often come with tuition waivers and stipends, while the undergrad equivalents barely hit minimum wage and don't offer as many hours. Many people I know got to experience 4 years at UIUC more cheaply because of this, though it'd be nice if undergrads were given the same level of waivers like some [universities do](https://eecsdsstaff.org/know-your-rights/fee-remission/).
 
-Note for F1 Visa: keep in mind doing a combined program for 4 years will skip the 3 years of OPT (1 year normal + 2 years STEM), which means less time in industry and lottery attempts if that is your goal. If you're targeting academia this is fine, but just keep this caveat in mind.
+Note for OPT: keep in mind doing a combined program for 4 years will skip the 3 years of undergrad OPT (1 year normal + 2 years STEM), which means less time in industry and lottery attempts if that is your goal. If you're targeting academia this is fine, but just keep this caveat in mind.
 
 ### Starting Grad School Earlier 
 
@@ -274,12 +346,6 @@ Also keep in mind that UIUC's [Research Park](https://researchpark.illinois.edu/
 ### Not Liking University or Wanting to Spend Less Time Here
 
 Some people don't like life in academia. Others miss family that's often in a different city, state, or country, don't find the right social crowd, or simply want to get their education and resume life back home. Whatever someone's reason, I think it's valid, even though I'd love it if everyone wanted to spend a long time at UIUC and experience what I did. Time is a very precious resource, and if less time at UIUC aligns with your goals, I think that is absolutely worth it.
-
-## Middle ground: 7 semesters
-
-While 6 semesters is a little tight, 7 actually gives far more breathing room in the degree plan and it can still save money. Your 7th semester can also be a part-time semester, which is cheaper to do, and this allows a longer college experience, one more summer break, and often a longer break between a job start and the end of college. UIUC will still let you do the May graduation ceremony even if you [graduate in December](https://commencement.illinois.edu/eligibility/). UIUC's typical degree plans also account for 7 semesters to allow for some slack in case of life circumstances, co-op/internships, and study abroad so it feels quite manageable.
-
-Note for F1 Visa: If you graduate in December keep in mind it reduces the lottery attempts from 4 to 3 for the duration of an OPT. It might seem small from afar, but I've seen people _really_ regret this.
 
 ## Links 
 
