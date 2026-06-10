@@ -7,19 +7,21 @@ tag: Advice
 toc: true
 ---
 
-Despite having graduated from UIUC a couple of years ago, I still answer lots of questions about graduating from UIUC CS in 3 years. While it sounds very accelerated, it's totally possible for most people in this degree with the right planning. I also don't think it's the right idea for most people, though there are good reasons to do it. I'll try to address both of these seemingly contradictory ideas in this post, since it's better to make informed choices about your degree path. At a deep level, you have to be clear on what this degree means to you and how it plays into your life goals.
+Despite having graduated from UIUC a couple of years ago, I get lots of questions about graduating from UIUC CS in 3 years. This post combines advice I've given to many people and seen them implement. 
 
-To be clear, I'm not your advisor and not a replacement for one. Please meet with them every single semester with your plan and be upfront about this. A lot of people think advisors aren't friendly to 3-year plans, but they were fantastic and very helpful with mine and helped me reshuffle it so it was more realistic. If you seem uncertain, they'll guide you toward a risk-averse path, which is the right answer for most people, but showing preparedness and determination can get you strong support. That being said, feel free to email/DM me with your plan and I'll try to give feedback.
+While 3 years sounds very accelerated, it's totally possible for most people with the right planning. I also don't think it's the right idea for most people, though there are good reasons to do it. I'll try to address both of these seemingly contradictory ideas in this post, since it's better to make informed choices about your degree path. Fundamentally, you have to be clear on what this degree means to you and how it plays into your life goals.
+
+Warning: I'm not your advisor and not a replacement for one. Please meet with them before every single semester with your entire plan and be upfront about your goals. A lot of people think advisors aren't friendly to 3-year plans, but they were fantastic and very helpful with mine and helped me reshuffle it so it was more realistic. If you seem uncertain, they'll guide you toward a risk-averse path, which is the right answer for most people, but showing preparedness and determination can get you strong support. That being said, feel free to email/DM me with your plan and I'll try to give feedback.
 
 Note: The info here is based on what is true at the time of writing. The CS requirements will keep changing slowly as the years go by, but the mindset will stay largely the same. Feel free to reach out or make a [pull request](https://github.com/harsh183/harsh-manpage/pulls) if you'd like to update any information.
 
 ## Figure Out Your Overall Goal 
 
-While people talk about UIUC in 3 years, it can mean very different things. I highly suggest spending a lot of time reflecting on what matters to you.
+While people talk about UIUC in 3 years, it can mean very different things.
 
 ### 6 Semesters
 
-This is what most people mean, where it's 6 full priced time Fall & Spring semesters. These will typically happen over 3 calendar years but many people might pad it out with internships, study abroad, and gap semesters.
+Typically this is what most people mean, where it's 6 full priced time Fall & Spring semesters. These will typically happen over 3 calendar years but many people might pad it out with internships, study abroad, and gap semesters.
 
 I suggest this if you're optimizing on
 * money spent less on education
@@ -56,9 +58,9 @@ Note: This image is made using Evan Wallace's [Finite State Machine Designer](ht
 * CS classes are indicated with no number, and I'm using `M` to indicate Math classes
 * 'con' stands for concurrent since CS 233 normally required CS 225 unless cross registered with CS 225. I highly suggest both at once.
 
-The longest chain is length 5 in both Math and Computer Science, so ensure that you're making strong progress toward each. This strictly forms the lower bound of how quickly you can graduate. If your goal is 6 semesters, this means you only get a single semester where you're not progressing on the longest chain, and I recommend having that one semester be the last one, but knowing that you have some slack here can be good if a semester gets too rough. Later I'll talk about proficiency tests, which can shorten the [main sequence](https://www.space.com/22437-main-sequence-star.html) and get you to electives quicker.
+The longest chain is length 5 in both Math and Computer Science, so ensure that you're making strong progress toward each. This strictly forms the lower bound of how quickly you can graduate. If your goal is 6 semesters, this means you only get a single semester where you're not progressing on the longest chain, and I recommend having that one semester be the last one, knowing that you have some slack here can be good if a semester gets too rough. Later I'll talk about proficiency tests, which can shorten the [main sequence](https://www.space.com/22437-main-sequence-star.html) and get you to electives quicker.
 
-In the past, prereqs weren't as strictly enforced, so some of the older advice you will get may not apply, but often it's still possible if you ask nicely and acknowledge to advisors, professors, and the department that this might blow up in your face. Usually this is also easier after your first semester since you can point to your strong academic record so far. I had a friend who took CS 233, 374, and 421 at the same time for their third semester, and did CS 225 alongside 126 (precursor to 128) during the second semester. I don't recommend relying on this, but it can certainly help. Having overrides on prereqs worked well for me when I was signing up for grad classes since their enforcement is less strict and professors have far more leeway.  
+In the past, prereqs weren't as strictly enforced, so some of the older advice you will get may not apply, but often it's still possible if you ask nicely and acknowledge to advisors, professors, and the department that this might blow up in your face. Usually this is also easier after your first semester since you can point to your strong academic record so far. I had a roommate who took CS 233, 374, and 421 at the same time for their third semester, and did CS 225 alongside 126 (precursor to 128) during the second semester. I don't recommend relying on this, but it can certainly help. Having overrides on prereqs worked well for me when I was signing up for grad classes since their enforcement is less strict and professors have far more leeway.  
  
 Some of these classes also have math requirements, so keep those moving too. I have seen some first-years take CS 357 and 361, but slot them in when it makes sense for your plan. This also depends on which electives you're more interested in. For example, I wanted exposure to C and systems-level stuff for my electives, so I took CS 357 early since it aligned with my Statistics classes. I wasn't as interested in the programming language side, so I put CS 421 toward my senior year. I had a passing interest in functional programming, but not enough to go much deeper than type inference and `lex`+`yacc`. 
 
