@@ -48,7 +48,7 @@ Start planning early, ideally before your first semester. This needs coordinatio
 
 ### Understand the CS and Math Main Sequence Really Well
 
-The main thing to keep in mind is making progress on the core CS sequence as quickly as possible. Once you get past 225, it unblocks a lot of chains at once, so getting there early helps a lot. Use your degree page to map out your exact sequence, but for most CS majors the common part looks like this [DAG](https://en.wikipedia.org/wiki/Directed_acyclic_graph):
+The main thing to keep in mind is making progress on the core CS sequence as quickly as possible. Once you get past 225, it unblocks a lot of elective chains at once, so getting there early helps a lot. Use your degree page to map out your exact sequence, but for most CS majors the common part looks like this [DAG](https://en.wikipedia.org/wiki/Directed_acyclic_graph):
 
 <img src="/assets/images/cs-and-math-uiuc-dag.png">
 
@@ -62,37 +62,35 @@ The longest chain is length 5 in both Math and Computer Science, so ensure that 
 
 In the past, prereqs weren't as strictly enforced, so some of the older advice you will get may not apply, but often it's still possible if you ask nicely and acknowledge to advisors, professors, and the department that this might blow up in your face. Usually this is also easier after your first semester since you can point to your strong academic record so far. I had a roommate who took CS 233, 374, and 421 at the same time for their third semester, and did CS 225 alongside 126 (precursor to 128) during the second semester. I don't recommend relying on this, but it can certainly help. Having overrides on prereqs worked well for me when I was signing up for grad classes since their enforcement is less strict and professors have far more leeway.  
  
-Some of these classes also have math requirements, so keep those moving too. I have seen some first-years take CS 357 and 361, but slot them in when it makes sense for your plan. This also depends on which electives you're more interested in. For example, I wanted exposure to C and systems-level stuff for my electives, so I took CS 357 early since it aligned with my Statistics classes. I wasn't as interested in the programming language side, so I put CS 421 toward my senior year. I had a passing interest in functional programming, but not enough to go much deeper than type inference and `lex`+`yacc`. 
+Some of these classes also have math requirements, so keep that chain moving too. I have seen some first-years take CS 357 and 361, but slot them in when it makes sense for your plan. This also depends on which electives you're more interested in. For example, I wanted exposure to C and systems-level stuff for my electives, so I took CS 357 early since it aligned with my Statistics classes. I wasn't as interested in the programming language side, so I put CS 421 toward my senior year. I had a passing interest in functional programming, but not enough to go much deeper than type inference and `lex`+`yacc`. 
 
-If you're not sure what you want yet, frontload core classes so you keep more optionality and can decide more later.
+If you're not sure where your interests lie, frontload core classes to ensure  more optionality later
 
 ### Keep the main math sequence in mind
 
 The Math sequence is more linear: MATH 220/221 -> MATH 231 -> MATH 241 -> MATH 415/CS 257 -> CS 357
 
-Quite a lot of people come in with credit for Calc 1 (such as IB) and even credit for Calc 2 (APs, college courses), so they start further along in the sequence. Unless you went to a narrow slice of elite American and international schools, though, you'll usually start around the beginning.  
+Quite a lot of people come in with credit for Calc 1 (such as IB) and even credit for Calc 2 (APs, college courses), so they start further along in the sequence. Unless you went to a narrow slice of elite American and international schools,  you'll usually start around the beginning.  
 
-I suggest first trying to get through the placement/proficiency tests so you can start as far as possible based on your current knowledge. Just like the longest CS chain, you should keep making progress on this in almost every semester. Just like the main CS sequence, make progress on this every semester.
+I suggest first trying to get through the placement/proficiency tests so you can start as far as possible based on your current knowledge. Just like the longest CS chain, you should keep making progress on this in almost every semester. 
 
-Some of the newer CS + X majors vary in how far you need to go in this sequence, so you might need to keep less of this in mind. However, I personally think every CS major should understand multivariate calc and linear algebra, so I strongly suggest taking them anyway unless it really gets in the way of your graduation plans. I've used concepts from these a lot in later classes, and they've often come up in my work as well. 
+Some of the newer CS + X majors vary in how far you need to go in this sequence, so you might need to keep less of this in mind. However, I personally think every CS major should understand multivariate calc and linear algebra, so I strongly suggest taking them anyway unless it really gets in the way of your graduation plans. I've used concepts from these a lot in later classes, and they've often come up in my job as well. 
 
 ### CS College of Engineering - Account For Electives
 
-If you're in CS in the College of Engineering, you'll have 8 electives: 6 have to be within CS, and 2 can be outside. For most people I'd still suggest doing all CS anyway since that's what we attend university for, but go based on your interests and your semester's overall difficulty. As soon as you're able to, generally in your second year, start loading up on electives as they unlock. Assuming you finish CS 225+233 by the end of your third semester, you'll have to take 3 electives for 2 more semesters and 2 electives for one semester. 
-
-Not all electives are equal in difficulty, so definitely keep this in mind as you slot things in.
+If you're in CS in the College of Engineering, you'll have 8 electives: 6 have to be within CS, and 2 can be outside. For most people I'd still suggest doing all CS anyway since that's what we attend university for, but go based on your interests and your semester's overall difficulty. As soon as you're able to, generally in your second year, start loading up on electives as they unlock. Assuming you finish CS 225+233 by the end of your third semester, you'll have to take 3 electives for 2 more semesters and 2 electives for one semester. Not all electives are equal in difficulty, so definitely keep this in mind as you slot things in.
 
 ### CS (+|&) X - Frontload your X Classes
 
-There are quite a few of these majors, so I'm generalizing here, but almost all of them function kind of like a minor and don't require too many electives beyond fulfilling a handful of groups. The X portion of your major likely also has a main sequence that's 4-5 classes long, so you should be moving that along almost every semester too. For example, I was in CS and Statistics, so I was also pushing along my Statistics main sequence, which definitely made the earlier parts of college harder. If you need to, move more of the general education requirements towards the end of the degree.
+There are quite a few of these majors, so I'm generalizing here, but almost all of them function kind of like a minor and don't require too many electives beyond fulfilling a handful of groups. The X portion of your major likely also has a main sequence that's 4-5 classes long, so you should be moving that along almost every semester too. For example, I was in CS and Statistics, so I was also pushing along my Statistics main sequence, which definitely made the earlier parts of college core class heavy. If you need to, move more of the general education requirements towards the end of the degree.
 
 ### CS (+|&) X - Consider CS 233 + CS 341 over CS 340 + Two electives
 
 Not all, but many of these majors offer a choice to opt out of the harder CS 233 (Computer Architecture) and CS 341 (Systems Programming), for taking CS 340 (Introduction to Computer Systems) alongside two 400 level electives. I strongly reccomend everyone do CS 233+CS 341 despite this, and let me address a few common reasons:
 
 * Past GPA trap: The lower GPA averages of [241](https://1010labs.org/gpa?course=CS+241&semester=All) of the last decade have largely disppeared in today's [CS 341](https://1010labs.org/gpa?course=CS+341&semester=All), and CS [233](https://1010labs.org/gpa?course=CS+233&semester=All) has much higher averages than [231](https://1010labs.org/gpa?course=CS+231&semester=All). While there's still a GPA risk of a lower grade in a class with a lot of homework and content, I don't think the risk is very significant provided your schedule has enough room to actually study and understand the material, like _any_ class. 
-* Faster Graduation: If you follow the CS 225+CS233 concurrent combo, then CS 341 is only one more semester anyway, so it won't help the 3 year plan by too much. If CS225+CS340 was concurrently possible, it could be an interesting strategy to consider. In terms of saving overall time, having to take an entire additional class to make up for not taking CS 341 is definitely more work, unless the two electives selected are really easy ones. It is possible to do some of the electives before CS 340, but most are unlocked by CS 225 you'll be taking right before anyway. However, it's quite likely that most  will take at least two electives anyway, so then it can represent less academic work to take the CS 340 pathway. 
-* Easier Pathway: It is true that CS 340 spends less time on the rigourous parts of CS 233 and CS 341, and if that's your goal this pathway is indeed easier. Personally I think things like understanding basic processor internals, assembly, systems programming, network primitives, latency/throughput tradeoffs and relatively lower level programming is quite a critical part of a great CS education, and they're in the core sequence for the reason. I've found this knowledge to come to use in so many different places in my later classes, professional work, and personal interests. Depending on your own goals and interests, this might still make sense for you so spend some time understanding the differences between material. I'd start with the [2020 document](https://courses.grainger.illinois.edu/cs240/fa2020/static/lectures/cs240-topics.pdf) detailing topic by topic comparisions of the pathway, then looking at a recent syllabus for [CS 340](https://cs340-schatz.com/syllabus), then compare to [CS 341 Syllabus](https://cs341.cs.illinois.edu/syllabus.html) and [CS 233 Learning Goals](https://siebelschool.illinois.edu/academics/courses/cs233). The 340 syllabus page also explains the difference quite well.
+* Faster Graduation: If you follow the CS 225+CS233 concurrent combo, then CS 341 is only one more semester anyway, so it won't help the 3 year plan by too much. If CS225+CS340 was concurrently possible, it could be an interesting strategy to consider. In terms of saving overall time, having to take an entire additional class to make up for not taking CS 341 is definitely more work, unless the two electives selected are really easy ones. It is possible to do some of the electives before CS 340, but most are unlocked by CS 225 you'll be taking right before anyway. However, it's quite likely that most  will take at least two CS electives anyway, so then it can represent less academic work to take the CS 340 pathway. 
+* Easier Pathway: It is true that CS 340 spends less time on the rigourous parts of CS 233 and CS 341, and if that's your goal this pathway is indeed easier. Personally I think things like understanding basic processor internals, assembly, systems programming, network primitives, latency/throughput tradeoffs, and relatively lower level programming is quite a critical part of a great CS education, and they're in the core sequence for the reason. I've found this knowledge to come to use in so many different places in my later classes, professional work, and personal interests. Depending on your own goals and interests, this might still make sense for you so spend some time understanding the differences between material. I'd start with the [2020 document](https://courses.grainger.illinois.edu/cs240/fa2020/static/lectures/cs240-topics.pdf) detailing topic by topic comparisions of the pathway, then looking at a recent syllabus for [CS 340](https://cs340-schatz.com/syllabus), then compare to [CS 341 Syllabus](https://cs341.cs.illinois.edu/syllabus.html) and [CS 233 Learning Goals](https://siebelschool.illinois.edu/academics/courses/cs233). The 340 syllabus page also explains the difference quite well.
 > This course has significant overlap with CS 233 and CS 341. CS 233 and CS 341 invest 8 credit hours in going into detail on topics that CS 340 covers in 2 credit hours. Our briefer overview is sufficient for many purposes, but leaves out details needed for hardware-aware application domains such as embedded systems and cybersecurity. The remaining credit hour in 340 explores how to use containers and service architectures to create internet applications.
 
 ### General Education Requirements
@@ -119,7 +117,7 @@ Figuring out which class falls into which bucket isn't easy. I like to approach 
 * past background in the class
 * how interesting you find the class
 
-For example CS 374 didn't take me much work a week and only had 3 exams, but it was definitely a lot of thinking each week to arrive at optimal solutions, while CS 341 wasn't as challenging but it needed discipline as it was a lot of work each week in terms of homework with very careful debugging. I won't suggest taking both together, but you can balance out your semesters exactly.
+For example CS 374 didn't take me much work a week and only had 3 exams, but it was definitely a lot of thinking each week to arrive at optimal solutions, while CS 341 wasn't as challenging but it needed discipline as it was a lot of work each week in terms of homework with very careful debugging.
 
 What might be easy for you might be hard for others, and you might find yourself getting humbled by a class most students consider quite easy, but generally averages across a large sample hold, so I recommend understanding data. 
 
@@ -129,7 +127,7 @@ The first piece of data you should understand is the GPA averages for the class:
 * [GPA++](https://1010labs.org/gpa) - enter a class, class level or just filter by category (e.g. `CS 4`) to see gpa history by professor - developed by my uiuc roommates
 * [waf.cs GPA visualizations](https://waf.cs.illinois.edu/discovery/gpa/) many different great data visualizations - developed in the group led by Professor Wade Fagen-Ulmschneider
 
-As someone who loves education and learning, it feels bad to talk about optimizing classes around GPA. I don't think the point of an education is taking the easiest possible classes to get a piece of paper, but I'm also someone who overplayed my hand in the past and got burned. I think it's possible to keep a shorter graduation timeline in mind while also learning quite a bit effectively.
+As someone who loves education and learning, it feels bad to talk about optimizing classes around GPA. I don't think the point of an education is taking the easiest possible classes to get a piece of paper, but I'm also someone who overplayed my hand in the past and got burned. There is a nuanced middle ground possible to manage a shorter graduation timeline in mind while also learning quite a bit effectively.
 
 #### Past Student Reviews
 
@@ -144,7 +142,7 @@ UIUC also collects internal teacher evaluations called ICES, with far better com
 
 #### Public Teaching Material
 
-UIUC CS has a great culture of just publishing teaching material on the open internet, which is great for learners outside UIUC, but also students who aren't in the class yet. In breaks before term started, I'd often just watch lectures from a past semester or read their textbooks and slide materials as a broad first pass. Depending on your experience learning the material, it is a great way to get some understanding of how hard a class might be, but I'm putting it lower in my recommendations because it's really hard to judge without having access to the homework and exams. As a side bonus, doing this will often make the classes easier since we learn better with multiple passes.
+UIUC CS has a great culture of just publishing teaching material on the open internet, which is great for learners outside UIUC, but also students who aren't in the class yet. In breaks before term started, I'd often just watch lectures from a past semester, read their slide materials as a broad first pass. Depending on your experience learning the material, it is a great way to get some understanding of how hard a class might be, but I'm putting it lower in my recommendations because it's really hard to judge without having access to the homework and exams. As a side bonus, doing this will often make the classes easier since people learn better with multiple passes.
 
 ### Overloaded Semesters Due To Fixed Cost
 
@@ -168,7 +166,7 @@ If someone doesn't have a strong starting point in terms of the CS or Math seque
 
 ## Proficiency & Placement Tests
 
-The chain length of 5 is the main thing to tackle, and the best way to do that is starting at an earlier point. Many of you will have Math already at the earlier point, but UIUC doesn't recognize high school level AP/IP Computer Science counting for intro so you'll likely have to consider that to begin with, and then see whatever else you can do. Try to start out with MATH 220/221 and CS 124 out of the way so that you have chain length 4 to cover in 3 years which is far more doable.
+The CS chain length of 5 is the main thing to tackle, and the best way to do that is starting at an earlier point. Many of you will have Math already at the earlier point, but UIUC doesn't recognize high school level AP/IP Computer Science counting for intro so you'll likely have to consider that to begin with, and then see whatever else you can do. Try to start out with MATH 220/221 and CS 124 out of the way so that you have chain length 4 to cover in 3 years which is far more doable.
 
 [proficiency.cs.illinois.edu](https://proficiency.cs.illinois.edu/) is a great website with detailed information on the exams, and you can take the first four core sequence classes: CS 124, CS 173, CS 128, CS 225. 
 
@@ -235,9 +233,9 @@ In the past, I've not seen the university grant exceptions due to financial hard
 
 First read the pricing pages for the [dorms](https://housing.illinois.edu/cost), even the cheapest quad sharing room cost twice what having my own room in a market rate apartment literally next to campus near the CS building cost. I suggest taking the cheapest meal plan (12+15), and a double or triple since it's barely more expensive than a quad. If you get lucky, there's another UIUC scheme called [Private Certified Housing](https://certified.housing.illinois.edu/pch-resources/rates/) which has some cheaper rates, but these have limited capacity and go out very quickly. Some are religiously affiliated so keep that in mind.
 
-The general tradeoff you need to keep in mind is that almost all market leases will include the summer and winter, you can avoid this problem slightly by doing a combination of sublets but that can mean a constantly shifting living situation through a combination of sublets. Even if you 
+The general tradeoff you need to keep in mind is that almost all market leases will include the summer and winter, you can avoid this problem slightly by doing a combination of sublets but that can mean a constantly shifting living situation through a combination of sublets. This instability can affect your academic productivity, so definitely be careful about this. Market rate apartments can get quite cheap, so it's still fine if you're paying for the breaks.
 
-so having one less calendar year on campus will literally save quite a bit on campus cost of living.
+Housing is the second biggest expense after tuition, so having one less calendar year on campus will literally save a lot.
 
 ### Aid And Scholarships
 
