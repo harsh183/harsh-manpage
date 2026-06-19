@@ -60,21 +60,13 @@ Note: This image is made using Evan Wallace's [Finite State Machine Designer](ht
 
 The longest chain is length 5 in both Math and Computer Science, so ensure that you're making strong progress toward each. This strictly forms the lower bound of how quickly you can graduate. If your goal is 6 semesters, this means you only get a single semester where you're not progressing on the longest chain, and I recommend having that one semester be the last one, knowing that you have some slack here can be good if a semester gets too rough. Later I'll talk about proficiency tests, which can shorten the [main sequence](https://www.space.com/22437-main-sequence-star.html) and get you to electives quicker.
 
+The Math sequence is more linear: MATH 220/221 -> MATH 231 -> MATH 241 -> MATH 415/CS 257 -> CS 357. Quite a lot of people come in with credit for Calc 1 (such as IB) and even credit for Calc 2 (APs, college courses), so they start further along. Unless you went to a narrow slice of elite American and international schools, you'll usually start around the beginning. I suggest first trying to get through the placement/proficiency tests so you can start as far as possible. Some of the newer CS + X majors vary in how far you need to go in this sequence, but I personally think every CS major should understand multivariate calc and linear algebra and strongly suggest taking them anyway unless it really gets in the way of your graduation plans. I've used concepts from these a lot in later classes and they've come up in my job as well.
+
 In the past, prereqs weren't as strictly enforced, so some of the older advice you will get may not apply, but often it's still possible if you ask nicely and acknowledge to advisors, professors, and the department that this might blow up in your face. Usually this is also easier after your first semester since you can point to your strong academic record so far. I had a roommate who took CS 233, 374, and 421 at the same time for their third semester, and did CS 225 alongside 126 (precursor to 128) during the second semester. I don't recommend relying on this, but it can certainly help. Having overrides on prereqs worked well for me when I was signing up for grad classes since their enforcement is less strict and professors have far more leeway.  
  
 Some of these classes also have math requirements, so keep that chain moving too. I have seen some first-years take CS 357 and 361, but slot them in when it makes sense for your plan. This also depends on which electives you're more interested in. For example, I wanted exposure to C and systems-level stuff for my electives, so I took CS 357 early since it aligned with my Statistics classes. I wasn't as interested in the programming language side, so I put CS 421 toward my senior year. I had a passing interest in functional programming, but not enough to go much deeper than type inference and `lex`+`yacc`. 
 
-If you're not sure where your interests lie, frontload core classes to ensure  more optionality later
-
-### Keep the main math sequence in mind
-
-The Math sequence is more linear: MATH 220/221 -> MATH 231 -> MATH 241 -> MATH 415/CS 257 -> CS 357
-
-Quite a lot of people come in with credit for Calc 1 (such as IB) and even credit for Calc 2 (APs, college courses), so they start further along in the sequence. Unless you went to a narrow slice of elite American and international schools,  you'll usually start around the beginning.  
-
-I suggest first trying to get through the placement/proficiency tests so you can start as far as possible based on your current knowledge. Just like the longest CS chain, you should keep making progress on this in almost every semester. 
-
-Some of the newer CS + X majors vary in how far you need to go in this sequence, so you might need to keep less of this in mind. However, I personally think every CS major should understand multivariate calc and linear algebra, so I strongly suggest taking them anyway unless it really gets in the way of your graduation plans. I've used concepts from these a lot in later classes, and they've often come up in my job as well. 
+If you're not sure where your interests lie, frontload core classes to ensure more optionality later.
 
 ### CS College of Engineering - Account For Electives
 
