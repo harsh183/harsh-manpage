@@ -292,11 +292,11 @@ Only do this plan if you have a good reason. College is designed around a 4-year
 
 I think almost all reasons to graduate early are valid, but here are a few I'd caution against:
 
-### Peer group 
+#### Peer group 
 
 If your main motivation is seeing your friends do it and wanting to do it too, I'd suggest against that, since their circumstances might not match yours and it might be driven by pointless competitiveness. As time goes on, a lot of that peer group might end up doing 7 or 8 semesters, which is far more doable, and then you'd have taken on extra stress for nothing. It is nice to take classes in sync with your peer group, so I suggest doing that and piling on extra things once they wrap up. Many of my friends who did three ended up living on campus for a fourth year as well, so many friends might still be around.
 
-### Personal Challenge
+#### Personal Challenge
 
 I am always in support of people taking on a harder pathway, but a 4-year plan with more challenging classes, research, internships, and teaching is a far better personal challenge to grow. You can follow pretty much all of the above advice and just use the extra breathing room to go further in your interests. It's really hard to get this kind of environment after undergrad.
 
@@ -304,7 +304,7 @@ I am always in support of people taking on a harder pathway, but a 4-year plan w
 
 I think the primary reason to think about this is cost, but I saw many other good reasons too:
 
-### Sticker Price
+#### Sticker Price
 
 Despite being a state university, UIUC isn't cheap, especially if you're out of state and international.
 
@@ -312,11 +312,11 @@ If you're fortunate enough to afford four years, I highly recommend it. I was ex
 
 I think it's wild that tax funded universities with [free land](https://www.admissions.illinois.edu/discover/history) in a dedicated college town that doesn't even pay the staff that well can still cost so much. Unfortunately, that is the reality of today and college debt is a burden that can really drag, even in a field with very high salaries like Computer Science.
 
-### Industry Opportunity Cost
+#### Industry Opportunity Cost
 
 Related to the idea of a price tag, the financial opportunity cost of an entire year of salary is something people should acknowledge. For many people who are doing a three-year plan, their new grad salaries can be [$150k-$250k](https://www.levels.fyi/) and I've seen a few offers like [$500k](https://www.janestreet.com/). I don't know if these kinds of offers will last long term, but at present there is a sizable sum of money that people are walking away from. In a long career of 40-50 years and compounded growth, it might not amount to a large portion of overall net worth, but it is a _lot_ of money nevertheless. This one year's pay can become a large part of adequate retirement savings depending on the circumstances of retirement.
 
-### Doing A Combined Masters  
+#### Doing A Combined Masters  
 
 I knew many people who did a 3+1 BS+MS program, which let them graduate at the same time as their typical cohort, have the same number of internships, and walk out with a nicer degree. While most CS-related jobs no longer have a _huge_ boost for doing a master's like in the past, it's still a sizable bump in few cases, and not having to take a career break for one is really nice. Access to classes is quite similar to undergrad, but getting a whole extra degree for one more year of CS classes is nice. As many CS degrees don't have an explicit 3+1 program, you can just apply for a master's to start right after. Generally most good students will get in through home-field bias and internal connections.
 
@@ -324,23 +324,23 @@ This can actually work out cheaper than a normal 4-year degree too, because grad
 
 Note for OPT: doing a combined program for 4 years will skip the 3 years of undergrad OPT (1 year normal + 2 years STEM), which means less time in industry and fewer lottery attempts if that is your goal. If you're targeting academia this is fine.
 
-### Starting Grad School Earlier 
+#### Starting Grad School Earlier 
 
 As an undergrad, UIUC enables you to get a grad student-like experience with teaching, research, grants, publishing and upper div classes, but becoming a graduate student earlier is worth considering if you're sure about your path. Being a grad student explicitly makes it easier, and having an extra year to focus on research can really produce better outcomes. I still recommend spending the full time in undergrad to explore whether it's the right move before getting locked into a research area, but getting there a year earlier can be nice. If you also intended to do a PhD at UIUC, this can be quite streamlined since you can double dip the initial breadth requirements from undergrad too.
 
-### Study Abroad
+#### Study Abroad
 
 Studying in a different country is an extremely worthwhile experience and it forces you to grow in all sorts of ways. It's also just fascinating seeing how different cultures approach the same topics, even a relatively standardized field like Computer Science. Having fewer semesters at UIUC means you could do an 8 or even 12 month study abroad if you wanted. A funny side effect is that you can even save money doing this because universities in other developed countries are much cheaper than American ones. For most people, this is a great chance in life to just spend a few months living in another country that won't naturally come up again in life. 
 
 I didn't do this personally because my entire UIUC experience was already _studying abroad_, but I knew international students who used it to try even more countries.
 
-### Industry Internships
+#### Industry Internships
 
 While doing part-time semester internships and full-time 3-5 summer internships in a normal 4-year/8-semester plan is already quite a lot of room for internships, doing this can let you do even more, especially toward the end of your degree. Typically there's a lot of burden on the summer after junior year's internship to net a return offer, but having a spring or fall co-op/full-time internship right before graduation can increase the odds of a full-time return offer quite drastically. Interning is also just a fantastic learning experience: mentorship, sampling different industries, relatively lower stakes for career mistakes, trying different tech stacks. This can also help on the money front, I knew someone who covered the gap between scholarships and tuition with savings from numerous internships.
 
 Also keep in mind that UIUC's [Research Park](https://researchpark.illinois.edu/), Champaign county tech offices (e.g. [Cloudflare](https://www.cloudflare.com/about-overview/), [Wolfram](https://www.wolfram.com/)), and Chicago [City Scholars](https://cityscholars.grainger.illinois.edu/) can let you intern around while taking proper semesters too, though it can be a little tough to balance both so I suggest lighter loads. 
 
-### Not Liking University or Wanting to Spend Less Time Here
+#### Not Liking University or Wanting to Spend Less Time Here
 
 Some people don't like life in academia. Others miss family, don't find the right social crowd, or simply want to get their education and resume life back home. Whatever someone's reason, I think it's valid, even though I'd love it if everyone wanted to spend a long time at UIUC and experience what I did. Time is a very precious resource, and if less time at UIUC aligns with your goals, I think that's absolutely worth it.
 
