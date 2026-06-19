@@ -163,7 +163,7 @@ If someone doesn't have a strong starting point in terms of the CS or Math seque
 
 The CS & Math main sequence chain length of 5 is the main thing to tackle, and the best way is starting further along in the sequence. Many of you will have Math credit already, but UIUC doesn't recognize high school AP/IB Computer Science for the intro course, so that's the first one to consider testing out of, then see what else you can. Getting MATH 220/221 and CS 124 out of the way leaves a chain length of 4 to cover in 3 years, which is far more doable.
 
-[proficiency.cs.illinois.edu](https://proficiency.cs.illinois.edu/) is a great website with detailed information on the exams, and you can take the first four core sequence classes: CS 124, CS 173, CS 128, CS 225. 
+[proficiency.cs.illinois.edu](https://proficiency.cs.illinois.edu/) is a great website with detailed information on the exams, and you can take the first four main sequence classes: CS 124, CS 173, CS 128, CS 225. 
 
 The Math department lists out their proficiency tests [here](https://math.illinois.edu/academics/undergraduate/proficiencyexaminations) which I suggest reading. Similar to CS, you can go quite far in the core sequence: MATH 220, MATH 231, MATH 241, MATH 257.
 
@@ -179,7 +179,7 @@ If you did high school CS or self-taught growing up, this is likely the right te
 
 If you find this taking longer than 2 weeks or don't really have any CS experience, I _strongly_ suggest taking the class instead. Having the right CS foundation will pay dividends for the rest of your college life and future career. It will make the 3 year plan harder, so also consider if you really want to do the degree faster since having a better education is worthwhile. 
 
-Personally I did CS 124 anyway, though more out of a feeling of misplaced imposter syndrome, and I loved the class enormously. I went on to be part of its course staff for nearly my entire college life, won an [outstanding course assistant award](https://siebelschool.illinois.edu/about/awards/undergraduate-scholarships-awards/outstanding-course-assistants), made most of my college friends across several years from there and got to spend a lot of time thinking about the near future of CS education.
+Personally I did CS 124 anyway, though more out of a feeling of misplaced imposter syndrome, and I loved the class enormously. I went on to be part of its course staff for nearly my entire college life, won an [outstanding course assistant award](https://siebelschool.illinois.edu/about/awards/undergraduate-scholarships-awards/outstanding-course-assistants), made most of my college friends across several years from there, and got to spend a lot of time thinking about the near future of CS education. At the time of writing the [course assistant](https://siebelschool.illinois.edu/student-life/course-assistants) CS page still has me in the main picture to advertise the position.
 
 ### CS 173
 
@@ -246,7 +246,7 @@ Despite aid/scholarship often not being adequate, most instate and some out of s
 * [Office Of Financial Aid](https://www.osfa.illinois.edu/) - If you can submit FAFSA in time, there's more than many expect. 
 * [Illinois Scholarships Main Page](https://www.admissions.illinois.edu/invest/scholarships) - Listing many scholarships at university and college levels
 * [UIUC Merit-Based Scholarships](https://www.osfa.illinois.edu/types-of-aid/scholarships/merit-based-scholarships/) - List of many scholarships. The university also automatically considers many people when applying
-* [UIUC CS Awards](https://siebelschool.illinois.edu/about/awards/undergraduate-scholarships-awards) - Many CS department specific ones that are smaller but still worthwhile, including the [Scott Fisher Outstanding Course Assistant](https://siebelschool.illinois.edu/about/awards/undergraduate-scholarships-awards/outstanding-course-assistants) award I got. Funnily, at the time of writing the [course assistant](https://siebelschool.illinois.edu/student-life/course-assistants) CS page still has a picture of it.
+* [UIUC CS Awards](https://siebelschool.illinois.edu/about/awards/undergraduate-scholarships-awards) - Many CS department specific ones that are smaller but still worthwhile
 
 ## During the Degree
 
