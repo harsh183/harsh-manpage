@@ -151,7 +151,7 @@ Quite a lot of people have a large amount of pre-existing college credit coming 
 
 There are many options here:
 * at the start of your degree there might be some orientation/job training classes that take little work. For example, I had optional [LAS 100 - College Success for International Students](https://las.illinois.edu/resources/classes/las100) that gave 2 credit hours and [CS 199 - Course Assistant Training](https://siebelschool.illinois.edu/academics/courses/cs199) for 1 hour. 
-* many electives have a 4 credit grad version, and 3 credit undergrad version. The difference in workload isn't too large for _most_ classes, so I suggest doing the grad version in those scenarios. While it's only one extra credit at a time, these do add up. As a side bonus you do learn more and can even double count it for grad school. 
+* many electives have a 4 credit grad version, and 3 credit undergrad version. The difference in workload isn't too large for _most_ classes, so I suggest doing the grad version in those scenarios. While it's only one extra credit at a time, these do add up. As a side bonus you do learn more and can even double count it toward a UIUC Master's. 
 * 8 week online-only classes where it's practically just writing short discussion posts. I ended up learning a bit more than I anticipated and some of the readings were great, but these are definitely not at the level of a standard college class.
 * trying some activity-based classes like walking or vegetable gardening. Some can be deceptive though, 1 credit Ice Skating was my hardest class I've ever tried in my life, I regularly went to so many office hours and extra skate sessions and still ended up dropping out because I was so _behind_.
 * CS 397/497/499 research credit. This can be a lot of work so your experience may vary, but I found it quite interesting and it didn't really feel like work at all. I did this almost every single semester and nearly hit the departmental maximum. 
@@ -206,7 +206,7 @@ The main reason I saw people do a shorter time is cost, and it's important to un
 * There's a three tier structure for [tuition](https://www.admissions.illinois.edu/invest/tuition), with in state students at the cheapest rate, around double for out of state and slightly higher for international students.
 * UIUC has a [fixed tuition cost](https://www.uaps.uillinois.edu/student_programs/guaranteed_tuition) for four years of your degree. This eliminates the biggest source of variance to worry about.
 * Fall and Spring Semesters don't charge by [credit hour](https://registrar.illinois.edu/tuition-fees/tuition-info/). 
-  - 12 >= credits - minimum of full time and no price increase for going beyond.  
+  - ≥12 credits - minimum of full time and no price increase for going beyond.  
   - 6-11.99 credits - 2-3 typical classes
   - 1-5.99 credits - 1-2 classes
 
