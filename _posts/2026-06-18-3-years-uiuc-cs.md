@@ -44,7 +44,7 @@ Note for OPT: Graduating in December reduces the lottery attempts from 4 to 3 fo
 
 ## Plan
 
-Start planning early, ideally before your first semester. This needs coordination around proficiency tests, degree requirements, and paperwork. You can still start later in your degree, but the later you do, the more stressful it gets. Make a worksheet of what every semester will include, with clearly defined classes or class groups, to ensure the whole plan works.
+Start planning early, ideally before your first semester. This needs coordination around proficiency tests, degree requirements, and paperwork. You can still start later in your degree, but the later you do, the more stressful it gets. Make a worksheet of what every semester will include, with clearly defined classes or class groups, to ensure the whole plan works. The [UIUC Course Explorer](https://courses.illinois.edu) is useful for checking prerequisites and seeing what's available.
 
 ### Understand the CS and Math Main Sequence Really Well
 
