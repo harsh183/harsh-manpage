@@ -108,6 +108,12 @@ In terms of scheduling I suggest pushing this later in your degree because I thi
 
 Personally I enjoyed my higher-effort comp lit classes a lot, and getting to survey new fields like linguistics, disability studies, and horticulture was great. Despite the tight timeline, you can still take many interesting gen eds, but this will always come at a cost and this is tragically a luxury.
 
+### Winter Classes
+
+There are also winter classes, but it's a very short break and these typically just get gen eds out of the way, which I don't think is better than doing it in a normal semester, especially with the double/triple and 8-week classes that exist. Still, it can work well for you if there wasn't much opportunity to overload on gen eds so far, like after your very first semester.
+
+That being said, a student schedule can be intense and having a high quality break of a few weeks goes a long way. I honestly liked using winters as a true guilt-free break of doing nothing and spending time with family to recharge for the next year. I also came from a part of the world with very standard daylight duration, so this helped me recover from the seasonal depression a bit.
+
 ### Understand The Relative Difficulty of Classes To Balance A Semester
 
 While planning you should have a solid idea of the rough difficulty of a given semester's schedule because you don't want to accidentally burn yourself out. This is a marathon, not a sprint, and having the right pacing throughout is key. For the ~5-6 real classes you're taking each semester, aim for two hard, three medium, and one easy class. Depending on your planning, you might end up with a semester where you have three hards which you'll have to power through.
@@ -146,12 +152,6 @@ UIUC also collects internal teacher evaluations called ICES, with far better com
 #### Public Teaching Material
 
 UIUC CS has a great culture of just publishing teaching material on the open internet, which is great for learners outside UIUC, but also students who aren't in the class yet. In breaks before term started, I'd often just watch lectures from a past semester, read their slide materials as a broad first pass. Depending on your experience learning the material, it is a great way to get some understanding of how hard a class might be, but I'm putting it lower in my recommendations because it's really hard to judge without having access to the homework and exams. As a side bonus, doing this will often make the classes easier since people learn better with multiple passes.
-
-### Overloaded Semesters Due To Fixed Cost
-
-Unlike many other universities, UIUC is a fixed cost once you cross 12 credits (full-time semester), which means that you should think about sustainably overloading (>18 credits) when possible because there's no extra cost here. I crossed it for many of my semesters for this reason since you're getting more product for the same price. If any of your semesters are part-time, the tradeoffs are really different, but for a 3-year plan you're likely taking full-time semesters. If you have lots of incoming credit as you enter UIUC, you probably won't actually need to overload.
-
-I don't recommend overloading your very first semester since university is already a huge change, and living in a new setting  where everything is different. Advisors will usually try to stop you as well.
 
 ### Credit Fillers
 
@@ -220,6 +220,12 @@ The main reason I saw people do a shorter time is cost, and it's very important 
 
  The best price ratio is still with overloaded semesters, but if you can make your last semester part time, that will also save thousands of dollars. However, also consider replacing that partial semester with cheaper rates in the Summer or Winters.
 
+### Overloaded Semesters Due To Fixed Cost
+
+Unlike many other universities, UIUC is a fixed cost once you cross 12 credits (full-time semester), which means that you should think about sustainably overloading (>18 credits) when possible because there's no extra cost here. I crossed it for many of my semesters for this reason since you're getting more product for the same price. If any of your semesters are part-time, the tradeoffs are really different, but for a 3-year plan you're likely taking full-time semesters. If you have lots of incoming credit as you enter UIUC, you probably won't actually need to overload.
+
+I don't recommend overloading your very first semester since university is already a huge change, and living in a new setting  where everything is different. Advisors will usually try to stop you as well.
+
 ### Summer Tuition
 
 While it is per cerdit hour and still followed the three tier structure, the cost is around half of typical tuition, so it can still win if the alternative is extra fall/spring semesters. Most students aiming to reduce costs will live in off-campus apartments, which usually run on yearly leases, so there's no extra marginal housing cost in that case, especially since the supply of summer sublets is much higher than demand. 
@@ -249,12 +255,6 @@ Despite aid/scholarship often not being adequate, most instate and some out of s
 * [Illinois Scholarships Main Page](https://www.admissions.illinois.edu/invest/scholarships) - Listing many scholarships at university and college levels
 * [UIUC Merit-Based Scholarships](https://www.osfa.illinois.edu/types-of-aid/scholarships/merit-based-scholarships/) - List of many scholarships. The university also automatically considers many people when applying
 * [UIUC CS Awards](https://siebelschool.illinois.edu/about/awards/undergraduate-scholarships-awards) - Many CS department specific ones that are smaller but still worthwhile, including the [Scott Fisher Outstanding Course Assistant](https://siebelschool.illinois.edu/about/awards/undergraduate-scholarships-awards/outstanding-course-assistants) award I got. Funnily, at the time of writing the [course assistant](https://siebelschool.illinois.edu/student-life/course-assistants) CS page still has a picture of it.
-
-### Winter Classes
-
-There are also winter classes, but it's a very short break and these typically just get gen eds out of the way, which I don't think is better than doing it in a normal semester, especially with the double/triple and 8-week classes that exist. Still, it can work well for you if there wasn't much opportunity to overload on gen eds so far, like after your very first semester.
-
-That being said, a student schedule can be intense and having high quality break of a few weeks go a long way. I honestly liked using winters as a true guilt-free break of doing nothing and spending time with family to recharge for the next year. I also came from a part of the world with very standard daylight duration, so this helped me recover from the seasonal depression a bit.
 
 ## During the Degree
 
@@ -294,7 +294,7 @@ College just isn't classes and career, but it's an incredible and unique time fo
 
 Only do this plan if you have a good reason. College is designed around the 4-year cycle for a reason and the minimum degree requirements are intentionally light. If you can get the full college experience, I highly recommend it, but circumstances really vary and privilege absolutely applies. Having a good motivation driving you here will be key to being successful. Here are my thoughts on common reasons I've heard:
 
-## Bad Reasons
+### Bad Reasons
 
 I think almost all reasons to graduate early are valid, but here are a few I'd caution against:
 
@@ -306,7 +306,7 @@ If your main motivation is seeing your friends do it and wanting to do it too, I
 
 I am always in support of people taking on a harder pathway to grow, but I'd suggest that a 4 year plan with more challenging classes, research, internships, and teaching is a far better personal challenge to grow. You can follow pretty much all of the above advice and just use the extra breathing room to go further in your interests. It's really hard to get this kind of environment after undergrad.
 
-## Good Reasons
+### Good Reasons
 
 I think the primary reason to think about this is cost, but I saw many other good reasons too:
 
