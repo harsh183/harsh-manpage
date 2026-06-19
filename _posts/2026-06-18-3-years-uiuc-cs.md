@@ -80,7 +80,7 @@ There are quite a few of these majors, so I'm generalizing here, but almost all 
 
 Not all, but many of these majors let you opt out of CS 233 (Computer Architecture) and CS 341 (Systems Programming) in favor of CS 340 (Introduction to Computer Systems) plus two 400-level electives. I strongly recommend doing CS 233+CS 341 anyway:
 
-* The GPA risk is overstated: The low averages that gave last decade's CS 241 its reputation have largely disappeared in today's [CS 341](https://1010labs.org/gpa?course=CS+341&semester=All), and [CS 233](https://1010labs.org/gpa?course=CS+233&semester=All) runs higher than [CS 231](https://1010labs.org/gpa?course=CS+231&semester=All) did.
+* The GPA risk is overstated: The low averages that gave last decade's [CS 241](https://1010labs.org/gpa?course=CS+241&semester=All) its reputation have largely disappeared in today's [CS 341](https://1010labs.org/gpa?course=CS+341&semester=All), and [CS 233](https://1010labs.org/gpa?course=CS+233&semester=All) runs higher than [CS 231](https://1010labs.org/gpa?course=CS+231&semester=All) did.
 * It's not actually faster: Taking CS 225+CS 233 and then CS 341 in the next is two semesters. Taking CS 225 and then CS 340 still takes the two semesters, and most good electives only unlock after 225 so you'll be taking them along CS 340.
 * The material builds an important foundation for your later education and career: Processor internals, assembly, systems programming, network primitives, latency/throughput tradeoffs, cache optimization, parallel programming, and so much more. The [CS 340 syllabus](https://cs340-schatz.com/syllabus) itself notes the gap clearly:
 
