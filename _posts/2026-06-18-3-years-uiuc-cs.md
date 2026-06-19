@@ -206,7 +206,7 @@ The main reason I saw people do a shorter time is cost, and it's important to un
 * There's a three tier structure for [tuition](https://www.admissions.illinois.edu/invest/tuition), with in state students at the cheapest rate, around double for out of state and slightly higher for international students.
 * UIUC has a [fixed tuition cost](https://www.uaps.uillinois.edu/student_programs/guaranteed_tuition) for four years of your degree. This eliminates the biggest source of variance to worry about.
 * Fall and Spring Semesters don't charge by [credit hour](https://registrar.illinois.edu/tuition-fees/tuition-info/). 
-  - ≥12 credits - minimum of full time and no price increase for going beyond.  
+  - ≥12 credits (full time) - no price increase for going beyond.  
   - 6-11.99 credits - 2-3 typical classes
   - 1-5.99 credits - 1-2 classes
 
