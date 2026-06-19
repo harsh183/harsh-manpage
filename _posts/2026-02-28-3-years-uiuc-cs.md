@@ -11,7 +11,7 @@ Despite having graduated from UIUC a couple of years ago, I get lots of question
 
 While 3 years sounds very accelerated, it's totally possible for most people with the right planning. I also don't think it's the right idea for most people, though there are good reasons to do it. Fundamentally, you have to be clear on what this degree means to you and how it plays into your life goals.
 
-Warning: I'm not your advisor and not a replacement for one. Please meet with them before every single semester with your entire plan and be upfront about your goals. A lot of people think advisors aren't friendly to 3-year plans, but they were fantastic with mine and helped me. If you seem uncertain, they'll guide you toward a risk-averse path, which is the right answer for most people, but showing preparedness and determination can get you strong support. That being said, feel free to email/DM me with your plan and I'll try to give feedback.
+Warning: I'm not your advisor and not a replacement for one. Please meet with them before every single semester with your entire plan and be upfront about your goals. A lot of people think advisors aren't friendly to 3-year plans, but they were fantastic with mine and helped me reshuffle it so it was more realistic. If you seem uncertain, they'll guide you toward a risk-averse path, which is the right answer for most people, but showing preparedness and determination can get you strong support. That being said, feel free to email/DM me with your plan and I'll try to give feedback.
 
 Note: The info here is accurate at time of writing. CS requirements will keep evolving, but the mindset will stay largely the same. Feel free to reach out or make a [pull request](https://github.com/harsh183/harsh-manpage/pulls) if you'd like to update any information.
 
@@ -216,7 +216,7 @@ The main reason I saw people do a shorter time is cost, and it's important to un
 
 Unlike many other universities, UIUC is a fixed cost once you cross 12 credits (full-time semester), which means that you should think about sustainably overloading (>18 credits) when possible because there's no extra cost here. I crossed it for many of my semesters for this reason since you're getting more for the same price. If any of your semesters are part-time, the tradeoffs are really different, but for a 3-year plan you're likely taking full-time semesters. If you have lots of incoming credit as you enter UIUC, you probably won't actually need to overload.
 
-I don't recommend overloading your very first semester since university is already a huge change, and living in a new cit (and often country) where everything is different. Advisors will usually try to stop you as well.
+I don't recommend overloading your very first semester since university is already a huge change, and living in a new city (and often country) where everything is different. Advisors will usually try to stop you as well.
 
 ### Summer Tuition
 
@@ -224,13 +224,13 @@ While it is per credit hour and still followed the three tier structure, the cos
 
 With summer you have to remember that most courses are compressed to 8 weeks so it's actually twice as fast. If you want to recharge between semesters, are doing research, are interning somewhere I suggest only taking a single class. If you're fine with the intensity of a normal semester, take two classes. Taking more than that can be challenging so I don't suggest it.
 
-If you just finished living in the dorms, summer sublets can also be really cheap if you look carefully. I did not look carefully, trusted the wrong person, and had multiple break-ins which contributed to a [campus massmail](https://massmail.illinois.edu/massmail/28664.html), which accidently cost thousands in 'rent'.
+If you just finished living in the dorms, summer sublets can also be really cheap if you look carefully. I did not look carefully, trusted the wrong person, and had multiple break-ins which contributed to a [campus massmail](https://massmail.illinois.edu/massmail/28664.html), which accidentally cost thousands in 'rent'.
 
 ### Housing And Related Expenses
 
 The other large cost in UIUC is housing, especially with the mandatory overpriced one year requirement that acts as a quasi-tuition that many aid/scholarships don't adequately cover. Urbana and Champaign are relatively affordable places to live with quite a lot of midrise dense housing that's connected to public transit, so after your first year the market rate living you can get will be much cheaper and you'll likely have far more space over the dorms at a fraction of the price.
 
-In the past, I've not seen the university grant exceptions due to financial hardship, medical disabilities, and even people who spent the first year doing remote university were forced into the sophmore year dorms. There are [exceptions](https://studentcode.illinois.edu/article2/part2/2-201) for a few rare cases, but don't count on it. 
+In the past, I've not seen the university grant exceptions due to financial hardship, medical disabilities, and even people who spent the first year doing remote university were forced into the sophomore year dorms. There are [exceptions](https://studentcode.illinois.edu/article2/part2/2-201) for a few rare cases, but don't count on it. 
 
 First read the pricing pages for the [dorms](https://housing.illinois.edu/cost), even the cheapest quad sharing room cost twice what having my own room in a market rate apartment literally next to campus near the CS building cost. I suggest taking the cheapest meal plan (12+15), and a double or triple since it's barely more expensive than a quad. If you get lucky, there's another UIUC scheme called [Private Certified Housing](https://certified.housing.illinois.edu/pch-resources/rates/) which has some cheaper rates, but these have limited capacity and go out very quickly. Some are religiously affiliated so keep that in mind.
 
@@ -268,7 +268,7 @@ There are some important caveats of following the 3 year plan you should keep in
 
 ### Opportunity Costs
 
-Many students arrive with a scarcity mindset since school was a far more limited environment. College has an abundance of classes, clubs, and research to explore. 3 years is still perfectly doable while having a lot of fun side questing, but keep in mind you'll get to do a lot less than most of your peers who are spending 4 years. While there's an abundance of opportunity, your true scarcity is having a shorter timeframe and you should take extra care in what you take on. 
+Many students arrive with a scarcity mindset since school was a far more limited environment. College has an abundance of classes, clubs, and research to explore. 3 years is still perfectly doable while having a lot of fun side questing, but keep in mind you'll get to do a lot less than most of your peers who are spending 4 years. While there's so much opportunity, your true scarcity is having a shorter timeframe and you should take extra care in what you take on. 
 
 If you start taking on too much, the opportunity cost can be your three-year plan. I actually ended up in that situation: I wanted to do lots of fun extra classes, do research and teaching almost every semester, have a really busy social life, and go deeper into an area of study that has excited me almost all my life, so I abandoned my plan toward the end of my second year. Part of my motivation towards four was also COVID-19 taking away the in-person campus experience I enjoyed so much, so ironically I ended up spending 3 years on campus anyway.
 
@@ -280,7 +280,7 @@ Besides being fantastic learning opportunities, internships are also a prime hir
 
 College is more than classes and setting up a career. It is an incredible and unique time for fun, friends, parties, events, exploring whimsies, clubs, growing up, greek life, geek life, learning new skills, trying the great food scene, or even just spending time between classes doing nothing. With such a large student body, incredibly vibrant college towns, and so many things to do, there's something about this life that will never come back again.
 
-A busier and shorter life on campus will take away from this and it is something that can weigh quite a lot as the years go by. I really wish everyone can experience this, but it is really unfortunate that the financial reality is that this experience is a luxury for most people, besides other reasons of not liking this college life. Three years is still plenty though, and if you play things right around the start of your degree, you will still get quite a lot of the fun parts of college. It might also force you to be decisive about not wasting your time on things that don't spark joy or bring you anything. 
+A busier and shorter life on campus will take away from this and it is something that can weigh quite a lot as the years go by. I really wish everyone can experience this, but it's unfortunate that financial reality makes this a luxury for most people. Three years is still plenty though, and if you play things right around the start of your degree, you will still get quite a lot of the fun parts of college. It might also force you to be decisive about not wasting your time on things that don't spark joy or bring you anything. 
 
 Spend a while reflecting on what this means for you. I really liked the TV miniseries [Tatami Galaxy](https://www.imdb.com/title/tt1847445/), which explores a student in 10 different parallel timelines all starting from a different club picked during an equivalent of quad day and the joy, sorrow, anguish, and growth that represents in his goal to achieve a _Rose Colored College Campus Life_.
 
@@ -298,7 +298,7 @@ If your main motivation is seeing your friends do it and wanting to do it too, I
 
 ### Personal Challenge
 
-I am always in support of people taking on a harder pathway to grow, but I'd suggest that a 4 year plan with more challenging classes, research, internships, and teaching is a far better personal challenge to grow. You can follow pretty much all of the above advice and just use the extra breathing room to go further in your interests. It's really hard to get this kind of environment after undergrad.
+I am always in support of people taking on a harder pathway, but a 4-year plan with more challenging classes, research, internships, and teaching is a far better personal challenge to grow. You can follow pretty much all of the above advice and just use the extra breathing room to go further in your interests. It's really hard to get this kind of environment after undergrad.
 
 ### Good Reasons
 
@@ -308,7 +308,7 @@ I think the primary reason to think about this is cost, but I saw many other goo
 
 Despite being a state university, UIUC isn't cheap, especially if you're out of state and international.
 
-If you are fortunate enough to afford the full four years I highly recommend it, I was extremely fortunate to afford it, and that's what enabled me to take four years. Doing so much HCI research, taking several grad level classes, having a very broad general education, near daily social plans, getting to be part of teaching almost every semester and summer, going on endless sidequests and meeting my long term life partner happened because I had the luxury to fill it out. These were the best years of my life till that point, and I am so sentimental about my time at UIUC. 
+If you're fortunate enough to afford four years, I highly recommend it. I was extremely lucky, and that's what enabled me to take four years. Doing so much HCI research, taking several grad level classes, having a very broad general education, near daily social plans, getting to be part of teaching almost every semester and summer, going on endless sidequests and meeting my long term life partner happened because I had the luxury to fill it out. These were the best years of my life till that point, and I am so sentimental about my time at UIUC. 
 
 I think it's wild that tax funded universities with [free land](https://www.admissions.illinois.edu/discover/history) in a dedicated college town that doesn't even pay the staff that well can still cost so much. Unfortunately, that is the reality of today and college debt is a burden that can really drag, even in a field with very high salaries like Computer Science.
 
