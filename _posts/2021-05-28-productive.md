@@ -16,13 +16,13 @@ Advice on this is complicated to give:
 
 There's no single good approach. What works is experimenting with lots of good approaches and finding the few that work for you. I'm going to list many of them briefly here, and it will take some time to figure out what works for you.
 
-Before trying any of these, start by disregarding one-size-fits-all models of productivity. Most self-help advice takes simplistic, standardized ideas of getting work done and often tangles them with shame. Not all of it is bad, and a few excellent resources do have nuanced advice. I've linked some at the end of this page, but only a small fraction of advice out there is actually worth reading. Hopefully this is one of them.
+Before trying any of these, start by disregarding one-size-fits-all models of productivity. Most self-help advice takes simplistic, standardized ideas of getting work done and often tangles them with shame. Not all of it is bad, and a few excellent resources do have nuanced advice. I've linked a few of those at the end of this page, and hopefully this is one of them.
 
 With any of these sections, try it for some time before writing it off. Two weeks is a good rule of thumb, but feel free to adjust based on your best judgment. There will be an adjustment period when you try anything new, but you should be able to tell fairly quickly after that if something actually works. 
 
 It's also important to realize there's no shame if a section doesn't work for you. As you try and drop things, you might feel pretty negative at first, but it'll fade as you experiment more and start seeing these as a box of tools you're filtering through. 
 
-You'll likely need a combo of many strategies that's unique to you, so keep experimenting with strategies and their combinations. It might take a while until you're fully at your peak, but even the journey there will start improving things early. You might read this list (and others out there) and realize you're already doing some of these well; start with that.
+You'll likely need a combo of many strategies that's unique to you, so keep experimenting with strategies and their combinations. It might take a while until you're fully at your peak, but even the journey there will start improving things early. You might read this list (and others out there) and realize you're already doing some of these well; start with those.
 
 Never forget: always be kind to yourself. It's an introspective process and many parts can get uncomfortable.
 
