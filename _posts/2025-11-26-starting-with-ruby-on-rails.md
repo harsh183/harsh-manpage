@@ -95,6 +95,10 @@ Why's Poignant Guide to Ruby is a cute and quirky book that dives deeper into Ru
 
 I actually have this one in print from a limited-edition run. I don't know if there are still any runs around.
 
+[Ruby Koans](https://www.rubykoans.com/) 
+
+Ruby Koans has you understand particular ruby edge cases and key concepts through fixing a series of failing test cases. It's a bit old, but worked well with my recent Ruby version.
+
 ### Ruby-Style Object-Oriented Programming
 
 While you've probably worked with other OOP languages before, Ruby takes a certain message-passing purist approach to it. Until I read all of this myself, I never fully appreciated why it's such a powerful paradigm and why Ruby is uniquely well-suited to it.
